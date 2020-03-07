@@ -9,18 +9,19 @@ Store Provider
 <b>Signature:</b>
 
 ```typescript
-export declare function Provider(props: ProviderProps<Action> & {
-    children: React.ReactNode;
-}): JSX.Element;
+export declare function Provider(
+  props: ProviderProps<Action> & {
+    children: React.ReactNode
+  }
+): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>ProviderProps&lt;Action&gt; &amp; {</code><br/><code>    children: React.ReactNode;</code><br/><code>}</code> | The [ProviderProps](https://react-redux.js.org/api/provider#props) |
+| Parameter | Type                                                                                                             | Description                                                        |
+| --------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| props     | <code>ProviderProps&lt;Action&gt; &amp; {</code><br/><code> children: React.ReactNode;</code><br/><code>}</code> | The [ProviderProps](https://react-redux.js.org/api/provider#props) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

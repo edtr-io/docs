@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createSpoilerPlugin(config)](./plugin-spoiler.createspoilerplugin.md) |  |
+| Function                                                               | Description |
+| ---------------------------------------------------------------------- | ----------- |
+| [createSpoilerPlugin(config)](./plugin-spoiler.createspoilerplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [SpoilerConfig](./plugin-spoiler.spoilerconfig.md) |  |
-|  [SpoilerPluginConfig](./plugin-spoiler.spoilerpluginconfig.md) |  |
+| Interface                                                      | Description |
+| -------------------------------------------------------------- | ----------- |
+| [SpoilerConfig](./plugin-spoiler.spoilerconfig.md)             |             |
+| [SpoilerPluginConfig](./plugin-spoiler.spoilerpluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [SpoilerPluginState](./plugin-spoiler.spoilerpluginstate.md) |  |
-|  [SpoilerProps](./plugin-spoiler.spoilerprops.md) |  |
-
+| Type Alias                                                   | Description |
+| ------------------------------------------------------------ | ----------- |
+| [SpoilerPluginState](./plugin-spoiler.spoilerpluginstate.md) |             |
+| [SpoilerProps](./plugin-spoiler.spoilerprops.md)             |             |

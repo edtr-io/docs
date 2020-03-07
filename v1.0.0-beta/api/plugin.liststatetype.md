@@ -4,17 +4,27 @@
 
 ## ListStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ListStateType<D extends StateType> = StateType<StateTypeSerializedType<D>[], {
-    id: string;
-    value: StateTypeValueType<D>;
-}[], StateTypeReturnType<D>[] & {
-    set(updater: (currentList: StateTypeValueType<D>[], deserialize: (serialized: StateTypeSerializedType<D>) => StateTypeValueType<D>) => StateTypeValueType<D>[]): void;
-    insert(index?: number, options?: StateTypeSerializedType<D>): void;
-    remove(index: number): void;
-    move(from: number, to: number): void;
-}>;
+export declare type ListStateType<D extends StateType> = StateType<
+  StateTypeSerializedType<D>[],
+  {
+    id: string
+    value: StateTypeValueType<D>
+  }[],
+  StateTypeReturnType<D>[] & {
+    set(
+      updater: (
+        currentList: StateTypeValueType<D>[],
+        deserialize: (
+          serialized: StateTypeSerializedType<D>
+        ) => StateTypeValueType<D>
+      ) => StateTypeValueType<D>[]
+    ): void
+    insert(index?: number, options?: StateTypeSerializedType<D>): void
+    remove(index: number): void
+    move(from: number, to: number): void
+  }
+>
 ```

@@ -4,7 +4,6 @@
 
 ## serializeRootDocument variable
 
-
 <b>Signature:</b>
 
 ```typescript

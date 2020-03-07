@@ -4,9 +4,11 @@
 
 ## HighlightProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type HighlightProps = EditorPluginProps<HighlightPluginState, HighlightPluginConfig>;
+export declare type HighlightProps = EditorPluginProps<
+  HighlightPluginState,
+  HighlightPluginConfig
+>
 ```

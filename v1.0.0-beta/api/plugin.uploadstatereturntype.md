@@ -4,25 +4,23 @@
 
 ## UploadStateReturnType interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface UploadStateReturnType<T> 
+export interface UploadStateReturnType<T>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [isPending](./plugin.uploadstatereturntype.ispending.md) | <code>boolean</code> |  |
-|  [value](./plugin.uploadstatereturntype.value.md) | <code>FileState&lt;T&gt;</code> |  |
+| Property                                                 | Type                            | Description |
+| -------------------------------------------------------- | ------------------------------- | ----------- |
+| [isPending](./plugin.uploadstatereturntype.ispending.md) | <code>boolean</code>            |             |
+| [value](./plugin.uploadstatereturntype.value.md)         | <code>FileState&lt;T&gt;</code> |             |
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [get()](./plugin.uploadstatereturntype.get.md) |  |
-|  [set(value)](./plugin.uploadstatereturntype.set.md) |  |
-|  [upload(file, handler)](./plugin.uploadstatereturntype.upload.md) |  |
-
+| Method                                                            | Description |
+| ----------------------------------------------------------------- | ----------- |
+| [get()](./plugin.uploadstatereturntype.get.md)                    |             |
+| [set(value)](./plugin.uploadstatereturntype.set.md)               |             |
+| [upload(file, handler)](./plugin.uploadstatereturntype.upload.md) |             |

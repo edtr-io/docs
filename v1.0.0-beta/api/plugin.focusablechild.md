@@ -4,9 +4,8 @@
 
 ## FocusableChild type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FocusableChild = InternalPluginState.FocusableChild;
+export declare type FocusableChild = InternalPluginState.FocusableChild
 ```

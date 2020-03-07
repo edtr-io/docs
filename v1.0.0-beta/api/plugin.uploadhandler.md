@@ -4,9 +4,8 @@
 
 ## UploadHandler type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type UploadHandler<T> = (file: File) => Promise<T>;
+export declare type UploadHandler<T> = (file: File) => Promise<T>
 ```

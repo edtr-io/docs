@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-showLineNumbers: boolean;
+showLineNumbers: boolean
 ```

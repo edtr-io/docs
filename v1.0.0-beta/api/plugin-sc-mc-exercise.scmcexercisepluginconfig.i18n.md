@@ -8,23 +8,23 @@
 
 ```typescript
 i18n: {
-        types: {
-            singleChoice: string;
-            multipleChoice: string;
-        };
-        isSingleChoice: {
-            label: string;
-        };
-        answer: {
-            addLabel: string;
-            fallbackFeedback: {
-                wrong: string;
-            };
-        };
-        globalFeedback: {
-            correct: string;
-            missingCorrectAnswers: string;
-            wrong: string;
-        };
-    };
+  types: {
+    singleChoice: string
+    multipleChoice: string
+  }
+  isSingleChoice: {
+    label: string
+  }
+  answer: {
+    addLabel: string
+    fallbackFeedback: {
+      wrong: string
+    }
+  }
+  globalFeedback: {
+    correct: string
+    missingCorrectAnswers: string
+    wrong: string
+  }
+}
 ```

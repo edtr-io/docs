@@ -8,8 +8,8 @@
 
 ```typescript
 checkbox: {
-        boxSelectedColor: string;
-        boxDeselectedColor: string;
-        color: string;
-    };
+  boxSelectedColor: string
+  boxDeselectedColor: string
+  color: string
+}
 ```

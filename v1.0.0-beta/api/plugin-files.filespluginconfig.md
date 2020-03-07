@@ -4,17 +4,15 @@
 
 ## FilesPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface FilesPluginConfig 
+export interface FilesPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-files.filespluginconfig.i18n.md) | <code>{</code><br/><code>        label: string;</code><br/><code>        failedUploadMessage: string;</code><br/><code>    }</code> |  |
-|  [upload](./plugin-files.filespluginconfig.upload.md) | <code>UploadHandler&lt;UploadedFile&gt;</code> |  |
-
+| Property                                             | Type                                                                                                               | Description |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [i18n](./plugin-files.filespluginconfig.i18n.md)     | <code>{</code><br/><code> label: string;</code><br/><code> failedUploadMessage: string;</code><br/><code> }</code> |             |
+| [upload](./plugin-files.filespluginconfig.upload.md) | <code>UploadHandler&lt;UploadedFile&gt;</code>                                                                     |             |

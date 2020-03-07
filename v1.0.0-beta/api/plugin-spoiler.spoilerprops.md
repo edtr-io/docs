@@ -4,9 +4,11 @@
 
 ## SpoilerProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SpoilerProps = EditorPluginProps<SpoilerPluginState, SpoilerPluginConfig>;
+export declare type SpoilerProps = EditorPluginProps<
+  SpoilerPluginState,
+  SpoilerPluginConfig
+>
 ```

@@ -4,11 +4,10 @@
 
 ## NodeControlsProps type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type NodeControlsProps = EditorProps & {
-    editor: Editor;
-};
+  editor: Editor
+}
 ```

@@ -9,5 +9,5 @@ Plugin configuration
 <b>Signature:</b>
 
 ```typescript
-config: Config;
+config: Config
 ```

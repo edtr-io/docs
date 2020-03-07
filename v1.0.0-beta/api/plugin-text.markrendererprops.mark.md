@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-mark: MarkJSON;
+mark: MarkJSON
 ```

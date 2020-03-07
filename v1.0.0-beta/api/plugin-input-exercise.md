@@ -6,27 +6,26 @@
 
 ## Enumerations
 
-|  Enumeration | Description |
-|  --- | --- |
-|  [InputExerciseType](./plugin-input-exercise.inputexercisetype.md) |  |
+| Enumeration                                                       | Description |
+| ----------------------------------------------------------------- | ----------- |
+| [InputExerciseType](./plugin-input-exercise.inputexercisetype.md) |             |
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createInputExercisePlugin(config)](./plugin-input-exercise.createinputexerciseplugin.md) |  |
+| Function                                                                                  | Description |
+| ----------------------------------------------------------------------------------------- | ----------- |
+| [createInputExercisePlugin(config)](./plugin-input-exercise.createinputexerciseplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [InputExerciseConfig](./plugin-input-exercise.inputexerciseconfig.md) |  |
-|  [InputExercisePluginConfig](./plugin-input-exercise.inputexercisepluginconfig.md) |  |
+| Interface                                                                         | Description |
+| --------------------------------------------------------------------------------- | ----------- |
+| [InputExerciseConfig](./plugin-input-exercise.inputexerciseconfig.md)             |             |
+| [InputExercisePluginConfig](./plugin-input-exercise.inputexercisepluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [InputExercisePluginState](./plugin-input-exercise.inputexercisepluginstate.md) |  |
-|  [InputExerciseProps](./plugin-input-exercise.inputexerciseprops.md) |  |
-
+| Type Alias                                                                      | Description |
+| ------------------------------------------------------------------------------- | ----------- |
+| [InputExercisePluginState](./plugin-input-exercise.inputexercisepluginstate.md) |             |
+| [InputExerciseProps](./plugin-input-exercise.inputexerciseprops.md)             |             |

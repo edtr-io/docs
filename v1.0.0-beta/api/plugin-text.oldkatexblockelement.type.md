@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-type: '@splish-me/katex-block';
+type: '@splish-me/katex-block'
 ```

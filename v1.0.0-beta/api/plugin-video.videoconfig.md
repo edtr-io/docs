@@ -4,16 +4,14 @@
 
 ## VideoConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface VideoConfig 
+export interface VideoConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-video.videoconfig.i18n.md) | <code>DeepPartial&lt;VideoPluginConfig&gt;</code> |  |
-
+| Property                                   | Type                                              | Description |
+| ------------------------------------------ | ------------------------------------------------- | ----------- |
+| [i18n](./plugin-video.videoconfig.i18n.md) | <code>DeepPartial&lt;VideoPluginConfig&gt;</code> |             |

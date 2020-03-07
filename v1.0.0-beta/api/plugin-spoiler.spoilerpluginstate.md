@@ -4,12 +4,11 @@
 
 ## SpoilerPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type SpoilerPluginState = ObjectStateType<{
-    title: StringStateType;
-    content: ChildStateType;
-}>;
+  title: StringStateType
+  content: ChildStateType
+}>
 ```

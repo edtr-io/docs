@@ -7,17 +7,19 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function list<D extends StateType>(type: D, initialCount?: number): ListStateType<D>;
+export declare function list<D extends StateType>(
+  type: D,
+  initialCount?: number
+): ListStateType<D>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  type | <code>D</code> | The [state type](./internal__plugin-state.statetype.md) of the list items |
-|  initialCount | <code>number</code> | The initial number of list items |
+| Parameter    | Type                | Description                                                               |
+| ------------ | ------------------- | ------------------------------------------------------------------------- |
+| type         | <code>D</code>      | The [state type](./internal__plugin-state.statetype.md) of the list items |
+| initialCount | <code>number</code> | The initial number of list items                                          |
 
 <b>Returns:</b>
 
 `ListStateType<D>`
-

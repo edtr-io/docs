@@ -4,17 +4,15 @@
 
 ## SubDocumentProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface SubDocumentProps 
+export interface SubDocumentProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [id](./core.subdocumentprops.id.md) | <code>string</code> |  |
-|  [pluginProps](./core.subdocumentprops.pluginprops.md) | <code>PluginProps</code> |  |
-
+| Property                                              | Type                     | Description |
+| ----------------------------------------------------- | ------------------------ | ----------- |
+| [id](./core.subdocumentprops.id.md)                   | <code>string</code>      |             |
+| [pluginProps](./core.subdocumentprops.pluginprops.md) | <code>PluginProps</code> |             |

@@ -4,9 +4,8 @@
 
 ## RemoveAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type RemoveAction = ActionCreatorAction<typeof remove>;
+export declare type RemoveAction = ActionCreatorAction<typeof remove>
 ```

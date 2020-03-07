@@ -5,7 +5,6 @@
 ## PluginToolbarOverlayButtonProps.renderContent() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 <b>Signature:</b>
 
@@ -17,12 +16,11 @@ renderContent?(children: React.ReactNode, additional: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  children | <code>React.ReactNode</code> |  |
-|  additional | <code>{</code><br/><code>        close(): void;</code><br/><code>    }</code> |  |
+| Parameter  | Type                                                                | Description |
+| ---------- | ------------------------------------------------------------------- | ----------- |
+| children   | <code>React.ReactNode</code>                                        |             |
+| additional | <code>{</code><br/><code> close(): void;</code><br/><code> }</code> |             |
 
 <b>Returns:</b>
 
 `React.ReactNode`
-

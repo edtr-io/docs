@@ -4,9 +4,17 @@
 
 ## OldElement type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OldElement = OldParagraphElement | OldHeadingElement | OldLinkElement | OldKatexInlineElement | OldKatexBlockElement | OldOrderedListElement | OldUnorderedListElement | OldListItemElement | OldListItemChildElement;
+export declare type OldElement =
+  | OldParagraphElement
+  | OldHeadingElement
+  | OldLinkElement
+  | OldKatexInlineElement
+  | OldKatexBlockElement
+  | OldOrderedListElement
+  | OldUnorderedListElement
+  | OldListItemElement
+  | OldListItemChildElement
 ```

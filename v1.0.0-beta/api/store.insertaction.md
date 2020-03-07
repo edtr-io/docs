@@ -4,9 +4,8 @@
 
 ## InsertAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InsertAction = ActionCreatorAction<typeof insert>;
+export declare type InsertAction = ActionCreatorAction<typeof insert>
 ```

@@ -6,7 +6,6 @@
 
 ## Variables
 
-|  Variable | Description |
-|  --- | --- |
-|  [createStoreDevtoolsEnhancer](./store-devtools.createstoredevtoolsenhancer.md) | A [StoreEnhacnerFactory](./store.storeenhancerfactory.md) for [Remote Redux DevTools](https://github.com/zalmoxisus/remote-redux-devtools) |
-
+| Variable                                                                       | Description                                                                                                                                |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [createStoreDevtoolsEnhancer](./store-devtools.createstoredevtoolsenhancer.md) | A [StoreEnhacnerFactory](./store.storeenhancerfactory.md) for [Remote Redux DevTools](https://github.com/zalmoxisus/remote-redux-devtools) |

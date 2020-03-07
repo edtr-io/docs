@@ -4,18 +4,16 @@
 
 ## RendererProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface RendererProps<K extends string = string> 
+export interface RendererProps<K extends string = string>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [plugins](./renderer.rendererprops.plugins.md) | <code>Record&lt;K, EditorPlugin&gt;</code> |  |
-|  [state](./renderer.rendererprops.state.md) | <code>{</code><br/><code>        plugin: K;</code><br/><code>        state?: unknown;</code><br/><code>    }</code> |  |
-|  [theme](./renderer.rendererprops.theme.md) | <code>CustomTheme</code> |  |
-
+| Property                                       | Type                                                                                               | Description |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------- |
+| [plugins](./renderer.rendererprops.plugins.md) | <code>Record&lt;K, EditorPlugin&gt;</code>                                                         |             |
+| [state](./renderer.rendererprops.state.md)     | <code>{</code><br/><code> plugin: K;</code><br/><code> state?: unknown;</code><br/><code> }</code> |             |
+| [theme](./renderer.rendererprops.theme.md)     | <code>CustomTheme</code>                                                                           |             |

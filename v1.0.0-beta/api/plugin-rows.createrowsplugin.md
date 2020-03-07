@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createRowsPlugin(config: RowsConfig): EditorPlugin<RowsPluginState, RowsPluginConfig>;
+export declare function createRowsPlugin(
+  config: RowsConfig
+): EditorPlugin<RowsPluginState, RowsPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>RowsConfig</code> | [Plugin configuration](./plugin-rows.rowsconfig.md) |
+| Parameter | Type                    | Description                                         |
+| --------- | ----------------------- | --------------------------------------------------- |
+| config    | <code>RowsConfig</code> | [Plugin configuration](./plugin-rows.rowsconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<RowsPluginState, RowsPluginConfig>`
-

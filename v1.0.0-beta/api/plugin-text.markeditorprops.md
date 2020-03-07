@@ -4,9 +4,8 @@
 
 ## MarkEditorProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type MarkEditorProps = RenderMarkProps;
+export declare type MarkEditorProps = RenderMarkProps
 ```

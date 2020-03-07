@@ -4,9 +4,8 @@
 
 ## GeogebraPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type GeogebraPluginState = StringStateType;
+export declare type GeogebraPluginState = StringStateType
 ```

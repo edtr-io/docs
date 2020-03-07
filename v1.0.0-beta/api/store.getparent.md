@@ -4,7 +4,6 @@
 
 ## getParent variable
 
-
 <b>Signature:</b>
 
 ```typescript

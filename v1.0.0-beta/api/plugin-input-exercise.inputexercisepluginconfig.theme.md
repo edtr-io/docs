@@ -8,7 +8,7 @@
 
 ```typescript
 theme: {
-        borderColor: string;
-        borderStyle: string;
-    };
+  borderColor: string
+  borderStyle: string
+}
 ```

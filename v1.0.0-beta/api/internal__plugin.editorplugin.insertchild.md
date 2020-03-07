@@ -20,12 +20,11 @@ insertChild?(state: StateTypeReturnType<S>, { previousSibling, document }: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>StateTypeReturnType&lt;S&gt;</code> | The current state |
-|  { previousSibling, document } | <code>{</code><br/><code>        previousSibling?: string;</code><br/><code>        document?: {</code><br/><code>            plugin: string;</code><br/><code>            state?: unknown;</code><br/><code>        };</code><br/><code>    }</code> |  |
+| Parameter                     | Type                                                                                                                                                                                                    | Description       |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| state                         | <code>StateTypeReturnType&lt;S&gt;</code>                                                                                                                                                               | The current state |
+| { previousSibling, document } | <code>{</code><br/><code> previousSibling?: string;</code><br/><code> document?: {</code><br/><code> plugin: string;</code><br/><code> state?: unknown;</code><br/><code> };</code><br/><code> }</code> |                   |
 
 <b>Returns:</b>
 
 `void`
-

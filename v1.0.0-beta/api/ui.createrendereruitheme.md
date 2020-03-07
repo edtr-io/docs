@@ -9,25 +9,24 @@ Creates a function that maps [RendererThemeProps](./ui.rendererthemeprops.md) to
 <b>Signature:</b>
 
 ```typescript
-export declare function createRendererUiTheme<K extends keyof RendererUiTheme>(key: K, createDefaultTheme: RendererUiThemeFactory<K>): (theme: {
-    renderer: RendererTheme;
-    rendererUi: DeepPartial<RendererUiTheme>;
-}) => RendererUiTheme[K];
+export declare function createRendererUiTheme<K extends keyof RendererUiTheme>(
+  key: K,
+  createDefaultTheme: RendererUiThemeFactory<K>
+): (theme: {
+  renderer: RendererTheme
+  rendererUi: DeepPartial<RendererUiTheme>
+}) => RendererUiTheme[K]
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  key | <code>K</code> | The renderer UI component |
-|  createDefaultTheme | <code>RendererUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.rendereruithemefactory.md) for the default theme |
+| Parameter          | Type                                         | Description                                                         |
+| ------------------ | -------------------------------------------- | ------------------------------------------------------------------- |
+| key                | <code>K</code>                               | The renderer UI component                                           |
+| createDefaultTheme | <code>RendererUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.rendereruithemefactory.md) for the default theme |
 
 <b>Returns:</b>
 
-`(theme: {
-    renderer: RendererTheme;
-    rendererUi: DeepPartial<RendererUiTheme>;
-}) => RendererUiTheme[K]`
+`(theme: { renderer: RendererTheme; rendererUi: DeepPartial<RendererUiTheme>; }) => RendererUiTheme[K]`
 
 A function that accepts [RendererThemeProps](./ui.rendererthemeprops.md) and returns the current theme of the specified component
-

@@ -12,12 +12,11 @@ migrate<S1, T1, R1>(nextType: StateType<S1, T1, R1>, migrate: (previousState: S)
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  nextType | <code>StateType&lt;S1, T1, R1&gt;</code> |  |
-|  migrate | <code>(previousState: S) =&gt; S1</code> |  |
+| Parameter | Type                                     | Description |
+| --------- | ---------------------------------------- | ----------- |
+| nextType  | <code>StateType&lt;S1, T1, R1&gt;</code> |             |
+| migrate   | <code>(previousState: S) =&gt; S1</code> |             |
 
 <b>Returns:</b>
 
 `MigratableStateType<InitialS, AllS | S1, S1, T1, R1>`
-

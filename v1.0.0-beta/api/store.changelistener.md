@@ -4,12 +4,11 @@
 
 ## ChangeListener type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type ChangeListener = (payload: {
-    changed: boolean;
-    getDocument: () => SelectorReturnType<typeof serializeRootDocument>;
-}) => void;
+  changed: boolean
+  getDocument: () => SelectorReturnType<typeof serializeRootDocument>
+}) => void
 ```

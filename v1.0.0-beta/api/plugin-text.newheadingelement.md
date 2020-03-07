@@ -4,18 +4,16 @@
 
 ## NewHeadingElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewHeadingElement 
+export interface NewHeadingElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newheadingelement.children.md) | <code>NewNode[]</code> |  |
-|  [level](./plugin-text.newheadingelement.level.md) | <code>1 &#124; 2 &#124; 3 &#124; 4 &#124; 5 &#124; 6</code> |  |
-|  [type](./plugin-text.newheadingelement.type.md) | <code>'h'</code> |  |
-
+| Property                                                | Type                                                        | Description |
+| ------------------------------------------------------- | ----------------------------------------------------------- | ----------- |
+| [children](./plugin-text.newheadingelement.children.md) | <code>NewNode[]</code>                                      |             |
+| [level](./plugin-text.newheadingelement.level.md)       | <code>1 &#124; 2 &#124; 3 &#124; 4 &#124; 5 &#124; 6</code> |             |
+| [type](./plugin-text.newheadingelement.type.md)         | <code>'h'</code>                                            |             |

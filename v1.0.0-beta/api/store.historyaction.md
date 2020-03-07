@@ -4,9 +4,12 @@
 
 ## HistoryAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type HistoryAction = PersistAction | ResetAction | UndoAction | RedoAction;
+export declare type HistoryAction =
+  | PersistAction
+  | ResetAction
+  | UndoAction
+  | RedoAction
 ```

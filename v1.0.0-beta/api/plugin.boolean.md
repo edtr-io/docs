@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function boolean(initialValue?: boolean): BooleanStateType;
+export declare function boolean(initialValue?: boolean): BooleanStateType
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initialValue | <code>boolean</code> | The initial value |
+| Parameter    | Type                 | Description       |
+| ------------ | -------------------- | ----------------- |
+| initialValue | <code>boolean</code> | The initial value |
 
 <b>Returns:</b>
 
 `BooleanStateType`
-

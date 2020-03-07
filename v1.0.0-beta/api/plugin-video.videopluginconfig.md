@@ -4,16 +4,14 @@
 
 ## VideoPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface VideoPluginConfig 
+export interface VideoPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-video.videopluginconfig.i18n.md) | <code>{</code><br/><code>        src: {</code><br/><code>            label: string;</code><br/><code>        };</code><br/><code>        alt: {</code><br/><code>            label: string;</code><br/><code>        };</code><br/><code>    }</code> |  |
-
+| Property                                         | Type                                                                                                                                                                                             | Description |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [i18n](./plugin-video.videopluginconfig.i18n.md) | <code>{</code><br/><code> src: {</code><br/><code> label: string;</code><br/><code> };</code><br/><code> alt: {</code><br/><code> label: string;</code><br/><code> };</code><br/><code> }</code> |             |

@@ -4,7 +4,6 @@
 
 ## EditorButton variable
 
-
 <b>Signature:</b>
 
 ```typescript

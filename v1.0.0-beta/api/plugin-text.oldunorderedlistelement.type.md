@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-type: 'unordered-list';
+type: 'unordered-list'
 ```

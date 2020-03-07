@@ -8,7 +8,7 @@
 
 ```typescript
 danger: {
-        color: string;
-        background: string;
-    };
+  color: string
+  background: string
+}
 ```

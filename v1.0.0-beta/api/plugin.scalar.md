@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function scalar<S>(initialState: S): ScalarStateType<S>;
+export declare function scalar<S>(initialState: S): ScalarStateType<S>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initialState | <code>S</code> | The initial value |
+| Parameter    | Type           | Description       |
+| ------------ | -------------- | ----------------- |
+| initialState | <code>S</code> | The initial value |
 
 <b>Returns:</b>
 
 `ScalarStateType<S>`
-

@@ -4,17 +4,15 @@
 
 ## Serializer interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface Serializer<S, T> 
+export interface Serializer<S, T>
 ```
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [deserialize(serialized)](./plugin.serializer.deserialize.md) |  |
-|  [serialize(deserialized)](./plugin.serializer.serialize.md) |  |
-
+| Method                                                        | Description |
+| ------------------------------------------------------------- | ----------- |
+| [deserialize(serialized)](./plugin.serializer.deserialize.md) |             |
+| [serialize(deserialized)](./plugin.serializer.serialize.md)   |             |

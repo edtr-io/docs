@@ -16,13 +16,10 @@ onText?(text: string): void | {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  text | <code>string</code> | The pasted text |
+| Parameter | Type                | Description     |
+| --------- | ------------------- | --------------- |
+| text      | <code>string</code> | The pasted text |
 
 <b>Returns:</b>
 
-`void | {
-        state?: StateTypeSerializedType<S>;
-    }`
-
+`void | { state?: StateTypeSerializedType<S>; }`

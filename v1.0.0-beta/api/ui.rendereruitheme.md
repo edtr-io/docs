@@ -4,17 +4,15 @@
 
 ## RendererUiTheme interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface RendererUiTheme 
+export interface RendererUiTheme
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [expandableBox](./ui.rendereruitheme.expandablebox.md) | <code>{</code><br/><code>        containerBorderColor: string;</code><br/><code>        toggleBackgroundColor: string;</code><br/><code>        toggleColor: string;</code><br/><code>    }</code> |  |
-|  [submitButton](./ui.rendereruitheme.submitbutton.md) | <code>{</code><br/><code>        backgroundColor: string;</code><br/><code>        hoverBackgroundColor: string;</code><br/><code>        color: string;</code><br/><code>        correctBackgroundColor: string;</code><br/><code>        wrongBackgroundColor: string;</code><br/><code>    }</code> |  |
-
+| Property                                               | Type                                                                                                                                                                                                                                                             | Description |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [expandableBox](./ui.rendereruitheme.expandablebox.md) | <code>{</code><br/><code> containerBorderColor: string;</code><br/><code> toggleBackgroundColor: string;</code><br/><code> toggleColor: string;</code><br/><code> }</code>                                                                                       |             |
+| [submitButton](./ui.rendereruitheme.submitbutton.md)   | <code>{</code><br/><code> backgroundColor: string;</code><br/><code> hoverBackgroundColor: string;</code><br/><code> color: string;</code><br/><code> correctBackgroundColor: string;</code><br/><code> wrongBackgroundColor: string;</code><br/><code> }</code> |             |

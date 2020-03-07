@@ -8,8 +8,8 @@
 
 ```typescript
 input: {
-        backgroundColor: string;
-        color: string;
-        highlightColor: string;
-    };
+  backgroundColor: string
+  color: string
+  highlightColor: string
+}
 ```

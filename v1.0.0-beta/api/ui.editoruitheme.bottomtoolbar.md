@@ -8,7 +8,7 @@
 
 ```typescript
 bottomToolbar: {
-        backgroundColor: string;
-        color: string;
-    };
+  backgroundColor: string
+  color: string
+}
 ```

@@ -4,7 +4,6 @@
 
 ## unwrap variable
 
-
 <b>Signature:</b>
 
 ```typescript

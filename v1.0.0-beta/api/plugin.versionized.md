@@ -4,17 +4,15 @@
 
 ## Versionized interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface Versionized<S> 
+export interface Versionized<S>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [\_\_version\_\_](./plugin.versionized.__version__.md) | <code>number</code> |  |
-|  [value](./plugin.versionized.value.md) | <code>S</code> |  |
-
+| Property                                               | Type                | Description |
+| ------------------------------------------------------ | ------------------- | ----------- |
+| [\_\_version\_\_](./plugin.versionized.__version__.md) | <code>number</code> |             |
+| [value](./plugin.versionized.value.md)                 | <code>S</code>      |             |

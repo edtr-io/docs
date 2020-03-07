@@ -4,9 +4,11 @@
 
 ## TextProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type TextProps = EditorPluginProps<TextPluginState, TextPluginConfig>;
+export declare type TextProps = EditorPluginProps<
+  TextPluginState,
+  TextPluginConfig
+>
 ```

@@ -4,19 +4,17 @@
 
 ## TempFile interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface TempFile 
+export interface TempFile
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [failed](./plugin.tempfile.failed.md) | <code>File</code> |  |
-|  [loaded](./plugin.tempfile.loaded.md) | <code>LoadedFile</code> |  |
-|  [pending](./plugin.tempfile.pending.md) | <code>File</code> |  |
-|  [uploadHandled](./plugin.tempfile.uploadhandled.md) | <code>boolean</code> |  |
-
+| Property                                            | Type                    | Description |
+| --------------------------------------------------- | ----------------------- | ----------- |
+| [failed](./plugin.tempfile.failed.md)               | <code>File</code>       |             |
+| [loaded](./plugin.tempfile.loaded.md)               | <code>LoadedFile</code> |             |
+| [pending](./plugin.tempfile.pending.md)             | <code>File</code>       |             |
+| [uploadHandled](./plugin.tempfile.uploadhandled.md) | <code>boolean</code>    |             |

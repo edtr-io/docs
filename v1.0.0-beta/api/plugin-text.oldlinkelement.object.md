@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-object: 'inline';
+object: 'inline'
 ```

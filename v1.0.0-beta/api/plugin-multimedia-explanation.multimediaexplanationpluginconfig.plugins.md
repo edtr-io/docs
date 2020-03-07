@@ -8,7 +8,8 @@
 
 ```typescript
 plugins: {
-        name: string;
-        title: string;
-    }[];
+  name: string
+  title: string
+}
+;[]
 ```

@@ -12,14 +12,13 @@ The `@edtr-io/plugin-toolbar` defines the [PluginToolbar](./plugin-toolbar.plugi
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [OverlayButtonProps](./plugin-toolbar.overlaybuttonprops.md) | <b><i>(BETA)</i></b> Type alias for [OverlayButtonProps](./internal__plugin-toolbar.overlaybuttonprops.md) |
-|  [OverlayCheckboxProps](./plugin-toolbar.overlaycheckboxprops.md) | <b><i>(BETA)</i></b> Type alias for [OverlayCheckboxProps](./internal__plugin-toolbar.overlaycheckboxprops.md) |
-|  [OverlayInputProps](./plugin-toolbar.overlayinputprops.md) | <b><i>(BETA)</i></b> Type alias for [OverlayInputProps](./internal__plugin-toolbar.overlayinputprops.md) |
-|  [OverlaySelectProps](./plugin-toolbar.overlayselectprops.md) | <b><i>(BETA)</i></b> Type alias for [OverlaySelectProps](./internal__plugin-toolbar.overlayselectprops.md) |
-|  [OverlayTextareaProps](./plugin-toolbar.overlaytextareaprops.md) | <b><i>(BETA)</i></b> Type alias for [OverlayTextareaProps](./internal__plugin-toolbar.overlaytextareaprops.md) |
-|  [PluginToolbar](./plugin-toolbar.plugintoolbar.md) | <b><i>(BETA)</i></b> Type alias for [PluginToolbar](./internal__plugin-toolbar.plugintoolbar.md) |
-|  [PluginToolbarButtonProps](./plugin-toolbar.plugintoolbarbuttonprops.md) | <b><i>(BETA)</i></b> Type alias for [PluginToolbarButtonProps](./internal__plugin-toolbar.plugintoolbarbuttonprops.md) |
-|  [PluginToolbarOverlayButtonProps](./plugin-toolbar.plugintoolbaroverlaybuttonprops.md) | <b><i>(BETA)</i></b> Type alias for [PluginToolbarOverlayButtonProps](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.md) |
-
+| Type Alias                                                                             | Description                                                                                                                          |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [OverlayButtonProps](./plugin-toolbar.overlaybuttonprops.md)                           | <b><i>(BETA)</i></b> Type alias for [OverlayButtonProps](./internal__plugin-toolbar.overlaybuttonprops.md)                           |
+| [OverlayCheckboxProps](./plugin-toolbar.overlaycheckboxprops.md)                       | <b><i>(BETA)</i></b> Type alias for [OverlayCheckboxProps](./internal__plugin-toolbar.overlaycheckboxprops.md)                       |
+| [OverlayInputProps](./plugin-toolbar.overlayinputprops.md)                             | <b><i>(BETA)</i></b> Type alias for [OverlayInputProps](./internal__plugin-toolbar.overlayinputprops.md)                             |
+| [OverlaySelectProps](./plugin-toolbar.overlayselectprops.md)                           | <b><i>(BETA)</i></b> Type alias for [OverlaySelectProps](./internal__plugin-toolbar.overlayselectprops.md)                           |
+| [OverlayTextareaProps](./plugin-toolbar.overlaytextareaprops.md)                       | <b><i>(BETA)</i></b> Type alias for [OverlayTextareaProps](./internal__plugin-toolbar.overlaytextareaprops.md)                       |
+| [PluginToolbar](./plugin-toolbar.plugintoolbar.md)                                     | <b><i>(BETA)</i></b> Type alias for [PluginToolbar](./internal__plugin-toolbar.plugintoolbar.md)                                     |
+| [PluginToolbarButtonProps](./plugin-toolbar.plugintoolbarbuttonprops.md)               | <b><i>(BETA)</i></b> Type alias for [PluginToolbarButtonProps](./internal__plugin-toolbar.plugintoolbarbuttonprops.md)               |
+| [PluginToolbarOverlayButtonProps](./plugin-toolbar.plugintoolbaroverlaybuttonprops.md) | <b><i>(BETA)</i></b> Type alias for [PluginToolbarOverlayButtonProps](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.md) |

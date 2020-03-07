@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function migratable<S, T, R>(type: StateType<S, T, R>): MigratableStateType<S, S, S, T, R>;
+export declare function migratable<S, T, R>(
+  type: StateType<S, T, R>
+): MigratableStateType<S, S, S, T, R>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  type | <code>StateType&lt;S, T, R&gt;</code> | The initial [state type](./internal__plugin-state.statetype.md) to start the migration from |
+| Parameter | Type                                  | Description                                                                                 |
+| --------- | ------------------------------------- | ------------------------------------------------------------------------------------------- |
+| type      | <code>StateType&lt;S, T, R&gt;</code> | The initial [state type](./internal__plugin-state.statetype.md) to start the migration from |
 
 <b>Returns:</b>
 
 `MigratableStateType<S, S, S, T, R>`
-

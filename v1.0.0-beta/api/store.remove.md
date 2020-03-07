@@ -4,7 +4,6 @@
 
 ## remove variable
 
-
 <b>Signature:</b>
 
 ```typescript

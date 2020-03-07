@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-scope: string;
+scope: string
 ```

@@ -16,15 +16,12 @@ onPaste?(data: DataTransfer): void | {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  data | <code>DataTransfer</code> | the \[DataTransfer\](https://developer.mozilla.orgdocs/Web/API/DataTransfer) object of the corresponding \[<code>paste</code> event\](https://developer.mozilla.org/docs/Web/API/Element/paste\_event) |
+| Parameter | Type                      | Description                                                                                                                                                                                            |
+| --------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| data      | <code>DataTransfer</code> | the \[DataTransfer\](https://developer.mozilla.orgdocs/Web/API/DataTransfer) object of the corresponding \[<code>paste</code> event\](https://developer.mozilla.org/docs/Web/API/Element/paste\_event) |
 
 <b>Returns:</b>
 
-`void | {
-        state?: StateTypeSerializedType<S>;
-    }`
+`void | { state?: StateTypeSerializedType<S>; }`
 
 an object optionally containing the serialized state of the document to insert if you want to handle the \[`paste` event\](https://developer.mozilla.org/docs/Web/API/Element/paste\_event)
-

@@ -4,7 +4,6 @@
 
 ## getRoot variable
 
-
 <b>Signature:</b>
 
 ```typescript

@@ -4,9 +4,10 @@
 
 ## FocusPreviousDocumentAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FocusPreviousDocumentAction = ActionCreatorAction<typeof focusPrevious>;
+export declare type FocusPreviousDocumentAction = ActionCreatorAction<
+  typeof focusPrevious
+>
 ```

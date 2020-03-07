@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function isValueEmpty(value: Value): boolean;
+export declare function isValueEmpty(value: Value): boolean
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  value | <code>Value</code> | Current [value](https://docs.slatejs.org/v/v0.47/slate-core/value) |
+| Parameter | Type               | Description                                                        |
+| --------- | ------------------ | ------------------------------------------------------------------ |
+| value     | <code>Value</code> | Current [value](https://docs.slatejs.org/v/v0.47/slate-core/value) |
 
 <b>Returns:</b>
 
 `boolean`
-

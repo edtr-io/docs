@@ -4,11 +4,12 @@
 
 ## StateTypesReturnType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypesReturnType<Ds extends Record<string, StateType>> = {
-    [K in keyof Ds]: StateTypeReturnType<Ds[K]>;
-};
+export declare type StateTypesReturnType<
+  Ds extends Record<string, StateType>
+> = {
+  [K in keyof Ds]: StateTypeReturnType<Ds[K]>
+}
 ```

@@ -7,22 +7,20 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function render<K extends string = string>(props: RendererProps<K>): {
-    styles: string;
-    html: string;
-};
+export declare function render<K extends string = string>(
+  props: RendererProps<K>
+): {
+  styles: string
+  html: string
+}
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>RendererProps&lt;K&gt;</code> | The [renderer props](./renderer.rendererprops.md) |
+| Parameter | Type                                | Description                                       |
+| --------- | ----------------------------------- | ------------------------------------------------- |
+| props     | <code>RendererProps&lt;K&gt;</code> | The [renderer props](./renderer.rendererprops.md) |
 
 <b>Returns:</b>
 
-`{
-    styles: string;
-    html: string;
-}`
-
+`{ styles: string; html: string; }`

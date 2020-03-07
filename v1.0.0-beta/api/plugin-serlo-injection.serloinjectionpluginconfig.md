@@ -4,16 +4,14 @@
 
 ## SerloInjectionPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface SerloInjectionPluginConfig 
+export interface SerloInjectionPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-serlo-injection.serloinjectionpluginconfig.i18n.md) | <code>{</code><br/><code>        label: string;</code><br/><code>        placeholder: string;</code><br/><code>    }</code> |  |
-
+| Property                                                            | Type                                                                                                       | Description |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-serlo-injection.serloinjectionpluginconfig.i18n.md) | <code>{</code><br/><code> label: string;</code><br/><code> placeholder: string;</code><br/><code> }</code> |             |

@@ -4,7 +4,6 @@
 
 ## PluginToolbarContext variable
 
-
 <b>Signature:</b>
 
 ```typescript

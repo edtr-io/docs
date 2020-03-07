@@ -9,19 +9,21 @@ React Hook for the theme of an editor UI component
 <b>Signature:</b>
 
 ```typescript
-export declare function useEditorUiTheme<K extends keyof EditorUiTheme>(key: K, createDefaultTheme: EditorUiThemeFactory<K>): EditorUiTheme[K];
+export declare function useEditorUiTheme<K extends keyof EditorUiTheme>(
+  key: K,
+  createDefaultTheme: EditorUiThemeFactory<K>
+): EditorUiTheme[K]
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  key | <code>K</code> | The editor UI component |
-|  createDefaultTheme | <code>EditorUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.editoruithemefactory.md) for the default theme |
+| Parameter          | Type                                       | Description                                                       |
+| ------------------ | ------------------------------------------ | ----------------------------------------------------------------- |
+| key                | <code>K</code>                             | The editor UI component                                           |
+| createDefaultTheme | <code>EditorUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.editoruithemefactory.md) for the default theme |
 
 <b>Returns:</b>
 
 `EditorUiTheme[K]`
 
 The current theme of the specified component
-

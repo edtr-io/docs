@@ -4,9 +4,10 @@
 
 ## Selector type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type Selector<T = any, P extends any[] = []> = (...args: P) => (scopedState: ScopedState) => T;
+export declare type Selector<T = any, P extends any[] = []> = (
+  ...args: P
+) => (scopedState: ScopedState) => T
 ```

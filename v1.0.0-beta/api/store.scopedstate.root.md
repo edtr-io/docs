@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-root: string | null;
+root: string | null
 ```

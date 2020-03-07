@@ -5,25 +5,25 @@
 ## createDefaultPluginToolbar() function
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Creates the default [plugin toolbar](./plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export declare function createDefaultPluginToolbar(config?: DefaultPluginToolbarConfig): PluginToolbar;
+export declare function createDefaultPluginToolbar(
+  config?: DefaultPluginToolbarConfig
+): PluginToolbar
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>DefaultPluginToolbarConfig</code> | Optional configuration |
+| Parameter | Type                                    | Description            |
+| --------- | --------------------------------------- | ---------------------- |
+| config    | <code>DefaultPluginToolbarConfig</code> | Optional configuration |
 
 <b>Returns:</b>
 
 `PluginToolbar`
 
 The default [plugin toolbar](./plugin-toolbar.plugintoolbar.md)
-

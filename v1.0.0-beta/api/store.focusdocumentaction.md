@@ -4,9 +4,8 @@
 
 ## FocusDocumentAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FocusDocumentAction = ActionCreatorAction<typeof focus>;
+export declare type FocusDocumentAction = ActionCreatorAction<typeof focus>
 ```

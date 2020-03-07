@@ -4,13 +4,12 @@
 
 ## HighlightPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type HighlightPluginState = ObjectStateType<{
-    code: StringStateType;
-    language: StringStateType;
-    showLineNumbers: BooleanStateType;
-}>;
+  code: StringStateType
+  language: StringStateType
+  showLineNumbers: BooleanStateType
+}>
 ```

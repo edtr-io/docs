@@ -9,19 +9,21 @@ React Hook for the theme of a renderer UI component
 <b>Signature:</b>
 
 ```typescript
-export declare function useRendererUiTheme<K extends keyof RendererUiTheme>(key: K, createDefaultTheme: RendererUiThemeFactory<K>): RendererUiTheme[K];
+export declare function useRendererUiTheme<K extends keyof RendererUiTheme>(
+  key: K,
+  createDefaultTheme: RendererUiThemeFactory<K>
+): RendererUiTheme[K]
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  key | <code>K</code> | The renderer UI component |
-|  createDefaultTheme | <code>RendererUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.rendereruithemefactory.md) for the default theme |
+| Parameter          | Type                                         | Description                                                         |
+| ------------------ | -------------------------------------------- | ------------------------------------------------------------------- |
+| key                | <code>K</code>                               | The renderer UI component                                           |
+| createDefaultTheme | <code>RendererUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.rendereruithemefactory.md) for the default theme |
 
 <b>Returns:</b>
 
 `RendererUiTheme[K]`
 
 The current theme of the specified component
-

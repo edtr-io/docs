@@ -9,12 +9,11 @@ Describes a child document
 <b>Signature:</b>
 
 ```typescript
-export interface FocusableChild 
+export interface FocusableChild
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [id](./internal__plugin-state.focusablechild.id.md) | <code>string</code> | Id of the document |
-
+| Property                                            | Type                | Description        |
+| --------------------------------------------------- | ------------------- | ------------------ |
+| [id](./internal__plugin-state.focusablechild.id.md) | <code>string</code> | Id of the document |

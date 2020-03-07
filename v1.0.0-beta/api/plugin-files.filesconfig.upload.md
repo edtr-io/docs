@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-upload: FilesPluginConfig['upload'];
+upload: FilesPluginConfig['upload']
 ```

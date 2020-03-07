@@ -4,9 +4,10 @@
 
 ## RendererUiThemeFactory type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type RendererUiThemeFactory<K extends keyof RendererUiTheme> = (theme: RendererTheme) => RendererUiTheme[K];
+export declare type RendererUiThemeFactory<K extends keyof RendererUiTheme> = (
+  theme: RendererTheme
+) => RendererUiTheme[K]
 ```

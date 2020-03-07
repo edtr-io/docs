@@ -9,19 +9,18 @@ Gets the [state](./store.scopedstate.md) of a scope
 <b>Signature:</b>
 
 ```typescript
-export declare function getScope(state: State, scope: string): ScopedState;
+export declare function getScope(state: State, scope: string): ScopedState
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>State</code> | The current [state](./store.state.md) |
-|  scope | <code>string</code> | The scope |
+| Parameter | Type                | Description                           |
+| --------- | ------------------- | ------------------------------------- |
+| state     | <code>State</code>  | The current [state](./store.state.md) |
+| scope     | <code>string</code> | The scope                             |
 
 <b>Returns:</b>
 
 `ScopedState`
 
 The [state](./store.scopedstate.md) of the specified scope
-

@@ -8,7 +8,7 @@
 
 ```typescript
 success: {
-        color: string;
-        background: string;
-    };
+  color: string
+  background: string
+}
 ```

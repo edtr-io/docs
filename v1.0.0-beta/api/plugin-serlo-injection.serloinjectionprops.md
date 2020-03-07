@@ -4,9 +4,11 @@
 
 ## SerloInjectionProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SerloInjectionProps = EditorPluginProps<SerloInjectionPluginState, SerloInjectionPluginConfig>;
+export declare type SerloInjectionProps = EditorPluginProps<
+  SerloInjectionPluginState,
+  SerloInjectionPluginConfig
+>
 ```

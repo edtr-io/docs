@@ -4,9 +4,8 @@
 
 ## UndoAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type UndoAction = ActionCreatorAction<typeof undo>;
+export declare type UndoAction = ActionCreatorAction<typeof undo>
 ```

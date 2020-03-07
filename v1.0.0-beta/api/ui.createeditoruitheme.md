@@ -9,25 +9,24 @@ Creates a function that maps [EditorThemeProps](./ui.editorthemeprops.md) to the
 <b>Signature:</b>
 
 ```typescript
-export declare function createEditorUiTheme<K extends keyof EditorUiTheme>(key: K, createDefaultTheme: EditorUiThemeFactory<K>): (theme: {
-    editor: EditorTheme;
-    editorUi: DeepPartial<EditorUiTheme>;
-}) => EditorUiTheme[K];
+export declare function createEditorUiTheme<K extends keyof EditorUiTheme>(
+  key: K,
+  createDefaultTheme: EditorUiThemeFactory<K>
+): (theme: {
+  editor: EditorTheme
+  editorUi: DeepPartial<EditorUiTheme>
+}) => EditorUiTheme[K]
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  key | <code>K</code> | The editor UI component |
-|  createDefaultTheme | <code>EditorUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.editoruithemefactory.md) for the default theme |
+| Parameter          | Type                                       | Description                                                       |
+| ------------------ | ------------------------------------------ | ----------------------------------------------------------------- |
+| key                | <code>K</code>                             | The editor UI component                                           |
+| createDefaultTheme | <code>EditorUiThemeFactory&lt;K&gt;</code> | The [factory](./ui.editoruithemefactory.md) for the default theme |
 
 <b>Returns:</b>
 
-`(theme: {
-    editor: EditorTheme;
-    editorUi: DeepPartial<EditorUiTheme>;
-}) => EditorUiTheme[K]`
+`(theme: { editor: EditorTheme; editorUi: DeepPartial<EditorUiTheme>; }) => EditorUiTheme[K]`
 
 A function that accepts [EditorThemeProps](./ui.editorthemeprops.md) and returns the current theme of the specified component
-

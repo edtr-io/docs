@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-focus: string | null;
+focus: string | null
 ```

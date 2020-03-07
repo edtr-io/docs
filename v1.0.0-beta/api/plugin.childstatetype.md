@@ -4,17 +4,23 @@
 
 ## ChildStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ChildStateType<K extends string = string, S = unknown> = StateType<{
-    plugin: K;
-    state?: S;
-}, string, {
-    get(): string;
-    id: string;
-    render: (props?: PluginProps) => React.ReactNode;
-    replace: (plugin: K, state?: S) => void;
-}>;
+export declare type ChildStateType<
+  K extends string = string,
+  S = unknown
+> = StateType<
+  {
+    plugin: K
+    state?: S
+  },
+  string,
+  {
+    get(): string
+    id: string
+    render: (props?: PluginProps) => React.ReactNode
+    replace: (plugin: K, state?: S) => void
+  }
+>
 ```

@@ -4,9 +4,11 @@
 
 ## AnchorProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type AnchorProps = EditorPluginProps<AnchorPluginState, AnchorPluginConfig>;
+export declare type AnchorProps = EditorPluginProps<
+  AnchorPluginState,
+  AnchorPluginConfig
+>
 ```

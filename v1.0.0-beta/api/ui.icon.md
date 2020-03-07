@@ -9,16 +9,15 @@ Font Awesome Icon component
 <b>Signature:</b>
 
 ```typescript
-export declare function Icon(props: FontAwesomeIconProps): JSX.Element;
+export declare function Icon(props: FontAwesomeIconProps): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>FontAwesomeIconProps</code> | Most of [FontAwesomeIconProps](https://github.com/FortAwesome/react-fontawesome) |
+| Parameter | Type                              | Description                                                                      |
+| --------- | --------------------------------- | -------------------------------------------------------------------------------- |
+| props     | <code>FontAwesomeIconProps</code> | Most of [FontAwesomeIconProps](https://github.com/FortAwesome/react-fontawesome) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

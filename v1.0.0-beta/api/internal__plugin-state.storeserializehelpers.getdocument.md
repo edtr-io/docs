@@ -17,16 +17,12 @@ getDocument(id: string): {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  id | <code>string</code> | id of the document |
+| Parameter | Type                | Description        |
+| --------- | ------------------- | ------------------ |
+| id        | <code>string</code> | id of the document |
 
 <b>Returns:</b>
 
-`{
-        plugin: K;
-        state?: S;
-    } | null`
+`{ plugin: K; state?: S; } | null`
 
 the document if it exists, `null` otherwise
-

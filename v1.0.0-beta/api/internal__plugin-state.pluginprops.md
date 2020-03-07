@@ -4,18 +4,16 @@
 
 ## PluginProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface PluginProps 
+export interface PluginProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [config](./internal__plugin-state.pluginprops.config.md) | <code>{}</code> |  |
-|  [renderSettings](./internal__plugin-state.pluginprops.rendersettings.md) | <code>InternalDocumentEditor.DocumentEditorProps['renderSettings']</code> |  |
-|  [renderToolbar](./internal__plugin-state.pluginprops.rendertoolbar.md) | <code>InternalDocumentEditor.DocumentEditorProps['renderToolbar']</code> |  |
-
+| Property                                                                 | Type                                                                      | Description |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ----------- |
+| [config](./internal__plugin-state.pluginprops.config.md)                 | <code>{}</code>                                                           |             |
+| [renderSettings](./internal__plugin-state.pluginprops.rendersettings.md) | <code>InternalDocumentEditor.DocumentEditorProps['renderSettings']</code> |             |
+| [renderToolbar](./internal__plugin-state.pluginprops.rendertoolbar.md)   | <code>InternalDocumentEditor.DocumentEditorProps['renderToolbar']</code>  |             |

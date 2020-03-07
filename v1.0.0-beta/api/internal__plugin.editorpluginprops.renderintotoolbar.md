@@ -14,11 +14,10 @@ renderIntoToolbar(children: React.ReactNode): React.ReactNode;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  children | <code>React.ReactNode</code> | buttons to render |
+| Parameter | Type                         | Description       |
+| --------- | ---------------------------- | ----------------- |
+| children  | <code>React.ReactNode</code> | buttons to render |
 
 <b>Returns:</b>
 
 `React.ReactNode`
-

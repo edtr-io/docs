@@ -4,17 +4,15 @@
 
 ## LoadedFile interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface LoadedFile 
+export interface LoadedFile
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [dataUrl](./plugin.loadedfile.dataurl.md) | <code>string</code> |  |
-|  [file](./plugin.loadedfile.file.md) | <code>File</code> |  |
-
+| Property                                  | Type                | Description |
+| ----------------------------------------- | ------------------- | ----------- |
+| [dataUrl](./plugin.loadedfile.dataurl.md) | <code>string</code> |             |
+| [file](./plugin.loadedfile.file.md)       | <code>File</code>   |             |

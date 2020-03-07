@@ -4,14 +4,13 @@
 
 ## MultimediaExplanationPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type MultimediaExplanationPluginState = ObjectStateType<{
-    explanation: ChildStateType;
-    multimedia: ChildStateType;
-    illustrating: BooleanStateType;
-    width: NumberStateType;
-}>;
+  explanation: ChildStateType
+  multimedia: ChildStateType
+  illustrating: BooleanStateType
+  width: NumberStateType
+}>
 ```

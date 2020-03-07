@@ -9,5 +9,5 @@
 <b>Signature:</b>
 
 ```typescript
-focused: boolean;
+focused: boolean
 ```

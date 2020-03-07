@@ -8,16 +8,16 @@
 
 ```typescript
 i18n: {
-        code: {
-            label: string;
-            placeholder: string;
-        };
-        language: {
-            label: string;
-            placeholder: string;
-        };
-        showLineNumbers: {
-            label: string;
-        };
-    };
+  code: {
+    label: string
+    placeholder: string
+  }
+  language: {
+    label: string
+    placeholder: string
+  }
+  showLineNumbers: {
+    label: string
+  }
+}
 ```

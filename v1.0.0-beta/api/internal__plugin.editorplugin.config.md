@@ -9,5 +9,5 @@ Plugin configuration
 <b>Signature:</b>
 
 ```typescript
-config: Config | ((theme: Theme) => Config);
+config: Config | ((theme: Theme) => Config)
 ```

@@ -4,16 +4,17 @@
 
 ## ScMcExercisePluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type ScMcExercisePluginState = ObjectStateType<{
-    isSingleChoice: BooleanStateType;
-    answers: ListStateType<ObjectStateType<{
-        content: ChildStateType;
-        isCorrect: BooleanStateType;
-        feedback: ChildStateType;
-    }>>;
-}>;
+  isSingleChoice: BooleanStateType
+  answers: ListStateType<
+    ObjectStateType<{
+      content: ChildStateType
+      isCorrect: BooleanStateType
+      feedback: ChildStateType
+    }>
+  >
+}>
 ```

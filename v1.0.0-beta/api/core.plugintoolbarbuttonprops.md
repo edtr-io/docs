@@ -4,9 +4,8 @@
 
 ## PluginToolbarButtonProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type PluginToolbarButtonProps = InternalPluginToolbar.PluginToolbarButtonProps;
+export declare type PluginToolbarButtonProps = InternalPluginToolbar.PluginToolbarButtonProps
 ```

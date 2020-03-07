@@ -9,19 +9,21 @@ Checks whether the given document is empty
 <b>Signature:</b>
 
 ```typescript
-export declare function isDocumentEmpty(doc: DocumentState | null, plugin: EditorPlugin | null): boolean;
+export declare function isDocumentEmpty(
+  doc: DocumentState | null,
+  plugin: EditorPlugin | null
+): boolean
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  doc | <code>DocumentState &#124; null</code> | The document |
-|  plugin | <code>EditorPlugin &#124; null</code> | The plugin |
+| Parameter | Type                                   | Description  |
+| --------- | -------------------------------------- | ------------ |
+| doc       | <code>DocumentState &#124; null</code> | The document |
+| plugin    | <code>EditorPlugin &#124; null</code>  | The plugin   |
 
 <b>Returns:</b>
 
 `boolean`
 
 `True` if the specified document is empty
-

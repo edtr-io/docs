@@ -5,19 +5,17 @@
 ## OverlayTextareaProps interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 The props for [OverlayTextarea](./internal__plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export interface OverlayTextareaProps extends React.DetailedHTMLProps<React.TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement> 
+export interface OverlayTextareaProps extends React.DetailedHTMLProps<React.TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [label](./internal__plugin-toolbar.overlaytextareaprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-
+| Property                                                          | Type                | Description          |
+| ----------------------------------------------------------------- | ------------------- | -------------------- |
+| [label](./internal__plugin-toolbar.overlaytextareaprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |

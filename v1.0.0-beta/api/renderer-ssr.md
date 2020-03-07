@@ -6,7 +6,6 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [render(props)](./renderer-ssr.render.md) |  |
-
+| Function                                  | Description |
+| ----------------------------------------- | ----------- |
+| [render(props)](./renderer-ssr.render.md) |             |

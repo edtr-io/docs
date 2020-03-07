@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-type: '@splish-me/color';
+type: '@splish-me/color'
 ```

@@ -9,16 +9,15 @@ Renders the [OverlaySelect](./plugin-toolbar.plugintoolbar.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function OverlaySelect(props: OverlaySelectProps): JSX.Element;
+export declare function OverlaySelect(props: OverlaySelectProps): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>OverlaySelectProps</code> | [OverlaySelectProps](./plugin-toolbar.overlayselectprops.md) |
+| Parameter | Type                            | Description                                                  |
+| --------- | ------------------------------- | ------------------------------------------------------------ |
+| props     | <code>OverlaySelectProps</code> | [OverlaySelectProps](./plugin-toolbar.overlayselectprops.md) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

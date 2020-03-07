@@ -4,9 +4,12 @@
 
 ## FocusAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FocusAction = BlurAction | FocusDocumentAction | FocusNextDocumentAction | FocusPreviousDocumentAction;
+export declare type FocusAction =
+  | BlurAction
+  | FocusDocumentAction
+  | FocusNextDocumentAction
+  | FocusPreviousDocumentAction
 ```

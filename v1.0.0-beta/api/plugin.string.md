@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function string(initialValue?: string): StringStateType;
+export declare function string(initialValue?: string): StringStateType
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initialValue | <code>string</code> | The initial value |
+| Parameter    | Type                | Description       |
+| ------------ | ------------------- | ----------------- |
+| initialValue | <code>string</code> | The initial value |
 
 <b>Returns:</b>
 
 `StringStateType`
-

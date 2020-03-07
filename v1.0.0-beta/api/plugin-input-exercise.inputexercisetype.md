@@ -4,18 +4,16 @@
 
 ## InputExerciseType enum
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare enum InputExerciseType 
+export declare enum InputExerciseType
 ```
 
 ## Enumeration Members
 
-|  Member | Value | Description |
-|  --- | --- | --- |
-|  InputExpressionEqualMatchChallenge | <code>&quot;input-expression-equal-match-challenge&quot;</code> |  |
-|  InputNumberExactMatchChallenge | <code>&quot;input-number-exact-match-challenge&quot;</code> |  |
-|  InputStringNormalizedMatchChallenge | <code>&quot;input-string-normalized-match-challenge&quot;</code> |  |
-
+| Member                              | Value                                                            | Description |
+| ----------------------------------- | ---------------------------------------------------------------- | ----------- |
+| InputExpressionEqualMatchChallenge  | <code>&quot;input-expression-equal-match-challenge&quot;</code>  |             |
+| InputNumberExactMatchChallenge      | <code>&quot;input-number-exact-match-challenge&quot;</code>      |             |
+| InputStringNormalizedMatchChallenge | <code>&quot;input-string-normalized-match-challenge&quot;</code> |             |

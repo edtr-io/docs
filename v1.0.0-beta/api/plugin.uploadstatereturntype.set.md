@@ -12,11 +12,10 @@ set(value: FileState<T> | ((currentValue: FileState<T>) => FileState<T>)): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  value | <code>FileState&lt;T&gt; &#124; ((currentValue: FileState&lt;T&gt;) =&gt; FileState&lt;T&gt;)</code> |  |
+| Parameter | Type                                                                                                 | Description |
+| --------- | ---------------------------------------------------------------------------------------------------- | ----------- |
+| value     | <code>FileState&lt;T&gt; &#124; ((currentValue: FileState&lt;T&gt;) =&gt; FileState&lt;T&gt;)</code> |             |
 
 <b>Returns:</b>
 
 `void`
-

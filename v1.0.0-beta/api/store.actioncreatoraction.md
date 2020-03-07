@@ -4,9 +4,10 @@
 
 ## ActionCreatorAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ActionCreatorAction<T extends ActionCreator> = ReturnType<ReturnType<T>>;
+export declare type ActionCreatorAction<T extends ActionCreator> = ReturnType<
+  ReturnType<T>
+>
 ```

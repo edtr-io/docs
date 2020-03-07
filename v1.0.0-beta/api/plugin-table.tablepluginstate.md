@@ -4,9 +4,8 @@
 
 ## TablePluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type TablePluginState = StringStateType;
+export declare type TablePluginState = StringStateType
 ```

@@ -4,9 +4,8 @@
 
 ## OverlayInputProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayInputProps = InternalPluginToolbar.OverlayInputProps;
+export declare type OverlayInputProps = InternalPluginToolbar.OverlayInputProps
 ```

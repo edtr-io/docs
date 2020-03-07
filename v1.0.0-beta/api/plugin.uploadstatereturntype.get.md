@@ -9,7 +9,7 @@
 ```typescript
 get(): FileState<T>;
 ```
+
 <b>Returns:</b>
 
 `FileState<T>`
-

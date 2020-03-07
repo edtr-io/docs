@@ -14,11 +14,10 @@ renderIntoSettings(children: React.ReactNode): React.ReactNode;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  children | <code>React.ReactNode</code> | content to render |
+| Parameter | Type                         | Description       |
+| --------- | ---------------------------- | ----------------- |
+| children  | <code>React.ReactNode</code> | content to render |
 
 <b>Returns:</b>
 
 `React.ReactNode`
-

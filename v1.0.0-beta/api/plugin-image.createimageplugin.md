@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createImagePlugin(config: ImageConfig): EditorPlugin<ImagePluginState, ImagePluginConfig>;
+export declare function createImagePlugin(
+  config: ImageConfig
+): EditorPlugin<ImagePluginState, ImagePluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>ImageConfig</code> | [Plugin configuration](./plugin-image.imageconfig.md) |
+| Parameter | Type                     | Description                                           |
+| --------- | ------------------------ | ----------------------------------------------------- |
+| config    | <code>ImageConfig</code> | [Plugin configuration](./plugin-image.imageconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<ImagePluginState, ImagePluginConfig>`
-

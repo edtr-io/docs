@@ -4,17 +4,15 @@
 
 ## HighlightConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface HighlightConfig 
+export interface HighlightConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-highlight.highlightconfig.i18n.md) | <code>DeepPartial&lt;HighlightPluginConfig['i18n']&gt;</code> |  |
-|  [Renderer](./plugin-highlight.highlightconfig.renderer.md) | <code>HighlightPluginConfig['Renderer']</code> |  |
-
+| Property                                                   | Type                                                          | Description |
+| ---------------------------------------------------------- | ------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-highlight.highlightconfig.i18n.md)         | <code>DeepPartial&lt;HighlightPluginConfig['i18n']&gt;</code> |             |
+| [Renderer](./plugin-highlight.highlightconfig.renderer.md) | <code>HighlightPluginConfig['Renderer']</code>                |             |

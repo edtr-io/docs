@@ -7,5 +7,10 @@
 <b>Signature:</b>
 
 ```typescript
-type: '@splish-me/h1' | '@splish-me/h2' | '@splish-me/h3' | '@splish-me/h4' | '@splish-me/h5' | '@splish-me/h6';
+type: '@splish-me/h1' |
+  '@splish-me/h2' |
+  '@splish-me/h3' |
+  '@splish-me/h4' |
+  '@splish-me/h5' |
+  '@splish-me/h6'
 ```

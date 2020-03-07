@@ -4,17 +4,15 @@
 
 ## NewUnorderedListElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewUnorderedListElement 
+export interface NewUnorderedListElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newunorderedlistelement.children.md) | <code>NewNode[]</code> |  |
-|  [type](./plugin-text.newunorderedlistelement.type.md) | <code>'unordered-list'</code> |  |
-
+| Property                                                      | Type                          | Description |
+| ------------------------------------------------------------- | ----------------------------- | ----------- |
+| [children](./plugin-text.newunorderedlistelement.children.md) | <code>NewNode[]</code>        |             |
+| [type](./plugin-text.newunorderedlistelement.type.md)         | <code>'unordered-list'</code> |             |

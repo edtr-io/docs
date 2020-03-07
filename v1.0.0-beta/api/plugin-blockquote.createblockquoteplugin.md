@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createBlockquotePlugin(config: BlockquoteConfig): EditorPlugin<BlockquotePluginState>;
+export declare function createBlockquotePlugin(
+  config: BlockquoteConfig
+): EditorPlugin<BlockquotePluginState>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>BlockquoteConfig</code> | [Plugin configuration](./plugin-blockquote.blockquoteconfig.md) |
+| Parameter | Type                          | Description                                                     |
+| --------- | ----------------------------- | --------------------------------------------------------------- |
+| config    | <code>BlockquoteConfig</code> | [Plugin configuration](./plugin-blockquote.blockquoteconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<BlockquotePluginState>`
-

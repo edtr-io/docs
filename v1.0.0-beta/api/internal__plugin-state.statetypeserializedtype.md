@@ -9,5 +9,7 @@ Maps a \[\[StateType\]\] to the type of its serialized state
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypeSerializedType<D extends StateType> = D extends StateType<infer S> ? S : never;
+export declare type StateTypeSerializedType<
+  D extends StateType
+> = D extends StateType<infer S> ? S : never
 ```

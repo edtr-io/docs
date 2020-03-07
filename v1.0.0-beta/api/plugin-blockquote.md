@@ -6,20 +6,19 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createBlockquotePlugin(config)](./plugin-blockquote.createblockquoteplugin.md) |  |
+| Function                                                                        | Description |
+| ------------------------------------------------------------------------------- | ----------- |
+| [createBlockquotePlugin(config)](./plugin-blockquote.createblockquoteplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [BlockquoteConfig](./plugin-blockquote.blockquoteconfig.md) |  |
+| Interface                                                   | Description |
+| ----------------------------------------------------------- | ----------- |
+| [BlockquoteConfig](./plugin-blockquote.blockquoteconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [BlockquotePluginState](./plugin-blockquote.blockquotepluginstate.md) |  |
-|  [BlockquoteProps](./plugin-blockquote.blockquoteprops.md) |  |
-
+| Type Alias                                                            | Description |
+| --------------------------------------------------------------------- | ----------- |
+| [BlockquotePluginState](./plugin-blockquote.blockquotepluginstate.md) |             |
+| [BlockquoteProps](./plugin-blockquote.blockquoteprops.md)             |             |

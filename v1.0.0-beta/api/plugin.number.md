@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function number(initialValue?: number): NumberStateType;
+export declare function number(initialValue?: number): NumberStateType
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initialValue | <code>number</code> | The initial value |
+| Parameter    | Type                | Description       |
+| ------------ | ------------------- | ----------------- |
+| initialValue | <code>number</code> | The initial value |
 
 <b>Returns:</b>
 
 `NumberStateType`
-

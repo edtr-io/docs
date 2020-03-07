@@ -4,16 +4,14 @@
 
 ## ActionCreatorWithoutPayload interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface ActionCreatorWithoutPayload<T = string> 
+export interface ActionCreatorWithoutPayload<T = string>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [type](./store.actioncreatorwithoutpayload.type.md) | <code>T</code> |  |
-
+| Property                                            | Type           | Description |
+| --------------------------------------------------- | -------------- | ----------- |
+| [type](./store.actioncreatorwithoutpayload.type.md) | <code>T</code> |             |

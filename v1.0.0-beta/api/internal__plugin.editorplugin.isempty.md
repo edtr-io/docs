@@ -14,13 +14,12 @@ isEmpty?(state: StateTypeReturnType<S>): boolean;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>StateTypeReturnType&lt;S&gt;</code> | the current state |
+| Parameter | Type                                      | Description       |
+| --------- | ----------------------------------------- | ----------------- |
+| state     | <code>StateTypeReturnType&lt;S&gt;</code> | the current state |
 
 <b>Returns:</b>
 
 `boolean`
 
 `true` if the plugin is empty
-

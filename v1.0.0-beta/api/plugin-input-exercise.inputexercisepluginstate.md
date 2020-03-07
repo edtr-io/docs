@@ -4,17 +4,18 @@
 
 ## InputExercisePluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type InputExercisePluginState = ObjectStateType<{
-    type: StringStateType;
-    unit: StringStateType;
-    answers: ListStateType<ObjectStateType<{
-        value: StringStateType;
-        isCorrect: BooleanStateType;
-        feedback: ChildStateType;
-    }>>;
-}>;
+  type: StringStateType
+  unit: StringStateType
+  answers: ListStateType<
+    ObjectStateType<{
+      value: StringStateType
+      isCorrect: BooleanStateType
+      feedback: ChildStateType
+    }>
+  >
+}>
 ```

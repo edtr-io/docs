@@ -4,17 +4,15 @@
 
 ## FilesConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface FilesConfig 
+export interface FilesConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-files.filesconfig.i18n.md) | <code>Partial&lt;FilesPluginConfig['i18n']&gt;</code> |  |
-|  [upload](./plugin-files.filesconfig.upload.md) | <code>FilesPluginConfig['upload']</code> |  |
-
+| Property                                       | Type                                                  | Description |
+| ---------------------------------------------- | ----------------------------------------------------- | ----------- |
+| [i18n](./plugin-files.filesconfig.i18n.md)     | <code>Partial&lt;FilesPluginConfig['i18n']&gt;</code> |             |
+| [upload](./plugin-files.filesconfig.upload.md) | <code>FilesPluginConfig['upload']</code>              |             |

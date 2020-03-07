@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createFilesPlugin(config: FilesConfig): EditorPlugin<FilesPluginState, FilesPluginConfig>;
+export declare function createFilesPlugin(
+  config: FilesConfig
+): EditorPlugin<FilesPluginState, FilesPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>FilesConfig</code> | [Plugin configuration](./plugin-files.filesconfig.md) |
+| Parameter | Type                     | Description                                           |
+| --------- | ------------------------ | ----------------------------------------------------- |
+| config    | <code>FilesConfig</code> | [Plugin configuration](./plugin-files.filesconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<FilesPluginState, FilesPluginConfig>`
-

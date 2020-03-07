@@ -4,7 +4,6 @@
 
 ## mayRemoveChild variable
 
-
 <b>Signature:</b>
 
 ```typescript

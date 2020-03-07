@@ -5,22 +5,20 @@
 ## OverlayButtonProps interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 The props for [OverlayButton](./internal__plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export interface OverlayButtonProps 
+export interface OverlayButtonProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./internal__plugin-toolbar.overlaybuttonprops.children.md) | <code>React.ReactNode</code> | <b><i>(BETA)</i></b> |
-|  [className](./internal__plugin-toolbar.overlaybuttonprops.classname.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [label](./internal__plugin-toolbar.overlaybuttonprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [onClick](./internal__plugin-toolbar.overlaybuttonprops.onclick.md) | <code>React.MouseEventHandler&lt;HTMLButtonElement&gt;</code> | <b><i>(BETA)</i></b> |
-
+| Property                                                                | Type                                                          | Description          |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------- |
+| [children](./internal__plugin-toolbar.overlaybuttonprops.children.md)   | <code>React.ReactNode</code>                                  | <b><i>(BETA)</i></b> |
+| [className](./internal__plugin-toolbar.overlaybuttonprops.classname.md) | <code>string</code>                                           | <b><i>(BETA)</i></b> |
+| [label](./internal__plugin-toolbar.overlaybuttonprops.label.md)         | <code>string</code>                                           | <b><i>(BETA)</i></b> |
+| [onClick](./internal__plugin-toolbar.overlaybuttonprops.onclick.md)     | <code>React.MouseEventHandler&lt;HTMLButtonElement&gt;</code> | <b><i>(BETA)</i></b> |

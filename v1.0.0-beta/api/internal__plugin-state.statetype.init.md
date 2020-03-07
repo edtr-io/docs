@@ -14,12 +14,11 @@ init(state: T, onChange: (initial: StateUpdater<T>, executor?: StateExecutor<Sta
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>T</code> | current state |
-|  onChange | <code>(initial: StateUpdater&lt;T&gt;, executor?: StateExecutor&lt;StateUpdater&lt;T&gt;&gt;) =&gt; void</code> | callback to set the state, accepts a \[\[StateUpdater\]\] and an optional \[\[StateExecutor\]\] |
+| Parameter | Type                                                                                                            | Description                                                                                     |
+| --------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| state     | <code>T</code>                                                                                                  | current state                                                                                   |
+| onChange  | <code>(initial: StateUpdater&lt;T&gt;, executor?: StateExecutor&lt;StateUpdater&lt;T&gt;&gt;) =&gt; void</code> | callback to set the state, accepts a \[\[StateUpdater\]\] and an optional \[\[StateExecutor\]\] |
 
 <b>Returns:</b>
 
 `R`
-

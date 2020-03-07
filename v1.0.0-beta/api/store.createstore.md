@@ -9,22 +9,22 @@ Creates the Edtr.io store
 <b>Signature:</b>
 
 ```typescript
-export declare function createStore<K extends string>({ scopes, createEnhancer }: StoreOptions<K>): {
-    store: Store<State, Action>;
-};
+export declare function createStore<K extends string>({
+  scopes,
+  createEnhancer
+}: StoreOptions<K>): {
+  store: Store<State, Action>
+}
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  { scopes, createEnhancer } | <code>StoreOptions&lt;K&gt;</code> |  |
+| Parameter                  | Type                               | Description |
+| -------------------------- | ---------------------------------- | ----------- |
+| { scopes, createEnhancer } | <code>StoreOptions&lt;K&gt;</code> |             |
 
 <b>Returns:</b>
 
-`{
-    store: Store<State, Action>;
-}`
+`{ store: Store<State, Action>; }`
 
 The Edtr.io store
-

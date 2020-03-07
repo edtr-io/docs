@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-createEnhancer: StoreEnhancerFactory;
+createEnhancer: StoreEnhancerFactory
 ```

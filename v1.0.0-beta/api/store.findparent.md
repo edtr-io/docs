@@ -9,19 +9,18 @@ Finds the parent node of an id in the focus tree
 <b>Signature:</b>
 
 ```typescript
-export declare function findParent(root: Node, id: string): Node | null;
+export declare function findParent(root: Node, id: string): Node | null
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  root | <code>Node</code> | focus tree |
-|  id | <code>string</code> | id of the current node |
+| Parameter | Type                | Description            |
+| --------- | ------------------- | ---------------------- |
+| root      | <code>Node</code>   | focus tree             |
+| id        | <code>string</code> | id of the current node |
 
 <b>Returns:</b>
 
 `Node | null`
 
 the `Node` of the parent, if the id exists in the focus tree. (`null` otherwise)
-

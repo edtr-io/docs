@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createTablePlugin(config?: TableConfig): EditorPlugin<TablePluginState, TablePluginConfig>;
+export declare function createTablePlugin(
+  config?: TableConfig
+): EditorPlugin<TablePluginState, TablePluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>TableConfig</code> | [Plugin configuration](./plugin-table.tableconfig.md) |
+| Parameter | Type                     | Description                                           |
+| --------- | ------------------------ | ----------------------------------------------------- |
+| config    | <code>TableConfig</code> | [Plugin configuration](./plugin-table.tableconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<TablePluginState, TablePluginConfig>`
-

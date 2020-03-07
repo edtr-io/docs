@@ -4,17 +4,15 @@
 
 ## MultimediaExplanationConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface MultimediaExplanationConfig extends Omit<MultimediaExplanationPluginConfig, 'i18n'> 
+export interface MultimediaExplanationConfig extends Omit<MultimediaExplanationPluginConfig, 'i18n'>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [explanation](./plugin-multimedia-explanation.multimediaexplanationconfig.explanation.md) | <code>ChildStateTypeConfig</code> |  |
-|  [i18n](./plugin-multimedia-explanation.multimediaexplanationconfig.i18n.md) | <code>DeepPartial&lt;MultimediaExplanationPluginConfig['i18n']&gt;</code> |  |
-
+| Property                                                                                  | Type                                                                      | Description |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------- |
+| [explanation](./plugin-multimedia-explanation.multimediaexplanationconfig.explanation.md) | <code>ChildStateTypeConfig</code>                                         |             |
+| [i18n](./plugin-multimedia-explanation.multimediaexplanationconfig.i18n.md)               | <code>DeepPartial&lt;MultimediaExplanationPluginConfig['i18n']&gt;</code> |             |

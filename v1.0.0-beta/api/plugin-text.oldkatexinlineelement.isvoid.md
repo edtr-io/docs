@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-isVoid: true;
+isVoid: true
 ```

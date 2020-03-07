@@ -4,20 +4,22 @@
 
 ## EditorCheckbox() function
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare function EditorCheckbox({ checked, onChange, label }: EditorCheckboxProps): JSX.Element;
+export declare function EditorCheckbox({
+  checked,
+  onChange,
+  label
+}: EditorCheckboxProps): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  { checked, onChange, label } | <code>EditorCheckboxProps</code> |  |
+| Parameter                    | Type                             | Description |
+| ---------------------------- | -------------------------------- | ----------- |
+| { checked, onChange, label } | <code>EditorCheckboxProps</code> |             |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

@@ -4,20 +4,18 @@
 
 ## OldKatexInlineElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldKatexInlineElement 
+export interface OldKatexInlineElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [data](./plugin-text.oldkatexinlineelement.data.md) | <code>{</code><br/><code>        formula: string;</code><br/><code>        inline: true;</code><br/><code>    }</code> |  |
-|  [isVoid](./plugin-text.oldkatexinlineelement.isvoid.md) | <code>true</code> |  |
-|  [nodes](./plugin-text.oldkatexinlineelement.nodes.md) | <code>OldNode[]</code> |  |
-|  [object](./plugin-text.oldkatexinlineelement.object.md) | <code>'inline'</code> |  |
-|  [type](./plugin-text.oldkatexinlineelement.type.md) | <code>'@splish-me/katex-inline'</code> |  |
-
+| Property                                                | Type                                                                                                  | Description |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------- |
+| [data](./plugin-text.oldkatexinlineelement.data.md)     | <code>{</code><br/><code> formula: string;</code><br/><code> inline: true;</code><br/><code> }</code> |             |
+| [isVoid](./plugin-text.oldkatexinlineelement.isvoid.md) | <code>true</code>                                                                                     |             |
+| [nodes](./plugin-text.oldkatexinlineelement.nodes.md)   | <code>OldNode[]</code>                                                                                |             |
+| [object](./plugin-text.oldkatexinlineelement.object.md) | <code>'inline'</code>                                                                                 |             |
+| [type](./plugin-text.oldkatexinlineelement.type.md)     | <code>'@splish-me/katex-inline'</code>                                                                |             |

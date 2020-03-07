@@ -4,9 +4,14 @@
 
 ## ObjectStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ObjectStateType<Ds extends Record<string, StateType>> = StateType<StateTypesSerializedType<Ds>, StateTypesValueType<Ds>, StateTypesReturnType<Ds>>;
+export declare type ObjectStateType<
+  Ds extends Record<string, StateType>
+> = StateType<
+  StateTypesSerializedType<Ds>,
+  StateTypesValueType<Ds>,
+  StateTypesReturnType<Ds>
+>
 ```

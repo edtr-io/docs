@@ -8,8 +8,8 @@
 
 ```typescript
 i18n: {
-        title: {
-            placeholder: string;
-        };
-    };
+  title: {
+    placeholder: string
+  }
+}
 ```

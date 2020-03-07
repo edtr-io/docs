@@ -4,18 +4,16 @@
 
 ## InputExerciseConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface InputExerciseConfig 
+export interface InputExerciseConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [feedback](./plugin-input-exercise.inputexerciseconfig.feedback.md) | <code>ChildStateTypeConfig</code> |  |
-|  [i18n](./plugin-input-exercise.inputexerciseconfig.i18n.md) | <code>DeepPartial&lt;InputExercisePluginConfig['i18n']&gt;</code> |  |
-|  [theme](./plugin-input-exercise.inputexerciseconfig.theme.md) | <code>Partial&lt;InputExercisePluginConfig['theme']&gt;</code> |  |
-
+| Property                                                            | Type                                                              | Description |
+| ------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------- |
+| [feedback](./plugin-input-exercise.inputexerciseconfig.feedback.md) | <code>ChildStateTypeConfig</code>                                 |             |
+| [i18n](./plugin-input-exercise.inputexerciseconfig.i18n.md)         | <code>DeepPartial&lt;InputExercisePluginConfig['i18n']&gt;</code> |             |
+| [theme](./plugin-input-exercise.inputexerciseconfig.theme.md)       | <code>Partial&lt;InputExercisePluginConfig['theme']&gt;</code>    |             |

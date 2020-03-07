@@ -14,12 +14,11 @@ removeChild?(state: StateTypeReturnType<S>, id: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>StateTypeReturnType&lt;S&gt;</code> | The current state |
-|  id | <code>string</code> | The id of the child that should be removed |
+| Parameter | Type                                      | Description                                |
+| --------- | ----------------------------------------- | ------------------------------------------ |
+| state     | <code>StateTypeReturnType&lt;S&gt;</code> | The current state                          |
+| id        | <code>string</code>                       | The id of the child that should be removed |
 
 <b>Returns:</b>
 
 `void`
-

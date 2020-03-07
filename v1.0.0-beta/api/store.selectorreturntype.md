@@ -4,9 +4,10 @@
 
 ## SelectorReturnType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SelectorReturnType<T extends Selector<any, any>> = ReturnType<ReturnType<T>>;
+export declare type SelectorReturnType<
+  T extends Selector<any, any>
+> = ReturnType<ReturnType<T>>
 ```

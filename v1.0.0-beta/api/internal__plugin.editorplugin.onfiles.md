@@ -16,13 +16,10 @@ onFiles?(files: File[]): void | {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  files | <code>File[]</code> | The \[FileList\](https://developer.mozilla.org/en-US/docs/Web/API/FileList) |
+| Parameter | Type                | Description                                                                 |
+| --------- | ------------------- | --------------------------------------------------------------------------- |
+| files     | <code>File[]</code> | The \[FileList\](https://developer.mozilla.org/en-US/docs/Web/API/FileList) |
 
 <b>Returns:</b>
 
-`void | {
-        state?: StateTypeSerializedType<S>;
-    }`
-
+`void | { state?: StateTypeSerializedType<S>; }`

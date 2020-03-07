@@ -4,18 +4,16 @@
 
 ## EditorInputProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface EditorInputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> 
+export interface EditorInputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [inputWidth](./editor-ui.editorinputprops.inputwidth.md) | <code>string</code> |  |
-|  [label](./editor-ui.editorinputprops.label.md) | <code>string</code> |  |
-|  [width](./editor-ui.editorinputprops.width.md) | <code>string</code> |  |
-
+| Property                                                 | Type                | Description |
+| -------------------------------------------------------- | ------------------- | ----------- |
+| [inputWidth](./editor-ui.editorinputprops.inputwidth.md) | <code>string</code> |             |
+| [label](./editor-ui.editorinputprops.label.md)           | <code>string</code> |             |
+| [width](./editor-ui.editorinputprops.width.md)           | <code>string</code> |             |

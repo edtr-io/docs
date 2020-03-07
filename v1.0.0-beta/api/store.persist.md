@@ -4,7 +4,6 @@
 
 ## persist variable
 
-
 <b>Signature:</b>
 
 ```typescript

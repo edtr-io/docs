@@ -1,0 +1,16 @@
+{
+  "name": "@edtr-io/docs",
+  "version": "0.0.0",
+  "license": "CC-BY-4.0",
+  "author": "edtr.io Consortium",
+  "repository": "edtr-io/docs",
+  "scripts": {
+    "format": "yarn _prettier --write",
+    "lint": "yarn _prettier --check",
+    "_prettier": "prettier \"{v*/**/*,*}.{js,jsx,ts,tsx,json,md,mdx,yaml,yml}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.0.0"
+  },
+  "private": true
+}

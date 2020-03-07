@@ -4,9 +4,8 @@
 
 ## ScalarStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ScalarStateType<S> = SerializedScalarStateType<S, S>;
+export declare type ScalarStateType<S> = SerializedScalarStateType<S, S>
 ```

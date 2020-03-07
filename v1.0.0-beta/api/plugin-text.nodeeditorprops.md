@@ -4,9 +4,8 @@
 
 ## NodeEditorProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type NodeEditorProps = BlockEditorProps | InlineEditorProps;
+export declare type NodeEditorProps = BlockEditorProps | InlineEditorProps
 ```

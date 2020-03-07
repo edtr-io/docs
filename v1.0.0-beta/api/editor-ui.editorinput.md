@@ -4,7 +4,6 @@
 
 ## EditorInput variable
 
-
 <b>Signature:</b>
 
 ```typescript

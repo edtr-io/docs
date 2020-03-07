@@ -9,16 +9,17 @@ Provider to override the current [theme](./ui.theme.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function ThemeProvider(props: StyledComponents.ThemeProviderProps<CustomTheme>): JSX.Element;
+export declare function ThemeProvider(
+  props: StyledComponents.ThemeProviderProps<CustomTheme>
+): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>StyledComponents.ThemeProviderProps&lt;CustomTheme&gt;</code> | A [CustomTheme](./ui.customtheme.md) that will be deeply merged with the [current Theme](./ui.theme.md)<!-- -->, and children |
+| Parameter | Type                                                                | Description                                                                                                                   |
+| --------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| props     | <code>StyledComponents.ThemeProviderProps&lt;CustomTheme&gt;</code> | A [CustomTheme](./ui.customtheme.md) that will be deeply merged with the [current Theme](./ui.theme.md)<!-- -->, and children |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

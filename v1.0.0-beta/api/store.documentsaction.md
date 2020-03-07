@@ -4,9 +4,14 @@
 
 ## DocumentsAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type DocumentsAction = InsertAction | RemoveAction | ChangeAction | WrapAction | UnwrapAction | ReplaceAction;
+export declare type DocumentsAction =
+  | InsertAction
+  | RemoveAction
+  | ChangeAction
+  | WrapAction
+  | UnwrapAction
+  | ReplaceAction
 ```

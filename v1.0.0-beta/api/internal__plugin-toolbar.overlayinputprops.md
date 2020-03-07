@@ -5,19 +5,17 @@
 ## OverlayInputProps interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 The props for [OverlayInput](./internal__plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export interface OverlayInputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> 
+export interface OverlayInputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [label](./internal__plugin-toolbar.overlayinputprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-
+| Property                                                       | Type                | Description          |
+| -------------------------------------------------------------- | ------------------- | -------------------- |
+| [label](./internal__plugin-toolbar.overlayinputprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |

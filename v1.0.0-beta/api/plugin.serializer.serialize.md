@@ -12,11 +12,10 @@ serialize(deserialized: T): S;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  deserialized | <code>T</code> |  |
+| Parameter    | Type           | Description |
+| ------------ | -------------- | ----------- |
+| deserialized | <code>T</code> |             |
 
 <b>Returns:</b>
 
 `S`
-

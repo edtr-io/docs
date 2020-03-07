@@ -8,8 +8,8 @@
 
 ```typescript
 expandableBox: {
-        containerBorderColor: string;
-        toggleBackgroundColor: string;
-        toggleColor: string;
-    };
+  containerBorderColor: string
+  toggleBackgroundColor: string
+  toggleColor: string
+}
 ```

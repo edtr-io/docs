@@ -4,9 +4,8 @@
 
 ## ReplaceAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ReplaceAction = ActionCreatorAction<typeof replace>;
+export declare type ReplaceAction = ActionCreatorAction<typeof replace>
 ```

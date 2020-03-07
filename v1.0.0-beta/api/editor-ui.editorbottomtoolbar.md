@@ -4,7 +4,6 @@
 
 ## EditorBottomToolbar variable
 
-
 <b>Signature:</b>
 
 ```typescript

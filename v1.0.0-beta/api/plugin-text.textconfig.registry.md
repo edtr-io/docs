@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-registry: TextPluginConfig['registry'];
+registry: TextPluginConfig['registry']
 ```

@@ -4,9 +4,11 @@
 
 ## StoreSerializeHelpers type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StoreSerializeHelpers<K extends string = string, S = unknown> = InternalPluginState.StoreSerializeHelpers<K, S>;
+export declare type StoreSerializeHelpers<
+  K extends string = string,
+  S = unknown
+> = InternalPluginState.StoreSerializeHelpers<K, S>
 ```

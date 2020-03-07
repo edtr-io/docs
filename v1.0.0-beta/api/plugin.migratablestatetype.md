@@ -4,16 +4,14 @@
 
 ## MigratableStateType interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface MigratableStateType<InitialS, AllS, S, T, R> extends StateType<InitialS | Versionized<AllS>, T, R> 
+export interface MigratableStateType<InitialS, AllS, S, T, R> extends StateType<InitialS | Versionized<AllS>, T, R>
 ```
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [migrate(nextType, migrate)](./plugin.migratablestatetype.migrate.md) |  |
-
+| Method                                                                | Description |
+| --------------------------------------------------------------------- | ----------- |
+| [migrate(nextType, migrate)](./plugin.migratablestatetype.migrate.md) |             |

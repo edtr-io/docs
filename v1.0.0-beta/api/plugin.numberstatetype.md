@@ -4,9 +4,8 @@
 
 ## NumberStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type NumberStateType = ScalarStateType<number>;
+export declare type NumberStateType = ScalarStateType<number>
 ```

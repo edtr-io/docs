@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-node: BlockJSON;
+node: BlockJSON
 ```

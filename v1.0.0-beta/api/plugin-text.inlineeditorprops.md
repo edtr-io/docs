@@ -4,9 +4,8 @@
 
 ## InlineEditorProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InlineEditorProps = RenderInlineProps;
+export declare type InlineEditorProps = RenderInlineProps
 ```

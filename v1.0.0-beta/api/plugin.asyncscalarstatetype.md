@@ -4,13 +4,21 @@
 
 ## AsyncScalarStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type AsyncScalarStateType<T, Temp> = StateType<T, T | Temp, {
-    value: T | Temp;
-    get(): T | Temp;
-    set(initial: T | Temp | ((previousValue: T | Temp) => T | Temp), executor?: StateExecutor<T | Temp | ((previousValue: T | Temp) => T | Temp)>): void;
-}>;
+export declare type AsyncScalarStateType<T, Temp> = StateType<
+  T,
+  T | Temp,
+  {
+    value: T | Temp
+    get(): T | Temp
+    set(
+      initial: T | Temp | ((previousValue: T | Temp) => T | Temp),
+      executor?: StateExecutor<
+        T | Temp | ((previousValue: T | Temp) => T | Temp)
+      >
+    ): void
+  }
+>
 ```

@@ -4,11 +4,12 @@
 
 ## StateTypesSerializedType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypesSerializedType<Ds extends Record<string, StateType>> = {
-    [K in keyof Ds]: StateTypeSerializedType<Ds[K]>;
-};
+export declare type StateTypesSerializedType<
+  Ds extends Record<string, StateType>
+> = {
+  [K in keyof Ds]: StateTypeSerializedType<Ds[K]>
+}
 ```

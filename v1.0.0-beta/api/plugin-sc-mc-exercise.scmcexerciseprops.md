@@ -4,9 +4,11 @@
 
 ## ScMcExerciseProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ScMcExerciseProps = EditorPluginProps<ScMcExercisePluginState, ScMcExercisePluginConfig>;
+export declare type ScMcExerciseProps = EditorPluginProps<
+  ScMcExercisePluginState,
+  ScMcExercisePluginConfig
+>
 ```

@@ -9,5 +9,5 @@
 <b>Signature:</b>
 
 ```typescript
-editable: boolean;
+editable: boolean
 ```

@@ -4,18 +4,16 @@
 
 ## OldText interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldText 
+export interface OldText
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [marks](./plugin-text.oldtext.marks.md) | <code>OldMark[]</code> |  |
-|  [object](./plugin-text.oldtext.object.md) | <code>'text'</code> |  |
-|  [text](./plugin-text.oldtext.text.md) | <code>string</code> |  |
-
+| Property                                  | Type                   | Description |
+| ----------------------------------------- | ---------------------- | ----------- |
+| [marks](./plugin-text.oldtext.marks.md)   | <code>OldMark[]</code> |             |
+| [object](./plugin-text.oldtext.object.md) | <code>'text'</code>    |             |
+| [text](./plugin-text.oldtext.text.md)     | <code>string</code>    |             |

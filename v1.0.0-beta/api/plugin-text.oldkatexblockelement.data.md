@@ -8,7 +8,7 @@
 
 ```typescript
 data: {
-        formula: string;
-        inline: false;
-    };
+  formula: string
+  inline: false
+}
 ```

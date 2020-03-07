@@ -4,9 +4,11 @@
 
 ## VideoProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type VideoProps = EditorPluginProps<VideoPluginState, VideoPluginConfig>;
+export declare type VideoProps = EditorPluginProps<
+  VideoPluginState,
+  VideoPluginConfig
+>
 ```

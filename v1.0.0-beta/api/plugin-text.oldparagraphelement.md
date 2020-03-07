@@ -4,18 +4,16 @@
 
 ## OldParagraphElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldParagraphElement 
+export interface OldParagraphElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [nodes](./plugin-text.oldparagraphelement.nodes.md) | <code>OldNode[]</code> |  |
-|  [object](./plugin-text.oldparagraphelement.object.md) | <code>'block'</code> |  |
-|  [type](./plugin-text.oldparagraphelement.type.md) | <code>'paragraph'</code> |  |
-
+| Property                                              | Type                     | Description |
+| ----------------------------------------------------- | ------------------------ | ----------- |
+| [nodes](./plugin-text.oldparagraphelement.nodes.md)   | <code>OldNode[]</code>   |             |
+| [object](./plugin-text.oldparagraphelement.object.md) | <code>'block'</code>     |             |
+| [type](./plugin-text.oldparagraphelement.type.md)     | <code>'paragraph'</code> |             |

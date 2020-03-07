@@ -14,13 +14,12 @@ onKeyDown?(e: KeyboardEvent): boolean;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  e | <code>KeyboardEvent</code> | the \[KeyboardEvent\](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) |
+| Parameter | Type                       | Description                                                                     |
+| --------- | -------------------------- | ------------------------------------------------------------------------------- |
+| e         | <code>KeyboardEvent</code> | the \[KeyboardEvent\](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) |
 
 <b>Returns:</b>
 
 `boolean`
 
 `false` if the keyboard shortcut should be prevented
-

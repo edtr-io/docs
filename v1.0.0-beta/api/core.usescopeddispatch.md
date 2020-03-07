@@ -9,16 +9,17 @@ React Hook to dispatch an action in the current scope
 <b>Signature:</b>
 
 ```typescript
-export declare function useScopedDispatch(enforcedScope?: string): (scopedAction: (scope: string) => Action) => void;
+export declare function useScopedDispatch(
+  enforcedScope?: string
+): (scopedAction: (scope: string) => Action) => void
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  enforcedScope | <code>string</code> | If provided, used as the scope instead of the current scope |
+| Parameter     | Type                | Description                                                 |
+| ------------- | ------------------- | ----------------------------------------------------------- |
+| enforcedScope | <code>string</code> | If provided, used as the scope instead of the current scope |
 
 <b>Returns:</b>
 
 `(scopedAction: (scope: string) => Action) => void`
-

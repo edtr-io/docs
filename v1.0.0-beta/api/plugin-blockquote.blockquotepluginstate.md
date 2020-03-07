@@ -4,9 +4,8 @@
 
 ## BlockquotePluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type BlockquotePluginState = ChildStateType;
+export declare type BlockquotePluginState = ChildStateType
 ```

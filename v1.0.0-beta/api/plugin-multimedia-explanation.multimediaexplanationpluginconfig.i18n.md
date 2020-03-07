@@ -8,13 +8,13 @@
 
 ```typescript
 i18n: {
-        changeMultimediaType: string;
-        illustrating: {
-            label: string;
-            values: {
-                illustrating: string;
-                explaining: string;
-            };
-        };
-    };
+  changeMultimediaType: string
+  illustrating: {
+    label: string
+    values: {
+      illustrating: string
+      explaining: string
+    }
+  }
+}
 ```

@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-isPending: boolean;
+isPending: boolean
 ```

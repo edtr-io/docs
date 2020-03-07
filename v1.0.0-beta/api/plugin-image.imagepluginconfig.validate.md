@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-validate: UploadValidator;
+validate: UploadValidator
 ```

@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createSerloInjectionPlugin(config)](./plugin-serlo-injection.createserloinjectionplugin.md) |  |
+| Function                                                                                     | Description |
+| -------------------------------------------------------------------------------------------- | ----------- |
+| [createSerloInjectionPlugin(config)](./plugin-serlo-injection.createserloinjectionplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [SerloInjectionConfig](./plugin-serlo-injection.serloinjectionconfig.md) |  |
-|  [SerloInjectionPluginConfig](./plugin-serlo-injection.serloinjectionpluginconfig.md) |  |
+| Interface                                                                            | Description |
+| ------------------------------------------------------------------------------------ | ----------- |
+| [SerloInjectionConfig](./plugin-serlo-injection.serloinjectionconfig.md)             |             |
+| [SerloInjectionPluginConfig](./plugin-serlo-injection.serloinjectionpluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [SerloInjectionPluginState](./plugin-serlo-injection.serloinjectionpluginstate.md) |  |
-|  [SerloInjectionProps](./plugin-serlo-injection.serloinjectionprops.md) |  |
-
+| Type Alias                                                                         | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
+| [SerloInjectionPluginState](./plugin-serlo-injection.serloinjectionpluginstate.md) |             |
+| [SerloInjectionProps](./plugin-serlo-injection.serloinjectionprops.md)             |             |

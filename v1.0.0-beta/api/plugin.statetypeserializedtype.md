@@ -4,9 +4,10 @@
 
 ## StateTypeSerializedType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypeSerializedType<D extends StateType> = InternalPluginState.StateTypeSerializedType<D>;
+export declare type StateTypeSerializedType<
+  D extends StateType
+> = InternalPluginState.StateTypeSerializedType<D>
 ```

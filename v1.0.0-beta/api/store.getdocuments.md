@@ -4,7 +4,6 @@
 
 ## getDocuments variable
 
-
 <b>Signature:</b>
 
 ```typescript

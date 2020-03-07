@@ -4,9 +4,11 @@
 
 ## ImageProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ImageProps = EditorPluginProps<ImagePluginState, ImagePluginConfig>;
+export declare type ImageProps = EditorPluginProps<
+  ImagePluginState,
+  ImagePluginConfig
+>
 ```

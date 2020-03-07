@@ -4,13 +4,16 @@
 
 ## SerializedScalarStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SerializedScalarStateType<S, T> = StateType<S, T, {
-    value: T;
-    get(): T;
-    set(value: T | ((currentValue: T) => T)): void;
-}>;
+export declare type SerializedScalarStateType<S, T> = StateType<
+  S,
+  T,
+  {
+    value: T
+    get(): T
+    set(value: T | ((currentValue: T) => T)): void
+  }
+>
 ```

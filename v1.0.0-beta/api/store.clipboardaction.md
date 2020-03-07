@@ -4,9 +4,8 @@
 
 ## ClipboardAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ClipboardAction = CopyAction;
+export declare type ClipboardAction = CopyAction
 ```

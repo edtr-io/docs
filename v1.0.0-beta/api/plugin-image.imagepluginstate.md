@@ -4,17 +4,18 @@
 
 ## ImagePluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type ImagePluginState = ObjectStateType<{
-    src: UploadStateType<string>;
-    link: OptionalStateType<ObjectStateType<{
-        href: StringStateType;
-        openInNewTab: BooleanStateType;
-    }>>;
-    alt: OptionalStateType<StringStateType>;
-    maxWidth: OptionalStateType<NumberStateType>;
-}>;
+  src: UploadStateType<string>
+  link: OptionalStateType<
+    ObjectStateType<{
+      href: StringStateType
+      openInNewTab: BooleanStateType
+    }>
+  >
+  alt: OptionalStateType<StringStateType>
+  maxWidth: OptionalStateType<NumberStateType>
+}>
 ```

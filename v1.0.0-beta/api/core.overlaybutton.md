@@ -9,16 +9,15 @@ Renders the [OverlayButton](./plugin-toolbar.plugintoolbar.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function OverlayButton(props: OverlayButtonProps): JSX.Element;
+export declare function OverlayButton(props: OverlayButtonProps): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>OverlayButtonProps</code> | [OverlayButtonProps](./plugin-toolbar.overlaybuttonprops.md) |
+| Parameter | Type                            | Description                                                  |
+| --------- | ------------------------------- | ------------------------------------------------------------ |
+| props     | <code>OverlayButtonProps</code> | [OverlayButtonProps](./plugin-toolbar.overlaybuttonprops.md) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

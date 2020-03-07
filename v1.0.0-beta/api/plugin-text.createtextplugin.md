@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createTextPlugin(config: TextConfig): EditorPlugin<TextPluginState, TextPluginConfig>;
+export declare function createTextPlugin(
+  config: TextConfig
+): EditorPlugin<TextPluginState, TextPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>TextConfig</code> | [Plugin configuration](./plugin-text.textconfig.md) |
+| Parameter | Type                    | Description                                         |
+| --------- | ----------------------- | --------------------------------------------------- |
+| config    | <code>TextConfig</code> | [Plugin configuration](./plugin-text.textconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<TextPluginState, TextPluginConfig>`
-

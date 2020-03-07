@@ -9,5 +9,8 @@ An updater will get called with the current state and helpers and should return 
 <b>Signature:</b>
 
 ```typescript
-export declare type StateUpdater<T> = (previousState: T, helpers: StoreDeserializeHelpers) => T;
+export declare type StateUpdater<T> = (
+  previousState: T,
+  helpers: StoreDeserializeHelpers
+) => T
 ```

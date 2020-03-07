@@ -8,33 +8,33 @@
 
 ```typescript
 i18n: {
-        label: string;
-        failedUploadMessage: string;
-        src: {
-            label: string;
-            placeholder: {
-                empty: string;
-                uploading: string;
-                failed: string;
-            };
-            retryLabel: string;
-        };
-        link: {
-            href: {
-                label: string;
-                placeholder: string;
-            };
-            openInNewTab: {
-                label: string;
-            };
-        };
-        alt: {
-            label: string;
-            placeholder: string;
-        };
-        maxWidth: {
-            label: string;
-            placeholder: string;
-        };
-    };
+  label: string
+  failedUploadMessage: string
+  src: {
+    label: string
+    placeholder: {
+      empty: string
+      uploading: string
+      failed: string
+    }
+    retryLabel: string
+  }
+  link: {
+    href: {
+      label: string
+      placeholder: string
+    }
+    openInNewTab: {
+      label: string
+    }
+  }
+  alt: {
+    label: string
+    placeholder: string
+  }
+  maxWidth: {
+    label: string
+    placeholder: string
+  }
+}
 ```

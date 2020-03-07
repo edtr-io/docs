@@ -4,12 +4,11 @@
 
 ## RendererThemeProps type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type RendererThemeProps = StyledThemeProps<{
-    renderer: RendererTheme;
-    rendererUi: DeepPartial<RendererUiTheme>;
-}>;
+  renderer: RendererTheme
+  rendererUi: DeepPartial<RendererUiTheme>
+}>
 ```

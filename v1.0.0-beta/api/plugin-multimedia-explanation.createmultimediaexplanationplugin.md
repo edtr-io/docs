@@ -7,16 +7,20 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createMultimediaExplanationPlugin(config: MultimediaExplanationConfig): EditorPlugin<MultimediaExplanationPluginState, MultimediaExplanationPluginConfig>;
+export declare function createMultimediaExplanationPlugin(
+  config: MultimediaExplanationConfig
+): EditorPlugin<
+  MultimediaExplanationPluginState,
+  MultimediaExplanationPluginConfig
+>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>MultimediaExplanationConfig</code> | [Plugin configuration](./plugin-multimedia-explanation.multimediaexplanationconfig.md) |
+| Parameter | Type                                     | Description                                                                            |
+| --------- | ---------------------------------------- | -------------------------------------------------------------------------------------- |
+| config    | <code>MultimediaExplanationConfig</code> | [Plugin configuration](./plugin-multimedia-explanation.multimediaexplanationconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<MultimediaExplanationPluginState, MultimediaExplanationPluginConfig>`
-

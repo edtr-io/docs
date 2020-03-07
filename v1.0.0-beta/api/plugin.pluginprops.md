@@ -4,9 +4,8 @@
 
 ## PluginProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type PluginProps = InternalPluginState.PluginProps;
+export declare type PluginProps = InternalPluginState.PluginProps
 ```

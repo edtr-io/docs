@@ -4,7 +4,6 @@
 
 ## useStore variable
 
-
 <b>Signature:</b>
 
 ```typescript

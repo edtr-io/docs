@@ -4,13 +4,13 @@
 
 ## TextPlugin type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type TextPlugin = Plugin & Rule & {
+export declare type TextPlugin = Plugin &
+  Rule & {
     commands?: {
-        [key: string]: (editor: Editor, ...args: any[]) => Editor;
-    };
-};
+      [key: string]: (editor: Editor, ...args: any[]) => Editor
+    }
+  }
 ```

@@ -9,16 +9,18 @@ Renders a single editor for an Edtr.io document
 <b>Signature:</b>
 
 ```typescript
-export declare function Editor<K extends string = string>({ createStoreEnhancer, ...props }: EditorProps<K>): JSX.Element;
+export declare function Editor<K extends string = string>({
+  createStoreEnhancer,
+  ...props
+}: EditorProps<K>): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  { createStoreEnhancer, ...props } | <code>EditorProps&lt;K&gt;</code> |  |
+| Parameter                         | Type                              | Description |
+| --------------------------------- | --------------------------------- | ----------- |
+| { createStoreEnhancer, ...props } | <code>EditorProps&lt;K&gt;</code> |             |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

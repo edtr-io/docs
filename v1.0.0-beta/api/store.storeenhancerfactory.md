@@ -4,9 +4,10 @@
 
 ## StoreEnhancerFactory type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StoreEnhancerFactory = (defaultEnhancer: StoreEnhancer) => StoreEnhancer<{}, {}>;
+export declare type StoreEnhancerFactory = (
+  defaultEnhancer: StoreEnhancer
+) => StoreEnhancer<{}, {}>
 ```

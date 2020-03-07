@@ -9,5 +9,9 @@ Describes an asynchronous state update
 <b>Signature:</b>
 
 ```typescript
-export declare type StateExecutor<T> = (resolve: (value: T) => void, reject: (value: T) => void, next: (value: T) => void) => void;
+export declare type StateExecutor<T> = (
+  resolve: (value: T) => void,
+  reject: (value: T) => void,
+  next: (value: T) => void
+) => void
 ```

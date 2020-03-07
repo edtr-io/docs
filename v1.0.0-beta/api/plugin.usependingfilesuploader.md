@@ -7,17 +7,19 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function usePendingFilesUploader<T>(files: UploadStateReturnType<T>[], uploadHandler: UploadHandler<T>): void;
+export declare function usePendingFilesUploader<T>(
+  files: UploadStateReturnType<T>[],
+  uploadHandler: UploadHandler<T>
+): void
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  files | <code>UploadStateReturnType&lt;T&gt;[]</code> | The [upload state type](./plugin.uploadstatereturntype.md) |
-|  uploadHandler | <code>UploadHandler&lt;T&gt;</code> | The [upload handler](./plugin.uploadhandler.md) |
+| Parameter     | Type                                          | Description                                                |
+| ------------- | --------------------------------------------- | ---------------------------------------------------------- |
+| files         | <code>UploadStateReturnType&lt;T&gt;[]</code> | The [upload state type](./plugin.uploadstatereturntype.md) |
+| uploadHandler | <code>UploadHandler&lt;T&gt;</code>           | The [upload handler](./plugin.uploadhandler.md)            |
 
 <b>Returns:</b>
 
 `void`
-

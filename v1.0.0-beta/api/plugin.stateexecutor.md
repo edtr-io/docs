@@ -4,9 +4,8 @@
 
 ## StateExecutor type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateExecutor<T> = InternalPluginState.StateExecutor<T>;
+export declare type StateExecutor<T> = InternalPluginState.StateExecutor<T>
 ```

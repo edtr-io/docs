@@ -4,7 +4,6 @@
 
 ## ErrorContext variable
 
-
 <b>Signature:</b>
 
 ```typescript

@@ -14,13 +14,12 @@ createInitialState(helpers: StoreDeserializeHelpers): T;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  helpers | <code>StoreDeserializeHelpers</code> | helpers (e.g. to insert an document in the store) |
+| Parameter | Type                                 | Description                                       |
+| --------- | ------------------------------------ | ------------------------------------------------- |
+| helpers   | <code>StoreDeserializeHelpers</code> | helpers (e.g. to insert an document in the store) |
 
 <b>Returns:</b>
 
 `T`
 
 initial state
-

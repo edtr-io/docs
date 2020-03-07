@@ -4,17 +4,15 @@
 
 ## NewListItemChildElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewListItemChildElement 
+export interface NewListItemChildElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newlistitemchildelement.children.md) | <code>NewNode[]</code> |  |
-|  [type](./plugin-text.newlistitemchildelement.type.md) | <code>'list-item-child'</code> |  |
-
+| Property                                                      | Type                           | Description |
+| ------------------------------------------------------------- | ------------------------------ | ----------- |
+| [children](./plugin-text.newlistitemchildelement.children.md) | <code>NewNode[]</code>         |             |
+| [type](./plugin-text.newlistitemchildelement.type.md)         | <code>'list-item-child'</code> |             |

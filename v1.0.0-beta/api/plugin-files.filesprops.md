@@ -4,9 +4,11 @@
 
 ## FilesProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FilesProps = EditorPluginProps<FilesPluginState, FilesPluginConfig>;
+export declare type FilesProps = EditorPluginProps<
+  FilesPluginState,
+  FilesPluginConfig
+>
 ```

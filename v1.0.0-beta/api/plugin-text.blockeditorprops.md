@@ -4,9 +4,8 @@
 
 ## BlockEditorProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type BlockEditorProps = RenderBlockProps;
+export declare type BlockEditorProps = RenderBlockProps
 ```

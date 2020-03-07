@@ -4,7 +4,6 @@
 
 ## wrap variable
 
-
 <b>Signature:</b>
 
 ```typescript

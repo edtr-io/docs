@@ -4,19 +4,17 @@
 
 ## EditorUiTheme interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface EditorUiTheme 
+export interface EditorUiTheme
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [bottomToolbar](./ui.editoruitheme.bottomtoolbar.md) | <code>{</code><br/><code>        backgroundColor: string;</code><br/><code>        color: string;</code><br/><code>    }</code> |  |
-|  [button](./ui.editoruitheme.button.md) | <code>{</code><br/><code>        backgroundColor: string;</code><br/><code>        color: string;</code><br/><code>        borderColor: string;</code><br/><code>        hoverBackgroundColor: string;</code><br/><code>        hoverColor: string;</code><br/><code>        hoverBorderColor: string;</code><br/><code>    }</code> |  |
-|  [checkbox](./ui.editoruitheme.checkbox.md) | <code>{</code><br/><code>        boxSelectedColor: string;</code><br/><code>        boxDeselectedColor: string;</code><br/><code>        color: string;</code><br/><code>    }</code> |  |
-|  [input](./ui.editoruitheme.input.md) | <code>{</code><br/><code>        backgroundColor: string;</code><br/><code>        color: string;</code><br/><code>        highlightColor: string;</code><br/><code>    }</code> |  |
-
+| Property                                             | Type                                                                                                                                                                                                                                                                                    | Description |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [bottomToolbar](./ui.editoruitheme.bottomtoolbar.md) | <code>{</code><br/><code> backgroundColor: string;</code><br/><code> color: string;</code><br/><code> }</code>                                                                                                                                                                          |             |
+| [button](./ui.editoruitheme.button.md)               | <code>{</code><br/><code> backgroundColor: string;</code><br/><code> color: string;</code><br/><code> borderColor: string;</code><br/><code> hoverBackgroundColor: string;</code><br/><code> hoverColor: string;</code><br/><code> hoverBorderColor: string;</code><br/><code> }</code> |             |
+| [checkbox](./ui.editoruitheme.checkbox.md)           | <code>{</code><br/><code> boxSelectedColor: string;</code><br/><code> boxDeselectedColor: string;</code><br/><code> color: string;</code><br/><code> }</code>                                                                                                                           |             |
+| [input](./ui.editoruitheme.input.md)                 | <code>{</code><br/><code> backgroundColor: string;</code><br/><code> color: string;</code><br/><code> highlightColor: string;</code><br/><code> }</code>                                                                                                                                |             |

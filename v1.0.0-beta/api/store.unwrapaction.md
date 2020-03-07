@@ -4,9 +4,8 @@
 
 ## UnwrapAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type UnwrapAction = ActionCreatorAction<typeof unwrap>;
+export declare type UnwrapAction = ActionCreatorAction<typeof unwrap>
 ```

@@ -9,11 +9,11 @@ React Hook to get the current [Theme](./ui.theme.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function useTheme(): Theme;
+export declare function useTheme(): Theme
 ```
+
 <b>Returns:</b>
 
 `Theme`
 
 The current [Theme](./ui.theme.md)
-

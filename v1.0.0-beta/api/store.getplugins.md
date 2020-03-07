@@ -4,7 +4,6 @@
 
 ## getPlugins variable
 
-
 <b>Signature:</b>
 
 ```typescript

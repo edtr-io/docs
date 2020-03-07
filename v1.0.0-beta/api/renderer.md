@@ -6,13 +6,12 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [Renderer({ theme, ...props })](./renderer.renderer.md) |  |
+| Function                                                | Description |
+| ------------------------------------------------------- | ----------- |
+| [Renderer({ theme, ...props })](./renderer.renderer.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [RendererProps](./renderer.rendererprops.md) |  |
-
+| Interface                                    | Description |
+| -------------------------------------------- | ----------- |
+| [RendererProps](./renderer.rendererprops.md) |             |

@@ -7,17 +7,19 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function serializedScalar<S, T>(initialState: T, serializer: Serializer<S, T>): SerializedScalarStateType<S, T>;
+export declare function serializedScalar<S, T>(
+  initialState: T,
+  serializer: Serializer<S, T>
+): SerializedScalarStateType<S, T>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initialState | <code>T</code> | The initial state |
-|  serializer | <code>Serializer&lt;S, T&gt;</code> | The [serializer](./plugin.serializer.md) |
+| Parameter    | Type                                | Description                              |
+| ------------ | ----------------------------------- | ---------------------------------------- |
+| initialState | <code>T</code>                      | The initial state                        |
+| serializer   | <code>Serializer&lt;S, T&gt;</code> | The [serializer](./plugin.serializer.md) |
 
 <b>Returns:</b>
 
 `SerializedScalarStateType<S, T>`
-

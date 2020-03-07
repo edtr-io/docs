@@ -4,7 +4,6 @@
 
 ## ScopeContext variable
 
-
 <b>Signature:</b>
 
 ```typescript

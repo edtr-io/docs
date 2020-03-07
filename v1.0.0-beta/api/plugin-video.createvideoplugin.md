@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createVideoPlugin(config?: VideoConfig): EditorPlugin<VideoPluginState, VideoPluginConfig>;
+export declare function createVideoPlugin(
+  config?: VideoConfig
+): EditorPlugin<VideoPluginState, VideoPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>VideoConfig</code> | [Plugin configuration](./plugin-video.videoconfig.md) |
+| Parameter | Type                     | Description                                           |
+| --------- | ------------------------ | ----------------------------------------------------- |
+| config    | <code>VideoConfig</code> | [Plugin configuration](./plugin-video.videoconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<VideoPluginState, VideoPluginConfig>`
-

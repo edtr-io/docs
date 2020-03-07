@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function useScope(enforcedScope?: string): string;
+export declare function useScope(enforcedScope?: string): string
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  enforcedScope | <code>string</code> | If provided, used as the scope instead of the current scope |
+| Parameter     | Type                | Description                                                 |
+| ------------- | ------------------- | ----------------------------------------------------------- |
+| enforcedScope | <code>string</code> | If provided, used as the scope instead of the current scope |
 
 <b>Returns:</b>
 
 `string`
-

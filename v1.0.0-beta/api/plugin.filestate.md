@@ -4,9 +4,8 @@
 
 ## FileState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FileState<T> = T | TempFile;
+export declare type FileState<T> = T | TempFile
 ```

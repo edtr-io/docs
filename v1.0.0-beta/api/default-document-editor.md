@@ -6,7 +6,6 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createDefaultDocumentEditor()](./default-document-editor.createdefaultdocumenteditor.md) | <b><i>(BETA)</i></b> Creates the default [document editor](./document-editor.documenteditorprops.md) |
-
+| Function                                                                                  | Description                                                                                          |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [createDefaultDocumentEditor()](./default-document-editor.createdefaultdocumenteditor.md) | <b><i>(BETA)</i></b> Creates the default [document editor](./document-editor.documenteditorprops.md) |

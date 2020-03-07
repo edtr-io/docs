@@ -4,18 +4,16 @@
 
 ## OldHeadingElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldHeadingElement 
+export interface OldHeadingElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [nodes](./plugin-text.oldheadingelement.nodes.md) | <code>OldNode[]</code> |  |
-|  [object](./plugin-text.oldheadingelement.object.md) | <code>'block'</code> |  |
-|  [type](./plugin-text.oldheadingelement.type.md) | <code>'@splish-me/h1' &#124; '@splish-me/h2' &#124; '@splish-me/h3' &#124; '@splish-me/h4' &#124; '@splish-me/h5' &#124; '@splish-me/h6'</code> |  |
-
+| Property                                            | Type                                                                                                                                            | Description |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [nodes](./plugin-text.oldheadingelement.nodes.md)   | <code>OldNode[]</code>                                                                                                                          |             |
+| [object](./plugin-text.oldheadingelement.object.md) | <code>'block'</code>                                                                                                                            |             |
+| [type](./plugin-text.oldheadingelement.type.md)     | <code>'@splish-me/h1' &#124; '@splish-me/h2' &#124; '@splish-me/h3' &#124; '@splish-me/h4' &#124; '@splish-me/h5' &#124; '@splish-me/h6'</code> |             |

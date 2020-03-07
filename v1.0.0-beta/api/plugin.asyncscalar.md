@@ -7,17 +7,19 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function asyncScalar<T, Temp>(initial: T, isTemporaryValue: (field: T | Temp) => boolean): AsyncScalarStateType<T, Temp>;
+export declare function asyncScalar<T, Temp>(
+  initial: T,
+  isTemporaryValue: (field: T | Temp) => boolean
+): AsyncScalarStateType<T, Temp>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  initial | <code>T</code> | The initialValue |
-|  isTemporaryValue | <code>(field: T &#124; Temp) =&gt; boolean</code> | Checks whether the given value is temporary |
+| Parameter        | Type                                              | Description                                 |
+| ---------------- | ------------------------------------------------- | ------------------------------------------- |
+| initial          | <code>T</code>                                    | The initialValue                            |
+| isTemporaryValue | <code>(field: T &#124; Temp) =&gt; boolean</code> | Checks whether the given value is temporary |
 
 <b>Returns:</b>
 
 `AsyncScalarStateType<T, Temp>`
-

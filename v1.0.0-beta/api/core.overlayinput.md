@@ -9,16 +9,15 @@ Renders the [OverlayInput](./plugin-toolbar.plugintoolbar.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function OverlayInput(props: OverlayInputProps): JSX.Element;
+export declare function OverlayInput(props: OverlayInputProps): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>OverlayInputProps</code> | [OverlayInputProps](./plugin-toolbar.overlayinputprops.md) |
+| Parameter | Type                           | Description                                                |
+| --------- | ------------------------------ | ---------------------------------------------------------- |
+| props     | <code>OverlayInputProps</code> | [OverlayInputProps](./plugin-toolbar.overlayinputprops.md) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

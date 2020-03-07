@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-file: File;
+file: File
 ```

@@ -4,7 +4,6 @@
 
 ## insertChildAfter variable
 
-
 <b>Signature:</b>
 
 ```typescript

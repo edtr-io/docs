@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createMultimediaExplanationPlugin(config)](./plugin-multimedia-explanation.createmultimediaexplanationplugin.md) |  |
+| Function                                                                                                          | Description |
+| ----------------------------------------------------------------------------------------------------------------- | ----------- |
+| [createMultimediaExplanationPlugin(config)](./plugin-multimedia-explanation.createmultimediaexplanationplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [MultimediaExplanationConfig](./plugin-multimedia-explanation.multimediaexplanationconfig.md) |  |
-|  [MultimediaExplanationPluginConfig](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.md) |  |
+| Interface                                                                                                 | Description |
+| --------------------------------------------------------------------------------------------------------- | ----------- |
+| [MultimediaExplanationConfig](./plugin-multimedia-explanation.multimediaexplanationconfig.md)             |             |
+| [MultimediaExplanationPluginConfig](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [MultimediaExplanationPluginState](./plugin-multimedia-explanation.multimediaexplanationpluginstate.md) |  |
-|  [MultimediaExplanationProps](./plugin-multimedia-explanation.multimediaexplanationprops.md) |  |
-
+| Type Alias                                                                                              | Description |
+| ------------------------------------------------------------------------------------------------------- | ----------- |
+| [MultimediaExplanationPluginState](./plugin-multimedia-explanation.multimediaexplanationpluginstate.md) |             |
+| [MultimediaExplanationProps](./plugin-multimedia-explanation.multimediaexplanationprops.md)             |             |

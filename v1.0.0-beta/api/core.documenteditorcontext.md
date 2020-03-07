@@ -4,7 +4,6 @@
 
 ## DocumentEditorContext variable
 
-
 <b>Signature:</b>
 
 ```typescript

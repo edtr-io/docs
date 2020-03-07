@@ -4,18 +4,16 @@
 
 ## ChildStateTypeConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface ChildStateTypeConfig<K extends string = string, S = unknown> 
+export interface ChildStateTypeConfig<K extends string = string, S = unknown>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [config](./plugin.childstatetypeconfig.config.md) | <code>{}</code> |  |
-|  [initialState](./plugin.childstatetypeconfig.initialstate.md) | <code>S</code> |  |
-|  [plugin](./plugin.childstatetypeconfig.plugin.md) | <code>K</code> |  |
-
+| Property                                                      | Type            | Description |
+| ------------------------------------------------------------- | --------------- | ----------- |
+| [config](./plugin.childstatetypeconfig.config.md)             | <code>{}</code> |             |
+| [initialState](./plugin.childstatetypeconfig.initialstate.md) | <code>S</code>  |             |
+| [plugin](./plugin.childstatetypeconfig.plugin.md)             | <code>K</code>  |             |

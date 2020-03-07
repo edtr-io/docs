@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createGeogebraPlugin(config)](./plugin-geogebra.creategeogebraplugin.md) |  |
+| Function                                                                  | Description |
+| ------------------------------------------------------------------------- | ----------- |
+| [createGeogebraPlugin(config)](./plugin-geogebra.creategeogebraplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [GeogebraConfig](./plugin-geogebra.geogebraconfig.md) |  |
-|  [GeogebraPluginConfig](./plugin-geogebra.geogebrapluginconfig.md) |  |
+| Interface                                                         | Description |
+| ----------------------------------------------------------------- | ----------- |
+| [GeogebraConfig](./plugin-geogebra.geogebraconfig.md)             |             |
+| [GeogebraPluginConfig](./plugin-geogebra.geogebrapluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [GeogebraPluginState](./plugin-geogebra.geogebrapluginstate.md) |  |
-|  [GeogebraProps](./plugin-geogebra.geogebraprops.md) |  |
-
+| Type Alias                                                      | Description |
+| --------------------------------------------------------------- | ----------- |
+| [GeogebraPluginState](./plugin-geogebra.geogebrapluginstate.md) |             |
+| [GeogebraProps](./plugin-geogebra.geogebraprops.md)             |             |

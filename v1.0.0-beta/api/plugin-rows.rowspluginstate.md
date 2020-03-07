@@ -4,9 +4,8 @@
 
 ## RowsPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type RowsPluginState = ListStateType<ChildStateType>;
+export declare type RowsPluginState = ListStateType<ChildStateType>
 ```

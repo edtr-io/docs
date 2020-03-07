@@ -4,9 +4,8 @@
 
 ## OverlayButtonProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayButtonProps = InternalPluginToolbar.OverlayButtonProps;
+export declare type OverlayButtonProps = InternalPluginToolbar.OverlayButtonProps
 ```

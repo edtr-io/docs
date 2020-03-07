@@ -8,6 +8,6 @@
 
 ```typescript
 data: {
-        href: string;
-    };
+  href: string
+}
 ```

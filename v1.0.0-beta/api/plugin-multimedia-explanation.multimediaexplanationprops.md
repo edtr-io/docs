@@ -4,9 +4,11 @@
 
 ## MultimediaExplanationProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type MultimediaExplanationProps = EditorPluginProps<MultimediaExplanationPluginState, MultimediaExplanationPluginConfig>;
+export declare type MultimediaExplanationProps = EditorPluginProps<
+  MultimediaExplanationPluginState,
+  MultimediaExplanationPluginConfig
+>
 ```

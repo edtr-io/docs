@@ -4,17 +4,15 @@
 
 ## NewParagraphElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewParagraphElement 
+export interface NewParagraphElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newparagraphelement.children.md) | <code>NewNode[]</code> |  |
-|  [type](./plugin-text.newparagraphelement.type.md) | <code>'p'</code> |  |
-
+| Property                                                  | Type                   | Description |
+| --------------------------------------------------------- | ---------------------- | ----------- |
+| [children](./plugin-text.newparagraphelement.children.md) | <code>NewNode[]</code> |             |
+| [type](./plugin-text.newparagraphelement.type.md)         | <code>'p'</code>       |             |

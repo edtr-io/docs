@@ -6,8 +6,7 @@
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [EditorPlugin](./internal__plugin.editorplugin.md) | An Edtr.io plugin |
-|  [EditorPluginProps](./internal__plugin.editorpluginprops.md) | Props for the component of an \[\[EditorPlugin\]\] |
-
+| Interface                                                    | Description                                        |
+| ------------------------------------------------------------ | -------------------------------------------------- |
+| [EditorPlugin](./internal__plugin.editorplugin.md)           | An Edtr.io plugin                                  |
+| [EditorPluginProps](./internal__plugin.editorpluginprops.md) | Props for the component of an \[\[EditorPlugin\]\] |

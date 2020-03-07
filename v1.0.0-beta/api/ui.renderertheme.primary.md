@@ -8,7 +8,7 @@
 
 ```typescript
 primary: {
-        color: string;
-        background: string;
-    };
+  color: string
+  background: string
+}
 ```

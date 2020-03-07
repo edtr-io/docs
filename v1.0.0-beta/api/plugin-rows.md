@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createRowsPlugin(config)](./plugin-rows.createrowsplugin.md) |  |
+| Function                                                      | Description |
+| ------------------------------------------------------------- | ----------- |
+| [createRowsPlugin(config)](./plugin-rows.createrowsplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [RowsConfig](./plugin-rows.rowsconfig.md) |  |
-|  [RowsPluginConfig](./plugin-rows.rowspluginconfig.md) |  |
+| Interface                                             | Description |
+| ----------------------------------------------------- | ----------- |
+| [RowsConfig](./plugin-rows.rowsconfig.md)             |             |
+| [RowsPluginConfig](./plugin-rows.rowspluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [RowsPluginState](./plugin-rows.rowspluginstate.md) |  |
-|  [RowsProps](./plugin-rows.rowsprops.md) |  |
-
+| Type Alias                                          | Description |
+| --------------------------------------------------- | ----------- |
+| [RowsPluginState](./plugin-rows.rowspluginstate.md) |             |
+| [RowsProps](./plugin-rows.rowsprops.md)             |             |

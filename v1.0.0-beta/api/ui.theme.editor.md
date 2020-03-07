@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-editor: EditorTheme;
+editor: EditorTheme
 ```

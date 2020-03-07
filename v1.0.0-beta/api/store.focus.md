@@ -4,7 +4,6 @@
 
 ## focus variable
 
-
 <b>Signature:</b>
 
 ```typescript

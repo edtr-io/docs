@@ -4,17 +4,15 @@
 
 ## DocumentState interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface DocumentState 
+export interface DocumentState
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [plugin](./store.documentstate.plugin.md) | <code>string</code> |  |
-|  [state](./store.documentstate.state.md) | <code>unknown</code> |  |
-
+| Property                                  | Type                 | Description |
+| ----------------------------------------- | -------------------- | ----------- |
+| [plugin](./store.documentstate.plugin.md) | <code>string</code>  |             |
+| [state](./store.documentstate.state.md)   | <code>unknown</code> |             |

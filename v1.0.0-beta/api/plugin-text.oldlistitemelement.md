@@ -4,18 +4,16 @@
 
 ## OldListItemElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldListItemElement 
+export interface OldListItemElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [nodes](./plugin-text.oldlistitemelement.nodes.md) | <code>OldNode[]</code> |  |
-|  [object](./plugin-text.oldlistitemelement.object.md) | <code>'block'</code> |  |
-|  [type](./plugin-text.oldlistitemelement.type.md) | <code>'list-item'</code> |  |
-
+| Property                                             | Type                     | Description |
+| ---------------------------------------------------- | ------------------------ | ----------- |
+| [nodes](./plugin-text.oldlistitemelement.nodes.md)   | <code>OldNode[]</code>   |             |
+| [object](./plugin-text.oldlistitemelement.object.md) | <code>'block'</code>     |             |
+| [type](./plugin-text.oldlistitemelement.type.md)     | <code>'list-item'</code> |             |

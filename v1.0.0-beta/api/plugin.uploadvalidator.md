@@ -4,14 +4,17 @@
 
 ## UploadValidator type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type UploadValidator<E = unknown> = (file: File) => {
-    valid: true;
-} | {
-    valid: false;
-    errors: E;
-};
+export declare type UploadValidator<E = unknown> = (
+  file: File
+) =>
+  | {
+      valid: true
+    }
+  | {
+      valid: false
+      errors: E
+    }
 ```

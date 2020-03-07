@@ -4,17 +4,15 @@
 
 ## HighlightPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface HighlightPluginConfig 
+export interface HighlightPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-highlight.highlightpluginconfig.i18n.md) | <code>{</code><br/><code>        code: {</code><br/><code>            label: string;</code><br/><code>            placeholder: string;</code><br/><code>        };</code><br/><code>        language: {</code><br/><code>            label: string;</code><br/><code>            placeholder: string;</code><br/><code>        };</code><br/><code>        showLineNumbers: {</code><br/><code>            label: string;</code><br/><code>        };</code><br/><code>    }</code> |  |
-|  [Renderer](./plugin-highlight.highlightpluginconfig.renderer.md) | <code>React.ComponentType&lt;HighlightRendererProps&gt;</code> |  |
-
+| Property                                                         | Type                                                                                                                                                                                                                                                                                                                                                                            | Description |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-highlight.highlightpluginconfig.i18n.md)         | <code>{</code><br/><code> code: {</code><br/><code> label: string;</code><br/><code> placeholder: string;</code><br/><code> };</code><br/><code> language: {</code><br/><code> label: string;</code><br/><code> placeholder: string;</code><br/><code> };</code><br/><code> showLineNumbers: {</code><br/><code> label: string;</code><br/><code> };</code><br/><code> }</code> |             |
+| [Renderer](./plugin-highlight.highlightpluginconfig.renderer.md) | <code>React.ComponentType&lt;HighlightRendererProps&gt;</code>                                                                                                                                                                                                                                                                                                                  |             |

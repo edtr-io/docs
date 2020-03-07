@@ -12,12 +12,11 @@ upload(file: File, handler: UploadHandler<T>): Promise<T>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  file | <code>File</code> |  |
-|  handler | <code>UploadHandler&lt;T&gt;</code> |  |
+| Parameter | Type                                | Description |
+| --------- | ----------------------------------- | ----------- |
+| file      | <code>File</code>                   |             |
+| handler   | <code>UploadHandler&lt;T&gt;</code> |             |
 
 <b>Returns:</b>
 
 `Promise<T>`
-

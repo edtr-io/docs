@@ -4,9 +4,15 @@
 
 ## Action type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type Action = ClipboardAction | DocumentsAction | FocusAction | HistoryAction | PluginAction | RootAction | SetPartialState;
+export declare type Action =
+  | ClipboardAction
+  | DocumentsAction
+  | FocusAction
+  | HistoryAction
+  | PluginAction
+  | RootAction
+  | SetPartialState
 ```

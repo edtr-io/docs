@@ -4,9 +4,10 @@
 
 ## EditorUiThemeFactory type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type EditorUiThemeFactory<K extends keyof EditorUiTheme> = (theme: EditorTheme) => EditorUiTheme[K];
+export declare type EditorUiThemeFactory<K extends keyof EditorUiTheme> = (
+  theme: EditorTheme
+) => EditorUiTheme[K]
 ```

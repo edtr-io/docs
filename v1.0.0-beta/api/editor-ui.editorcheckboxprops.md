@@ -4,18 +4,16 @@
 
 ## EditorCheckboxProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface EditorCheckboxProps 
+export interface EditorCheckboxProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [checked](./editor-ui.editorcheckboxprops.checked.md) | <code>boolean</code> |  |
-|  [label](./editor-ui.editorcheckboxprops.label.md) | <code>string</code> |  |
-|  [onChange](./editor-ui.editorcheckboxprops.onchange.md) | <code>(checked: boolean) =&gt; void</code> |  |
-
+| Property                                                | Type                                       | Description |
+| ------------------------------------------------------- | ------------------------------------------ | ----------- |
+| [checked](./editor-ui.editorcheckboxprops.checked.md)   | <code>boolean</code>                       |             |
+| [label](./editor-ui.editorcheckboxprops.label.md)       | <code>string</code>                        |             |
+| [onChange](./editor-ui.editorcheckboxprops.onchange.md) | <code>(checked: boolean) =&gt; void</code> |             |

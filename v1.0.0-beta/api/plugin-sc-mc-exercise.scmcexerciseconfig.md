@@ -4,18 +4,16 @@
 
 ## ScMcExerciseConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface ScMcExerciseConfig extends Omit<ScMcExercisePluginConfig, 'i18n'> 
+export interface ScMcExerciseConfig extends Omit<ScMcExercisePluginConfig, 'i18n'>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [content](./plugin-sc-mc-exercise.scmcexerciseconfig.content.md) | <code>ChildStateTypeConfig</code> |  |
-|  [feedback](./plugin-sc-mc-exercise.scmcexerciseconfig.feedback.md) | <code>ChildStateTypeConfig</code> |  |
-|  [i18n](./plugin-sc-mc-exercise.scmcexerciseconfig.i18n.md) | <code>DeepPartial&lt;ScMcExercisePluginConfig['i18n']&gt;</code> |  |
-
+| Property                                                           | Type                                                             | Description |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------- | ----------- |
+| [content](./plugin-sc-mc-exercise.scmcexerciseconfig.content.md)   | <code>ChildStateTypeConfig</code>                                |             |
+| [feedback](./plugin-sc-mc-exercise.scmcexerciseconfig.feedback.md) | <code>ChildStateTypeConfig</code>                                |             |
+| [i18n](./plugin-sc-mc-exercise.scmcexerciseconfig.i18n.md)         | <code>DeepPartial&lt;ScMcExercisePluginConfig['i18n']&gt;</code> |             |

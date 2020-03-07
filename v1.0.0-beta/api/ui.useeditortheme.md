@@ -10,16 +10,13 @@ React Hook for the editor theming
 
 ```typescript
 export declare function useEditorTheme(): {
-    editor: EditorTheme;
-    editorUi: DeepPartial<EditorUiTheme>;
-};
+  editor: EditorTheme
+  editorUi: DeepPartial<EditorUiTheme>
+}
 ```
+
 <b>Returns:</b>
 
-`{
-    editor: EditorTheme;
-    editorUi: DeepPartial<EditorUiTheme>;
-}`
+`{ editor: EditorTheme; editorUi: DeepPartial<EditorUiTheme>; }`
 
 An object containing the current [editor theme](./ui.editortheme.md) and [editor UI theme](./ui.editoruitheme.md)
-

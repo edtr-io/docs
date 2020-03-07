@@ -5,7 +5,6 @@
 ## DocumentEditorProps.renderSettings() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Render prop to override rendering of settings
 
@@ -19,14 +18,13 @@ renderSettings?(children: React.ReactNode, { close }: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  children | <code>React.ReactNode</code> | the rendered settings |
-|  { close } | <code>{</code><br/><code>        close(): void;</code><br/><code>    }</code> |  |
+| Parameter | Type                                                                | Description           |
+| --------- | ------------------------------------------------------------------- | --------------------- |
+| children  | <code>React.ReactNode</code>                                        | the rendered settings |
+| { close } | <code>{</code><br/><code> close(): void;</code><br/><code> }</code> |                       |
 
 <b>Returns:</b>
 
 `React.ReactNode`
 
 the newly rendered settings
-

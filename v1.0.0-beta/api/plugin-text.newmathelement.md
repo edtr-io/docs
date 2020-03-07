@@ -4,19 +4,17 @@
 
 ## NewMathElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewMathElement 
+export interface NewMathElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newmathelement.children.md) | <code>NewNode[]</code> |  |
-|  [inline](./plugin-text.newmathelement.inline.md) | <code>boolean</code> |  |
-|  [src](./plugin-text.newmathelement.src.md) | <code>string</code> |  |
-|  [type](./plugin-text.newmathelement.type.md) | <code>'math'</code> |  |
-
+| Property                                             | Type                   | Description |
+| ---------------------------------------------------- | ---------------------- | ----------- |
+| [children](./plugin-text.newmathelement.children.md) | <code>NewNode[]</code> |             |
+| [inline](./plugin-text.newmathelement.inline.md)     | <code>boolean</code>   |             |
+| [src](./plugin-text.newmathelement.src.md)           | <code>string</code>    |             |
+| [type](./plugin-text.newmathelement.type.md)         | <code>'math'</code>    |             |

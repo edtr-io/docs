@@ -4,9 +4,8 @@
 
 ## OldMark type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OldMark = OldStrongMark | OldEmphasizeMark | OldColorMark;
+export declare type OldMark = OldStrongMark | OldEmphasizeMark | OldColorMark
 ```

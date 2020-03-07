@@ -4,17 +4,15 @@
 
 ## OldStrongMark interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldStrongMark 
+export interface OldStrongMark
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [object](./plugin-text.oldstrongmark.object.md) | <code>'mark'</code> |  |
-|  [type](./plugin-text.oldstrongmark.type.md) | <code>'@splish-me/strong'</code> |  |
-
+| Property                                        | Type                             | Description |
+| ----------------------------------------------- | -------------------------------- | ----------- |
+| [object](./plugin-text.oldstrongmark.object.md) | <code>'mark'</code>              |             |
+| [type](./plugin-text.oldstrongmark.type.md)     | <code>'@splish-me/strong'</code> |             |

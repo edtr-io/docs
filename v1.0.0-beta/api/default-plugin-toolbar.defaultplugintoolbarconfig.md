@@ -5,18 +5,15 @@
 ## DefaultPluginToolbarConfig interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
-
 
 <b>Signature:</b>
 
 ```typescript
-export interface DefaultPluginToolbarConfig 
+export interface DefaultPluginToolbarConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [primaryColor](./default-plugin-toolbar.defaultplugintoolbarconfig.primarycolor.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-
+| Property                                                                            | Type                | Description          |
+| ----------------------------------------------------------------------------------- | ------------------- | -------------------- |
+| [primaryColor](./default-plugin-toolbar.defaultplugintoolbarconfig.primarycolor.md) | <code>string</code> | <b><i>(BETA)</i></b> |

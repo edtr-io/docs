@@ -7,23 +7,27 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function object<Ds extends Record<string, StateType>>(types: Ds, getFocusableChildren?: (children: {
-    [K in keyof Ds]: {
-        id: string;
-    }[];
-}) => {
-    id: string;
-}[]): ObjectStateType<Ds>;
+export declare function object<Ds extends Record<string, StateType>>(
+  types: Ds,
+  getFocusableChildren?: (
+    children: {
+      [K in keyof Ds]: {
+        id: string
+      }[]
+    }
+  ) => {
+    id: string
+  }[]
+): ObjectStateType<Ds>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  types | <code>Ds</code> | The [state types](./internal__plugin-state.statetype.md) of the properties of the object |
-|  getFocusableChildren | <code>(children: {</code><br/><code>    [K in keyof Ds]: {</code><br/><code>        id: string;</code><br/><code>    }[];</code><br/><code>}) =&gt; {</code><br/><code>    id: string;</code><br/><code>}[]</code> | Allows to override the default order of focusable children |
+| Parameter            | Type                                                                                                                                                                                               | Description                                                                              |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| types                | <code>Ds</code>                                                                                                                                                                                    | The [state types](./internal__plugin-state.statetype.md) of the properties of the object |
+| getFocusableChildren | <code>(children: {</code><br/><code> [K in keyof Ds]: {</code><br/><code> id: string;</code><br/><code> }[];</code><br/><code>}) =&gt; {</code><br/><code> id: string;</code><br/><code>}[]</code> | Allows to override the default order of focusable children                               |
 
 <b>Returns:</b>
 
 `ObjectStateType<Ds>`
-

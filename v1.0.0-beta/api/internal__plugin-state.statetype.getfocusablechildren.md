@@ -14,13 +14,12 @@ getFocusableChildren(state: T): FocusableChild[];
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  state | <code>T</code> | current state |
+| Parameter | Type           | Description   |
+| --------- | -------------- | ------------- |
+| state     | <code>T</code> | current state |
 
 <b>Returns:</b>
 
 `FocusableChild[]`
 
 an array of children, each described by an object with an `id`
-

@@ -8,7 +8,7 @@
 
 ```typescript
 i18n: {
-        label: string;
-        placeholder: string;
-    };
+  label: string
+  placeholder: string
+}
 ```

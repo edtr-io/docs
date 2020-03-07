@@ -8,6 +8,6 @@
 
 ```typescript
 data: {
-        colorIndex: number;
-    };
+  colorIndex: number
+}
 ```

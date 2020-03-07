@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createAnchorPlugin(config?: AnchorConfig): EditorPlugin<AnchorPluginState, AnchorPluginConfig>;
+export declare function createAnchorPlugin(
+  config?: AnchorConfig
+): EditorPlugin<AnchorPluginState, AnchorPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>AnchorConfig</code> | [Plugin configuration](./plugin-anchor.anchorconfig.md) |
+| Parameter | Type                      | Description                                             |
+| --------- | ------------------------- | ------------------------------------------------------- |
+| config    | <code>AnchorConfig</code> | [Plugin configuration](./plugin-anchor.anchorconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<AnchorPluginState, AnchorPluginConfig>`
-

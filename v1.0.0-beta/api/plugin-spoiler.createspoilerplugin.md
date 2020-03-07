@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createSpoilerPlugin(config: SpoilerConfig): EditorPlugin<SpoilerPluginState, SpoilerPluginConfig>;
+export declare function createSpoilerPlugin(
+  config: SpoilerConfig
+): EditorPlugin<SpoilerPluginState, SpoilerPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>SpoilerConfig</code> | [Plugin configuration](./plugin-spoiler.spoilerconfig.md) |
+| Parameter | Type                       | Description                                               |
+| --------- | -------------------------- | --------------------------------------------------------- |
+| config    | <code>SpoilerConfig</code> | [Plugin configuration](./plugin-spoiler.spoilerconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<SpoilerPluginState, SpoilerPluginConfig>`
-

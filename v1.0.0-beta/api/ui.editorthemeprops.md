@@ -4,12 +4,11 @@
 
 ## EditorThemeProps type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type EditorThemeProps = StyledThemeProps<{
-    editor: EditorTheme;
-    editorUi: DeepPartial<EditorUiTheme>;
-}>;
+  editor: EditorTheme
+  editorUi: DeepPartial<EditorUiTheme>
+}>
 ```

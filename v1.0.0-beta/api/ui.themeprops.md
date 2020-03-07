@@ -9,5 +9,5 @@ Props that any styled-components automatically receive, see also [Theming](https
 <b>Signature:</b>
 
 ```typescript
-export declare type ThemeProps = StyledComponents.ThemeProps<Theme>;
+export declare type ThemeProps = StyledComponents.ThemeProps<Theme>
 ```

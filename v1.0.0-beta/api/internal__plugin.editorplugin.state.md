@@ -9,5 +9,5 @@
 <b>Signature:</b>
 
 ```typescript
-state: S;
+state: S
 ```

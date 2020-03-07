@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createScMcExercisePlugin(config: ScMcExerciseConfig): EditorPlugin<ScMcExercisePluginState, ScMcExercisePluginConfig>;
+export declare function createScMcExercisePlugin(
+  config: ScMcExerciseConfig
+): EditorPlugin<ScMcExercisePluginState, ScMcExercisePluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>ScMcExerciseConfig</code> | [Plugin configuration](./plugin-sc-mc-exercise.scmcexerciseconfig.md) |
+| Parameter | Type                            | Description                                                           |
+| --------- | ------------------------------- | --------------------------------------------------------------------- |
+| config    | <code>ScMcExerciseConfig</code> | [Plugin configuration](./plugin-sc-mc-exercise.scmcexerciseconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<ScMcExercisePluginState, ScMcExercisePluginConfig>`
-

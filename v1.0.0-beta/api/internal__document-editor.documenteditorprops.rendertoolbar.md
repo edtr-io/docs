@@ -5,7 +5,6 @@
 ## DocumentEditorProps.renderToolbar() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Render prop to override rendering of toolbar
 
@@ -17,13 +16,12 @@ renderToolbar?(children: React.ReactNode): React.ReactNode;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  children | <code>React.ReactNode</code> | the rendered settings |
+| Parameter | Type                         | Description           |
+| --------- | ---------------------------- | --------------------- |
+| children  | <code>React.ReactNode</code> | the rendered settings |
 
 <b>Returns:</b>
 
 `React.ReactNode`
 
 the newly rendered settings
-

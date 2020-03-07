@@ -4,20 +4,18 @@
 
 ## TextConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface TextConfig 
+export interface TextConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [blockquote](./plugin-text.textconfig.blockquote.md) | <code>string</code> |  |
-|  [i18n](./plugin-text.textconfig.i18n.md) | <code>DeepPartial&lt;TextPluginConfig['i18n']&gt;</code> |  |
-|  [placeholder](./plugin-text.textconfig.placeholder.md) | <code>TextPluginConfig['placeholder']</code> |  |
-|  [registry](./plugin-text.textconfig.registry.md) | <code>TextPluginConfig['registry']</code> |  |
-|  [theme](./plugin-text.textconfig.theme.md) | <code>DeepPartial&lt;TextPluginConfig['theme']&gt;</code> |  |
-
+| Property                                               | Type                                                      | Description |
+| ------------------------------------------------------ | --------------------------------------------------------- | ----------- |
+| [blockquote](./plugin-text.textconfig.blockquote.md)   | <code>string</code>                                       |             |
+| [i18n](./plugin-text.textconfig.i18n.md)               | <code>DeepPartial&lt;TextPluginConfig['i18n']&gt;</code>  |             |
+| [placeholder](./plugin-text.textconfig.placeholder.md) | <code>TextPluginConfig['placeholder']</code>              |             |
+| [registry](./plugin-text.textconfig.registry.md)       | <code>TextPluginConfig['registry']</code>                 |             |
+| [theme](./plugin-text.textconfig.theme.md)             | <code>DeepPartial&lt;TextPluginConfig['theme']&gt;</code> |             |

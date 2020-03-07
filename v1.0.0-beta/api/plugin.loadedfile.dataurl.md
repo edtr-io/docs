@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-dataUrl: string;
+dataUrl: string
 ```

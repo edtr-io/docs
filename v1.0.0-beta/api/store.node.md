@@ -4,17 +4,15 @@
 
 ## Node interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface Node 
+export interface Node
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./store.node.children.md) | <code>Node[]</code> |  |
-|  [id](./store.node.id.md) | <code>string</code> |  |
-
+| Property                             | Type                | Description |
+| ------------------------------------ | ------------------- | ----------- |
+| [children](./store.node.children.md) | <code>Node[]</code> |             |
+| [id](./store.node.id.md)             | <code>string</code> |             |

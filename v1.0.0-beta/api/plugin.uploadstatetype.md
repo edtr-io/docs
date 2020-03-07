@@ -4,9 +4,12 @@
 
 ## UploadStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type UploadStateType<T> = StateType<FileState<T>, FileState<T>, UploadStateReturnType<T>>;
+export declare type UploadStateType<T> = StateType<
+  FileState<T>,
+  FileState<T>,
+  UploadStateReturnType<T>
+>
 ```

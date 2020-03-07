@@ -5,21 +5,19 @@
 ## OverlaySelectProps interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 The props for [OverlaySelect](./internal__plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export interface OverlaySelectProps extends React.DetailedHTMLProps<React.SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement> 
+export interface OverlaySelectProps extends React.DetailedHTMLProps<React.SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [label](./internal__plugin-toolbar.overlayselectprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [options](./internal__plugin-toolbar.overlayselectprops.options.md) | <code>string[]</code> | <b><i>(BETA)</i></b> |
-|  [width](./internal__plugin-toolbar.overlayselectprops.width.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-
+| Property                                                            | Type                  | Description          |
+| ------------------------------------------------------------------- | --------------------- | -------------------- |
+| [label](./internal__plugin-toolbar.overlayselectprops.label.md)     | <code>string</code>   | <b><i>(BETA)</i></b> |
+| [options](./internal__plugin-toolbar.overlayselectprops.options.md) | <code>string[]</code> | <b><i>(BETA)</i></b> |
+| [width](./internal__plugin-toolbar.overlayselectprops.width.md)     | <code>string</code>   | <b><i>(BETA)</i></b> |

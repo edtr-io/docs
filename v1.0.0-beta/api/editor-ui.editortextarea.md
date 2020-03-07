@@ -4,7 +4,6 @@
 
 ## EditorTextarea variable
 
-
 <b>Signature:</b>
 
 ```typescript

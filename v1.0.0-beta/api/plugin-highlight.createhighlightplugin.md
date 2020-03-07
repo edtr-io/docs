@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createHighlightPlugin(config?: HighlightConfig): EditorPlugin<HighlightPluginState, HighlightPluginConfig>;
+export declare function createHighlightPlugin(
+  config?: HighlightConfig
+): EditorPlugin<HighlightPluginState, HighlightPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>HighlightConfig</code> | [Plugin configuration](./plugin-highlight.highlightconfig.md) |
+| Parameter | Type                         | Description                                                   |
+| --------- | ---------------------------- | ------------------------------------------------------------- |
+| config    | <code>HighlightConfig</code> | [Plugin configuration](./plugin-highlight.highlightconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<HighlightPluginState, HighlightPluginConfig>`
-

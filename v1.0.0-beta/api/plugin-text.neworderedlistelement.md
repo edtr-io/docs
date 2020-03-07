@@ -4,17 +4,15 @@
 
 ## NewOrderedListElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewOrderedListElement 
+export interface NewOrderedListElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.neworderedlistelement.children.md) | <code>NewNode[]</code> |  |
-|  [type](./plugin-text.neworderedlistelement.type.md) | <code>'ordered-list'</code> |  |
-
+| Property                                                    | Type                        | Description |
+| ----------------------------------------------------------- | --------------------------- | ----------- |
+| [children](./plugin-text.neworderedlistelement.children.md) | <code>NewNode[]</code>      |             |
+| [type](./plugin-text.neworderedlistelement.type.md)         | <code>'ordered-list'</code> |             |

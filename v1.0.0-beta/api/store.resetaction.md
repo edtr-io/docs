@@ -4,9 +4,8 @@
 
 ## ResetAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ResetAction = ActionCreatorAction<typeof reset>;
+export declare type ResetAction = ActionCreatorAction<typeof reset>
 ```

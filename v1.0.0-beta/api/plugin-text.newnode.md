@@ -4,9 +4,8 @@
 
 ## NewNode type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type NewNode = NewText | NewElement;
+export declare type NewNode = NewText | NewElement
 ```

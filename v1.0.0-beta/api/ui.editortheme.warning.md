@@ -8,7 +8,7 @@
 
 ```typescript
 warning: {
-        color: string;
-        background: string;
-    };
+  color: string
+  background: string
+}
 ```

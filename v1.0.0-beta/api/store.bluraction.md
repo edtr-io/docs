@@ -4,9 +4,8 @@
 
 ## BlurAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type BlurAction = ActionCreatorAction<typeof blur>;
+export declare type BlurAction = ActionCreatorAction<typeof blur>
 ```

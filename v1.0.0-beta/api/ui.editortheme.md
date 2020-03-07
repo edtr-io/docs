@@ -4,23 +4,21 @@
 
 ## EditorTheme interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface EditorTheme 
+export interface EditorTheme
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [backgroundColor](./ui.editortheme.backgroundcolor.md) | <code>string</code> |  |
-|  [color](./ui.editortheme.color.md) | <code>string</code> |  |
-|  [danger](./ui.editortheme.danger.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-|  [info](./ui.editortheme.info.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-|  [primary](./ui.editortheme.primary.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-|  [secondary](./ui.editortheme.secondary.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-|  [success](./ui.editortheme.success.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-|  [warning](./ui.editortheme.warning.md) | <code>{</code><br/><code>        color: string;</code><br/><code>        background: string;</code><br/><code>    }</code> |  |
-
+| Property                                               | Type                                                                                                      | Description |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------- |
+| [backgroundColor](./ui.editortheme.backgroundcolor.md) | <code>string</code>                                                                                       |             |
+| [color](./ui.editortheme.color.md)                     | <code>string</code>                                                                                       |             |
+| [danger](./ui.editortheme.danger.md)                   | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |
+| [info](./ui.editortheme.info.md)                       | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |
+| [primary](./ui.editortheme.primary.md)                 | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |
+| [secondary](./ui.editortheme.secondary.md)             | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |
+| [success](./ui.editortheme.success.md)                 | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |
+| [warning](./ui.editortheme.warning.md)                 | <code>{</code><br/><code> color: string;</code><br/><code> background: string;</code><br/><code> }</code> |             |

@@ -4,20 +4,22 @@
 
 ## child() function
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare function child<K extends string, S = unknown>({ plugin, initialState, config }: ChildStateTypeConfig): ChildStateType<K, S>;
+export declare function child<K extends string, S = unknown>({
+  plugin,
+  initialState,
+  config
+}: ChildStateTypeConfig): ChildStateType<K, S>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  { plugin, initialState, config } | <code>ChildStateTypeConfig</code> |  |
+| Parameter                        | Type                              | Description |
+| -------------------------------- | --------------------------------- | ----------- |
+| { plugin, initialState, config } | <code>ChildStateTypeConfig</code> |             |
 
 <b>Returns:</b>
 
 `ChildStateType<K, S>`
-

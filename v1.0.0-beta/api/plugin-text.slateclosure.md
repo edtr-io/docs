@@ -4,18 +4,16 @@
 
 ## SlateClosure interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface SlateClosure 
+export interface SlateClosure
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [config](./plugin-text.slateclosure.config.md) | <code>TextPluginConfig</code> |  |
-|  [id](./plugin-text.slateclosure.id.md) | <code>TextProps['id']</code> |  |
-|  [store](./plugin-text.slateclosure.store.md) | <code>ReturnType&lt;typeof useScopedStore&gt;</code> |  |
-
+| Property                                       | Type                                                 | Description |
+| ---------------------------------------------- | ---------------------------------------------------- | ----------- |
+| [config](./plugin-text.slateclosure.config.md) | <code>TextPluginConfig</code>                        |             |
+| [id](./plugin-text.slateclosure.id.md)         | <code>TextProps['id']</code>                         |             |
+| [store](./plugin-text.slateclosure.store.md)   | <code>ReturnType&lt;typeof useScopedStore&gt;</code> |             |

@@ -4,9 +4,8 @@
 
 ## OverlayTextareaProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayTextareaProps = InternalPluginToolbar.OverlayTextareaProps;
+export declare type OverlayTextareaProps = InternalPluginToolbar.OverlayTextareaProps
 ```

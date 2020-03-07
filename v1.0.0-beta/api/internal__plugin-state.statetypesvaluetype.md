@@ -4,11 +4,12 @@
 
 ## StateTypesValueType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypesValueType<Ds extends Record<string, StateType>> = {
-    [K in keyof Ds]: StateTypeValueType<Ds[K]>;
-};
+export declare type StateTypesValueType<
+  Ds extends Record<string, StateType>
+> = {
+  [K in keyof Ds]: StateTypeValueType<Ds[K]>
+}
 ```

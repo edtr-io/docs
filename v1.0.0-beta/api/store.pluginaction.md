@@ -4,9 +4,11 @@
 
 ## PluginAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type PluginAction = InsertChildBeforeAction | InsertChildAfterAction | RemoveChildAction;
+export declare type PluginAction =
+  | InsertChildBeforeAction
+  | InsertChildAfterAction
+  | RemoveChildAction
 ```

@@ -4,9 +4,10 @@
 
 ## StateTypesReturnType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypesReturnType<Ds extends Record<string, StateType>> = InternalPluginState.StateTypesReturnType<Ds>;
+export declare type StateTypesReturnType<
+  Ds extends Record<string, StateType>
+> = InternalPluginState.StateTypesReturnType<Ds>
 ```

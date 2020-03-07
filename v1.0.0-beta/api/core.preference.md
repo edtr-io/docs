@@ -5,19 +5,16 @@
 ## Preference interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
-
 
 <b>Signature:</b>
 
 ```typescript
-export interface Preference 
+export interface Preference
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [getKey](./core.preference.getkey.md) | <code>(key: string) =&gt; unknown</code> | <b><i>(BETA)</i></b> |
-|  [setKey](./core.preference.setkey.md) | <code>(key: string, val: unknown) =&gt; void</code> | <b><i>(BETA)</i></b> |
-
+| Property                              | Type                                                | Description          |
+| ------------------------------------- | --------------------------------------------------- | -------------------- |
+| [getKey](./core.preference.getkey.md) | <code>(key: string) =&gt; unknown</code>            | <b><i>(BETA)</i></b> |
+| [setKey](./core.preference.setkey.md) | <code>(key: string, val: unknown) =&gt; void</code> | <b><i>(BETA)</i></b> |

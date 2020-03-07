@@ -4,9 +4,8 @@
 
 ## BlockquoteProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type BlockquoteProps = EditorPluginProps<BlockquotePluginState>;
+export declare type BlockquoteProps = EditorPluginProps<BlockquotePluginState>
 ```

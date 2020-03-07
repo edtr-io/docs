@@ -4,20 +4,21 @@
 
 ## Renderer() function
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare function Renderer<K extends string = string>({ theme, ...props }: RendererProps<K>): JSX.Element;
+export declare function Renderer<K extends string = string>({
+  theme,
+  ...props
+}: RendererProps<K>): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  { theme, ...props } | <code>RendererProps&lt;K&gt;</code> |  |
+| Parameter           | Type                                | Description |
+| ------------------- | ----------------------------------- | ----------- |
+| { theme, ...props } | <code>RendererProps&lt;K&gt;</code> |             |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

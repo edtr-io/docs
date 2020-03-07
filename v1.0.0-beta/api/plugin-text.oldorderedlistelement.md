@@ -4,18 +4,16 @@
 
 ## OldOrderedListElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface OldOrderedListElement 
+export interface OldOrderedListElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [nodes](./plugin-text.oldorderedlistelement.nodes.md) | <code>OldNode[]</code> |  |
-|  [object](./plugin-text.oldorderedlistelement.object.md) | <code>'block'</code> |  |
-|  [type](./plugin-text.oldorderedlistelement.type.md) | <code>'ordered-list'</code> |  |
-
+| Property                                                | Type                        | Description |
+| ------------------------------------------------------- | --------------------------- | ----------- |
+| [nodes](./plugin-text.oldorderedlistelement.nodes.md)   | <code>OldNode[]</code>      |             |
+| [object](./plugin-text.oldorderedlistelement.object.md) | <code>'block'</code>        |             |
+| [type](./plugin-text.oldorderedlistelement.type.md)     | <code>'ordered-list'</code> |             |

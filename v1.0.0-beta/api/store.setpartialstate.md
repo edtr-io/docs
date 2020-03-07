@@ -4,7 +4,6 @@
 
 ## setPartialState variable
 
-
 <b>Signature:</b>
 
 ```typescript

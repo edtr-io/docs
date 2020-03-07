@@ -4,9 +4,12 @@
 
 ## StateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateType<S = any, T = any, R = any> = InternalPluginState.StateType<S, T, R>;
+export declare type StateType<
+  S = any,
+  T = any,
+  R = any
+> = InternalPluginState.StateType<S, T, R>
 ```

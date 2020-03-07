@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-type: 'list-item';
+type: 'list-item'
 ```

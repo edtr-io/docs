@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-payload: string | null;
+payload: string | null
 ```

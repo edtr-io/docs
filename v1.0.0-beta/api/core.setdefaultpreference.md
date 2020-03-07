@@ -5,24 +5,22 @@
 ## setDefaultPreference() function
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Sets a preference
 
 <b>Signature:</b>
 
 ```typescript
-export declare function setDefaultPreference(key: string, val: unknown): void;
+export declare function setDefaultPreference(key: string, val: unknown): void
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  key | <code>string</code> | The preference |
-|  val | <code>unknown</code> | The value |
+| Parameter | Type                 | Description    |
+| --------- | -------------------- | -------------- |
+| key       | <code>string</code>  | The preference |
+| val       | <code>unknown</code> | The value      |
 
 <b>Returns:</b>
 
 `void`
-

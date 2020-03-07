@@ -4,9 +4,10 @@
 
 ## FilesPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type FilesPluginState = ListStateType<UploadStateType<UploadedFile>>;
+export declare type FilesPluginState = ListStateType<
+  UploadStateType<UploadedFile>
+>
 ```

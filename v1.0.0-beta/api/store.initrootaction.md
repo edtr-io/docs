@@ -4,9 +4,8 @@
 
 ## InitRootAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InitRootAction = ActionCreatorAction<typeof initRoot>;
+export declare type InitRootAction = ActionCreatorAction<typeof initRoot>
 ```

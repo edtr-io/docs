@@ -9,16 +9,17 @@ Renders the [OverlayCheckbox](./plugin-toolbar.plugintoolbar.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function OverlayCheckbox(props: OverlayCheckboxProps): JSX.Element;
+export declare function OverlayCheckbox(
+  props: OverlayCheckboxProps
+): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>OverlayCheckboxProps</code> | [OverlayCheckboxProps](./plugin-toolbar.overlaycheckboxprops.md) |
+| Parameter | Type                              | Description                                                      |
+| --------- | --------------------------------- | ---------------------------------------------------------------- |
+| props     | <code>OverlayCheckboxProps</code> | [OverlayCheckboxProps](./plugin-toolbar.overlaycheckboxprops.md) |
 
 <b>Returns:</b>
 
 `JSX.Element`
-

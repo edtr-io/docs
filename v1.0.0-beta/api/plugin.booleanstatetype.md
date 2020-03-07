@@ -4,9 +4,8 @@
 
 ## BooleanStateType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type BooleanStateType = ScalarStateType<boolean>;
+export declare type BooleanStateType = ScalarStateType<boolean>
 ```

@@ -4,15 +4,16 @@
 
 ## Optional type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type Optional<T> = {
-    defined: true;
-    value: T;
-} | {
-    defined: false;
-    value: null;
-};
+export declare type Optional<T> =
+  | {
+      defined: true
+      value: T
+    }
+  | {
+      defined: false
+      value: null
+    }
 ```

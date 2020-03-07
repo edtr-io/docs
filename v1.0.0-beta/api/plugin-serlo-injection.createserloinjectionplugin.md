@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createSerloInjectionPlugin(config?: SerloInjectionConfig): EditorPlugin<SerloInjectionPluginState, SerloInjectionPluginConfig>;
+export declare function createSerloInjectionPlugin(
+  config?: SerloInjectionConfig
+): EditorPlugin<SerloInjectionPluginState, SerloInjectionPluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>SerloInjectionConfig</code> | [Plugin configuration](./plugin-serlo-injection.serloinjectionconfig.md) |
+| Parameter | Type                              | Description                                                              |
+| --------- | --------------------------------- | ------------------------------------------------------------------------ |
+| config    | <code>SerloInjectionConfig</code> | [Plugin configuration](./plugin-serlo-injection.serloinjectionconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<SerloInjectionPluginState, SerloInjectionPluginConfig>`
-

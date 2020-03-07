@@ -4,7 +4,6 @@
 
 ## defaultRendererTheme variable
 
-
 <b>Signature:</b>
 
 ```typescript

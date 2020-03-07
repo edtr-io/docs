@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-content: ChildStateTypeConfig;
+content: ChildStateTypeConfig
 ```

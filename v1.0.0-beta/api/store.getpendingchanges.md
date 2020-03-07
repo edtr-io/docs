@@ -4,7 +4,6 @@
 
 ## getPendingChanges variable
 
-
 <b>Signature:</b>
 
 ```typescript

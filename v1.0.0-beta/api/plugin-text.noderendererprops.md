@@ -4,9 +4,8 @@
 
 ## NodeRendererProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type NodeRendererProps = BlockRendererProps | InlineRendererProps;
+export declare type NodeRendererProps = BlockRendererProps | InlineRendererProps
 ```

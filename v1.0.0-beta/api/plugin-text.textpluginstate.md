@@ -4,9 +4,11 @@
 
 ## TextPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type TextPluginState = SerializedScalarStateType<NewNode[], ValueJSON>;
+export declare type TextPluginState = SerializedScalarStateType<
+  NewNode[],
+  ValueJSON
+>
 ```

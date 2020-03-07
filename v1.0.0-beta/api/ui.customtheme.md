@@ -9,5 +9,5 @@ Helper type to be used to override the theme
 <b>Signature:</b>
 
 ```typescript
-export declare type CustomTheme = DeepPartial<Theme>;
+export declare type CustomTheme = DeepPartial<Theme>
 ```

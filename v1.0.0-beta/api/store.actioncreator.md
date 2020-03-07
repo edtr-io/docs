@@ -4,9 +4,10 @@
 
 ## ActionCreator type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type ActionCreator<T = string, P = any> = ActionCreatorWithoutPayload<T> | ActionCreatorWithPayload<T, P>;
+export declare type ActionCreator<T = string, P = any> =
+  | ActionCreatorWithoutPayload<T>
+  | ActionCreatorWithPayload<T, P>
 ```

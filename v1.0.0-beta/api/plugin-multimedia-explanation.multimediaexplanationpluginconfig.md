@@ -4,17 +4,15 @@
 
 ## MultimediaExplanationPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface MultimediaExplanationPluginConfig 
+export interface MultimediaExplanationPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.i18n.md) | <code>{</code><br/><code>        changeMultimediaType: string;</code><br/><code>        illustrating: {</code><br/><code>            label: string;</code><br/><code>            values: {</code><br/><code>                illustrating: string;</code><br/><code>                explaining: string;</code><br/><code>            };</code><br/><code>        };</code><br/><code>    }</code> |  |
-|  [plugins](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.plugins.md) | <code>{</code><br/><code>        name: string;</code><br/><code>        title: string;</code><br/><code>    }[]</code> |  |
-
+| Property                                                                                | Type                                                                                                                                                                                                                                                                                                      | Description |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.i18n.md)       | <code>{</code><br/><code> changeMultimediaType: string;</code><br/><code> illustrating: {</code><br/><code> label: string;</code><br/><code> values: {</code><br/><code> illustrating: string;</code><br/><code> explaining: string;</code><br/><code> };</code><br/><code> };</code><br/><code> }</code> |             |
+| [plugins](./plugin-multimedia-explanation.multimediaexplanationpluginconfig.plugins.md) | <code>{</code><br/><code> name: string;</code><br/><code> title: string;</code><br/><code> }[]</code>                                                                                                                                                                                                     |             |

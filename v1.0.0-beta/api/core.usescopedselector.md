@@ -9,19 +9,21 @@ React Hook to get the value of an selector in the current scope
 <b>Signature:</b>
 
 ```typescript
-export declare function useScopedSelector<T>(scopedSelector: (state: ScopedState) => T, enforcedScope?: string): T;
+export declare function useScopedSelector<T>(
+  scopedSelector: (state: ScopedState) => T,
+  enforcedScope?: string
+): T
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  scopedSelector | <code>(state: ScopedState) =&gt; T</code> | The selector |
-|  enforcedScope | <code>string</code> | If provided, used as the scope instead of the current scope |
+| Parameter      | Type                                      | Description                                                 |
+| -------------- | ----------------------------------------- | ----------------------------------------------------------- |
+| scopedSelector | <code>(state: ScopedState) =&gt; T</code> | The selector                                                |
+| enforcedScope  | <code>string</code>                       | If provided, used as the scope instead of the current scope |
 
 <b>Returns:</b>
 
 `T`
 
 The value of the selector in the current scope
-

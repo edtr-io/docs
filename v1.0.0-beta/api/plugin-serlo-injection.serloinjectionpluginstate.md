@@ -4,9 +4,8 @@
 
 ## SerloInjectionPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SerloInjectionPluginState = StringStateType;
+export declare type SerloInjectionPluginState = StringStateType
 ```

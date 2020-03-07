@@ -8,6 +8,6 @@
 
 ```typescript
 theme: {
-        color: string;
-    };
+  color: string
+}
 ```

@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-id: TextProps['id'];
+id: TextProps['id']
 ```

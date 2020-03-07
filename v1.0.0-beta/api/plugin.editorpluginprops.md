@@ -4,9 +4,11 @@
 
 ## EditorPluginProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type EditorPluginProps<S extends StateType = StateType, Config extends {} = {}> = InternalPlugin.EditorPluginProps<S, Config>;
+export declare type EditorPluginProps<
+  S extends StateType = StateType,
+  Config extends {} = {}
+> = InternalPlugin.EditorPluginProps<S, Config>
 ```

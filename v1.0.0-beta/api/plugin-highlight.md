@@ -6,22 +6,21 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createHighlightPlugin(config)](./plugin-highlight.createhighlightplugin.md) |  |
+| Function                                                                     | Description |
+| ---------------------------------------------------------------------------- | ----------- |
+| [createHighlightPlugin(config)](./plugin-highlight.createhighlightplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [HighlightConfig](./plugin-highlight.highlightconfig.md) |  |
-|  [HighlightPluginConfig](./plugin-highlight.highlightpluginconfig.md) |  |
-|  [HighlightRendererProps](./plugin-highlight.highlightrendererprops.md) |  |
+| Interface                                                              | Description |
+| ---------------------------------------------------------------------- | ----------- |
+| [HighlightConfig](./plugin-highlight.highlightconfig.md)               |             |
+| [HighlightPluginConfig](./plugin-highlight.highlightpluginconfig.md)   |             |
+| [HighlightRendererProps](./plugin-highlight.highlightrendererprops.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [HighlightPluginState](./plugin-highlight.highlightpluginstate.md) |  |
-|  [HighlightProps](./plugin-highlight.highlightprops.md) |  |
-
+| Type Alias                                                         | Description |
+| ------------------------------------------------------------------ | ----------- |
+| [HighlightPluginState](./plugin-highlight.highlightpluginstate.md) |             |
+| [HighlightProps](./plugin-highlight.highlightprops.md)             |             |

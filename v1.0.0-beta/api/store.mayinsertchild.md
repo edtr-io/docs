@@ -4,7 +4,6 @@
 
 ## mayInsertChild variable
 
-
 <b>Signature:</b>
 
 ```typescript

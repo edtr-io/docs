@@ -9,12 +9,11 @@ Helpers to be used by a \[\[StateType\]\] when working with a deserialized state
 <b>Signature:</b>
 
 ```typescript
-export interface StoreSerializeHelpers<K extends string = string, S = unknown> 
+export interface StoreSerializeHelpers<K extends string = string, S = unknown>
 ```
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [getDocument(id)](./internal__plugin-state.storeserializehelpers.getdocument.md) | Retrieves a document from the store |
-
+| Method                                                                           | Description                         |
+| -------------------------------------------------------------------------------- | ----------------------------------- |
+| [getDocument(id)](./internal__plugin-state.storeserializehelpers.getdocument.md) | Retrieves a document from the store |

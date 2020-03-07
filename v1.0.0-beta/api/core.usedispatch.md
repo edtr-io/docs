@@ -4,7 +4,6 @@
 
 ## useDispatch variable
 
-
 <b>Signature:</b>
 
 ```typescript

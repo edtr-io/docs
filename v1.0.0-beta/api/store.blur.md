@@ -4,7 +4,6 @@
 
 ## blur variable
 
-
 <b>Signature:</b>
 
 ```typescript

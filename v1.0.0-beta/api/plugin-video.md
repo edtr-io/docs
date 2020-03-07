@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createVideoPlugin(config)](./plugin-video.createvideoplugin.md) |  |
+| Function                                                         | Description |
+| ---------------------------------------------------------------- | ----------- |
+| [createVideoPlugin(config)](./plugin-video.createvideoplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [VideoConfig](./plugin-video.videoconfig.md) |  |
-|  [VideoPluginConfig](./plugin-video.videopluginconfig.md) |  |
+| Interface                                                | Description |
+| -------------------------------------------------------- | ----------- |
+| [VideoConfig](./plugin-video.videoconfig.md)             |             |
+| [VideoPluginConfig](./plugin-video.videopluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [VideoPluginState](./plugin-video.videopluginstate.md) |  |
-|  [VideoProps](./plugin-video.videoprops.md) |  |
-
+| Type Alias                                             | Description |
+| ------------------------------------------------------ | ----------- |
+| [VideoPluginState](./plugin-video.videopluginstate.md) |             |
+| [VideoProps](./plugin-video.videoprops.md)             |             |

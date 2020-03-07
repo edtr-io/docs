@@ -4,9 +4,11 @@
 
 ## InputExerciseProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InputExerciseProps = EditorPluginProps<InputExercisePluginState, InputExercisePluginConfig>;
+export declare type InputExerciseProps = EditorPluginProps<
+  InputExercisePluginState,
+  InputExercisePluginConfig
+>
 ```

@@ -4,7 +4,6 @@
 
 ## undo variable
 
-
 <b>Signature:</b>
 
 ```typescript

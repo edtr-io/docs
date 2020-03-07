@@ -4,18 +4,16 @@
 
 ## UploadedFile interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface UploadedFile 
+export interface UploadedFile
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [name](./plugin-files.uploadedfile.name.md) | <code>string</code> |  |
-|  [src](./plugin-files.uploadedfile.src.md) | <code>string</code> |  |
-|  [type](./plugin-files.uploadedfile.type.md) | <code>FileType</code> |  |
-
+| Property                                    | Type                  | Description |
+| ------------------------------------------- | --------------------- | ----------- |
+| [name](./plugin-files.uploadedfile.name.md) | <code>string</code>   |             |
+| [src](./plugin-files.uploadedfile.src.md)   | <code>string</code>   |             |
+| [type](./plugin-files.uploadedfile.type.md) | <code>FileType</code> |             |

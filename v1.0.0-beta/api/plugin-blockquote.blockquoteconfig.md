@@ -4,16 +4,14 @@
 
 ## BlockquoteConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface BlockquoteConfig 
+export interface BlockquoteConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [content](./plugin-blockquote.blockquoteconfig.content.md) | <code>ChildStateTypeConfig</code> |  |
-
+| Property                                                   | Type                              | Description |
+| ---------------------------------------------------------- | --------------------------------- | ----------- |
+| [content](./plugin-blockquote.blockquoteconfig.content.md) | <code>ChildStateTypeConfig</code> |             |

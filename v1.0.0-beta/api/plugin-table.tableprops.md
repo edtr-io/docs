@@ -4,9 +4,11 @@
 
 ## TableProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type TableProps = EditorPluginProps<TablePluginState, TablePluginConfig>;
+export declare type TableProps = EditorPluginProps<
+  TablePluginState,
+  TablePluginConfig
+>
 ```

@@ -4,17 +4,15 @@
 
 ## SpoilerPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface SpoilerPluginConfig 
+export interface SpoilerPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-spoiler.spoilerpluginconfig.i18n.md) | <code>{</code><br/><code>        title: {</code><br/><code>            placeholder: string;</code><br/><code>        };</code><br/><code>    }</code> |  |
-|  [theme](./plugin-spoiler.spoilerpluginconfig.theme.md) | <code>{</code><br/><code>        color: string;</code><br/><code>    }</code> |  |
-
+| Property                                               | Type                                                                                                                      | Description |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-spoiler.spoilerpluginconfig.i18n.md)   | <code>{</code><br/><code> title: {</code><br/><code> placeholder: string;</code><br/><code> };</code><br/><code> }</code> |             |
+| [theme](./plugin-spoiler.spoilerpluginconfig.theme.md) | <code>{</code><br/><code> color: string;</code><br/><code> }</code>                                                       |             |

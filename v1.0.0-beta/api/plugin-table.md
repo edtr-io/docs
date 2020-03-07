@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createTablePlugin(config)](./plugin-table.createtableplugin.md) |  |
+| Function                                                         | Description |
+| ---------------------------------------------------------------- | ----------- |
+| [createTablePlugin(config)](./plugin-table.createtableplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [TableConfig](./plugin-table.tableconfig.md) |  |
-|  [TablePluginConfig](./plugin-table.tablepluginconfig.md) |  |
+| Interface                                                | Description |
+| -------------------------------------------------------- | ----------- |
+| [TableConfig](./plugin-table.tableconfig.md)             |             |
+| [TablePluginConfig](./plugin-table.tablepluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [TablePluginState](./plugin-table.tablepluginstate.md) |  |
-|  [TableProps](./plugin-table.tableprops.md) |  |
-
+| Type Alias                                             | Description |
+| ------------------------------------------------------ | ----------- |
+| [TablePluginState](./plugin-table.tablepluginstate.md) |             |
+| [TableProps](./plugin-table.tableprops.md)             |             |

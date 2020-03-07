@@ -8,11 +8,11 @@
 
 ```typescript
 button: {
-        backgroundColor: string;
-        color: string;
-        borderColor: string;
-        hoverBackgroundColor: string;
-        hoverColor: string;
-        hoverBorderColor: string;
-    };
+  backgroundColor: string
+  color: string
+  borderColor: string
+  hoverBackgroundColor: string
+  hoverColor: string
+  hoverBorderColor: string
+}
 ```

@@ -4,16 +4,14 @@
 
 ## GeogebraConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface GeogebraConfig 
+export interface GeogebraConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-geogebra.geogebraconfig.i18n.md) | <code>Partial&lt;GeogebraPluginConfig['i18n']&gt;</code> |  |
-
+| Property                                         | Type                                                     | Description |
+| ------------------------------------------------ | -------------------------------------------------------- | ----------- |
+| [i18n](./plugin-geogebra.geogebraconfig.i18n.md) | <code>Partial&lt;GeogebraPluginConfig['i18n']&gt;</code> |             |

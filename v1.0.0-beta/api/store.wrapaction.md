@@ -4,9 +4,8 @@
 
 ## WrapAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type WrapAction = ActionCreatorAction<typeof wrap>;
+export declare type WrapAction = ActionCreatorAction<typeof wrap>
 ```

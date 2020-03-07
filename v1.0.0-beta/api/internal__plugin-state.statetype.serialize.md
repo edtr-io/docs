@@ -14,14 +14,13 @@ serialize(deserialized: T, helpers: StoreSerializeHelpers): S;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  deserialized | <code>T</code> | state to serialize |
-|  helpers | <code>StoreSerializeHelpers</code> | helpers (e.g. to serialize an document) |
+| Parameter    | Type                               | Description                             |
+| ------------ | ---------------------------------- | --------------------------------------- |
+| deserialized | <code>T</code>                     | state to serialize                      |
+| helpers      | <code>StoreSerializeHelpers</code> | helpers (e.g. to serialize an document) |
 
 <b>Returns:</b>
 
 `S`
 
 serialized state
-

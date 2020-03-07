@@ -8,6 +8,6 @@
 
 ```typescript
 i18n: {
-        placeholder: string;
-    };
+  placeholder: string
+}
 ```

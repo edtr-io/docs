@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-node: InlineJSON;
+node: InlineJSON
 ```

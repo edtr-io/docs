@@ -9,19 +9,18 @@ Finds the next node in a focus tree in focus order
 <b>Signature:</b>
 
 ```typescript
-export declare function findNextNode(root: Node, from: string): string | null;
+export declare function findNextNode(root: Node, from: string): string | null
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  root | <code>Node</code> | focus tree |
-|  from | <code>string</code> | id of the current document |
+| Parameter | Type                | Description                |
+| --------- | ------------------- | -------------------------- |
+| root      | <code>Node</code>   | focus tree                 |
+| from      | <code>string</code> | id of the current document |
 
 <b>Returns:</b>
 
 `string | null`
 
 the id of the next document if it exists (`null` otherwise)
-

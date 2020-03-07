@@ -4,9 +4,8 @@
 
 ## State type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type State = Record<string, ScopedState>;
+export declare type State = Record<string, ScopedState>
 ```

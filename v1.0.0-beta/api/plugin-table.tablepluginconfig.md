@@ -4,17 +4,15 @@
 
 ## TablePluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface TablePluginConfig 
+export interface TablePluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-table.tablepluginconfig.i18n.md) | <code>{</code><br/><code>        placeholder: string;</code><br/><code>    }</code> |  |
-|  [MarkdownRenderer](./plugin-table.tablepluginconfig.markdownrenderer.md) | <code>React.ComponentType&lt;{</code><br/><code>        markdown: string;</code><br/><code>    }&gt;</code> |  |
-
+| Property                                                                 | Type                                                                                              | Description |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-table.tablepluginconfig.i18n.md)                         | <code>{</code><br/><code> placeholder: string;</code><br/><code> }</code>                         |             |
+| [MarkdownRenderer](./plugin-table.tablepluginconfig.markdownrenderer.md) | <code>React.ComponentType&lt;{</code><br/><code> markdown: string;</code><br/><code> }&gt;</code> |             |

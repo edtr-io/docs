@@ -4,9 +4,11 @@
 
 ## RowsProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type RowsProps = EditorPluginProps<RowsPluginState, RowsPluginConfig>;
+export declare type RowsProps = EditorPluginProps<
+  RowsPluginState,
+  RowsPluginConfig
+>
 ```

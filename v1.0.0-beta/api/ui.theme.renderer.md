@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-renderer: RendererTheme;
+renderer: RendererTheme
 ```

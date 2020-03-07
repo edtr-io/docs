@@ -4,16 +4,14 @@
 
 ## ImageConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface ImageConfig extends Omit<ImagePluginConfig, 'i18n'> 
+export interface ImageConfig extends Omit<ImagePluginConfig, 'i18n'>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-image.imageconfig.i18n.md) | <code>DeepPartial&lt;ImagePluginConfig['i18n']&gt;</code> |  |
-
+| Property                                   | Type                                                      | Description |
+| ------------------------------------------ | --------------------------------------------------------- | ----------- |
+| [i18n](./plugin-image.imageconfig.i18n.md) | <code>DeepPartial&lt;ImagePluginConfig['i18n']&gt;</code> |             |

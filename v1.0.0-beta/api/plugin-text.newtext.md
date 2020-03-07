@@ -4,19 +4,17 @@
 
 ## NewText interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewText 
+export interface NewText
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [color](./plugin-text.newtext.color.md) | <code>number</code> |  |
-|  [em](./plugin-text.newtext.em.md) | <code>boolean</code> |  |
-|  [strong](./plugin-text.newtext.strong.md) | <code>boolean</code> |  |
-|  [text](./plugin-text.newtext.text.md) | <code>string</code> |  |
-
+| Property                                  | Type                 | Description |
+| ----------------------------------------- | -------------------- | ----------- |
+| [color](./plugin-text.newtext.color.md)   | <code>number</code>  |             |
+| [em](./plugin-text.newtext.em.md)         | <code>boolean</code> |             |
+| [strong](./plugin-text.newtext.strong.md) | <code>boolean</code> |             |
+| [text](./plugin-text.newtext.text.md)     | <code>string</code>  |             |

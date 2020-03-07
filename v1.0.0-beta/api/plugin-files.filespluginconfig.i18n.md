@@ -8,7 +8,7 @@
 
 ```typescript
 i18n: {
-        label: string;
-        failedUploadMessage: string;
-    };
+  label: string
+  failedUploadMessage: string
+}
 ```

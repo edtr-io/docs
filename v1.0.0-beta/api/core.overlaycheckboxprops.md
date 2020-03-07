@@ -4,9 +4,8 @@
 
 ## OverlayCheckboxProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayCheckboxProps = InternalPluginToolbar.OverlayCheckboxProps;
+export declare type OverlayCheckboxProps = InternalPluginToolbar.OverlayCheckboxProps
 ```

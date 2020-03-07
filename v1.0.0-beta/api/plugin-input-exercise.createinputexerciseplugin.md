@@ -7,16 +7,17 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function createInputExercisePlugin(config: InputExerciseConfig): EditorPlugin<InputExercisePluginState, InputExercisePluginConfig>;
+export declare function createInputExercisePlugin(
+  config: InputExerciseConfig
+): EditorPlugin<InputExercisePluginState, InputExercisePluginConfig>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  config | <code>InputExerciseConfig</code> | [Plugin configuration](./plugin-input-exercise.inputexerciseconfig.md) |
+| Parameter | Type                             | Description                                                            |
+| --------- | -------------------------------- | ---------------------------------------------------------------------- |
+| config    | <code>InputExerciseConfig</code> | [Plugin configuration](./plugin-input-exercise.inputexerciseconfig.md) |
 
 <b>Returns:</b>
 
 `EditorPlugin<InputExercisePluginState, InputExercisePluginConfig>`
-

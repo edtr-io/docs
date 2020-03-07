@@ -4,16 +4,14 @@
 
 ## AnchorPluginConfig interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface AnchorPluginConfig 
+export interface AnchorPluginConfig
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [i18n](./plugin-anchor.anchorpluginconfig.i18n.md) | <code>{</code><br/><code>        label: string;</code><br/><code>        placeholder: string;</code><br/><code>    }</code> |  |
-
+| Property                                           | Type                                                                                                       | Description |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------- |
+| [i18n](./plugin-anchor.anchorpluginconfig.i18n.md) | <code>{</code><br/><code> label: string;</code><br/><code> placeholder: string;</code><br/><code> }</code> |             |

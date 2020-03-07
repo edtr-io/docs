@@ -4,9 +4,8 @@
 
 ## StateUpdater type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateUpdater<T> = InternalPluginState.StateUpdater<T>;
+export declare type StateUpdater<T> = InternalPluginState.StateUpdater<T>
 ```

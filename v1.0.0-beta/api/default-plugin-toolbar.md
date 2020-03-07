@@ -6,13 +6,12 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createDefaultPluginToolbar(config)](./default-plugin-toolbar.createdefaultplugintoolbar.md) | <b><i>(BETA)</i></b> Creates the default [plugin toolbar](./plugin-toolbar.plugintoolbar.md) |
+| Function                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [createDefaultPluginToolbar(config)](./default-plugin-toolbar.createdefaultplugintoolbar.md) | <b><i>(BETA)</i></b> Creates the default [plugin toolbar](./plugin-toolbar.plugintoolbar.md) |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [DefaultPluginToolbarConfig](./default-plugin-toolbar.defaultplugintoolbarconfig.md) | <b><i>(BETA)</i></b> |
-
+| Interface                                                                            | Description          |
+| ------------------------------------------------------------------------------------ | -------------------- |
+| [DefaultPluginToolbarConfig](./default-plugin-toolbar.defaultplugintoolbarconfig.md) | <b><i>(BETA)</i></b> |

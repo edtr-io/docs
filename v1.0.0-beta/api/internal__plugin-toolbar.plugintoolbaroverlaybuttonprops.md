@@ -5,28 +5,26 @@
 ## PluginToolbarOverlayButtonProps interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 The props for [PluginToolbarOverlayButton](./internal__plugin-toolbar.plugintoolbar.md)
 
 <b>Signature:</b>
 
 ```typescript
-export interface PluginToolbarOverlayButtonProps 
+export interface PluginToolbarOverlayButtonProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [className](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.classname.md) | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [contentRef](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.contentref.md) | <code>React.RefObject&lt;HTMLDivElement&gt;</code> | <b><i>(BETA)</i></b> |
-|  [icon](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.icon.md) | <code>React.ReactNode</code> | <b><i>(BETA)</i></b> |
-|  [label](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.label.md) | <code>string</code> | <b><i>(BETA)</i></b> |
+| Property                                                                               | Type                                               | Description          |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------- | -------------------- |
+| [className](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.classname.md)   | <code>string</code>                                | <b><i>(BETA)</i></b> |
+| [contentRef](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.contentref.md) | <code>React.RefObject&lt;HTMLDivElement&gt;</code> | <b><i>(BETA)</i></b> |
+| [icon](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.icon.md)             | <code>React.ReactNode</code>                       | <b><i>(BETA)</i></b> |
+| [label](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.label.md)           | <code>string</code>                                | <b><i>(BETA)</i></b> |
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [renderContent(children, additional)](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.rendercontent.md) | <b><i>(BETA)</i></b> |
-
+| Method                                                                                                             | Description          |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| [renderContent(children, additional)](./internal__plugin-toolbar.plugintoolbaroverlaybuttonprops.rendercontent.md) | <b><i>(BETA)</i></b> |

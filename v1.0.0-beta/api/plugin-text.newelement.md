@@ -4,9 +4,16 @@
 
 ## NewElement type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type NewElement = NewParagraphElement | NewHeadingElement | NewLinkElement | NewMathElement | NewOrderedListElement | NewUnorderedListElement | NewListItemElement | NewListItemChildElement;
+export declare type NewElement =
+  | NewParagraphElement
+  | NewHeadingElement
+  | NewLinkElement
+  | NewMathElement
+  | NewOrderedListElement
+  | NewUnorderedListElement
+  | NewListItemElement
+  | NewListItemChildElement
 ```

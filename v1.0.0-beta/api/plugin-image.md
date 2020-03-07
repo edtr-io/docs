@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createImagePlugin(config)](./plugin-image.createimageplugin.md) |  |
+| Function                                                         | Description |
+| ---------------------------------------------------------------- | ----------- |
+| [createImagePlugin(config)](./plugin-image.createimageplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [ImageConfig](./plugin-image.imageconfig.md) |  |
-|  [ImagePluginConfig](./plugin-image.imagepluginconfig.md) |  |
+| Interface                                                | Description |
+| -------------------------------------------------------- | ----------- |
+| [ImageConfig](./plugin-image.imageconfig.md)             |             |
+| [ImagePluginConfig](./plugin-image.imagepluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [ImagePluginState](./plugin-image.imagepluginstate.md) |  |
-|  [ImageProps](./plugin-image.imageprops.md) |  |
-
+| Type Alias                                             | Description |
+| ------------------------------------------------------ | ----------- |
+| [ImagePluginState](./plugin-image.imagepluginstate.md) |             |
+| [ImageProps](./plugin-image.imageprops.md)             |             |

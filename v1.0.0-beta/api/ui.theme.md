@@ -9,15 +9,14 @@ Interface of an Edtr.io theme
 <b>Signature:</b>
 
 ```typescript
-export interface Theme 
+export interface Theme
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [editor](./ui.theme.editor.md) | <code>EditorTheme</code> |  |
-|  [editorUi](./ui.theme.editorui.md) | <code>DeepPartial&lt;EditorUiTheme&gt;</code> |  |
-|  [renderer](./ui.theme.renderer.md) | <code>RendererTheme</code> |  |
-|  [rendererUi](./ui.theme.rendererui.md) | <code>DeepPartial&lt;RendererUiTheme&gt;</code> |  |
-
+| Property                               | Type                                            | Description |
+| -------------------------------------- | ----------------------------------------------- | ----------- |
+| [editor](./ui.theme.editor.md)         | <code>EditorTheme</code>                        |             |
+| [editorUi](./ui.theme.editorui.md)     | <code>DeepPartial&lt;EditorUiTheme&gt;</code>   |             |
+| [renderer](./ui.theme.renderer.md)     | <code>RendererTheme</code>                      |             |
+| [rendererUi](./ui.theme.rendererui.md) | <code>DeepPartial&lt;RendererUiTheme&gt;</code> |             |

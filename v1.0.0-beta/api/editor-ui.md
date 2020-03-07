@@ -6,24 +6,23 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [EditorCheckbox({ checked, onChange, label })](./editor-ui.editorcheckbox.md) |  |
+| Function                                                                      | Description |
+| ----------------------------------------------------------------------------- | ----------- |
+| [EditorCheckbox({ checked, onChange, label })](./editor-ui.editorcheckbox.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [EditorCheckboxProps](./editor-ui.editorcheckboxprops.md) |  |
-|  [EditorInputProps](./editor-ui.editorinputprops.md) |  |
+| Interface                                                 | Description |
+| --------------------------------------------------------- | ----------- |
+| [EditorCheckboxProps](./editor-ui.editorcheckboxprops.md) |             |
+| [EditorInputProps](./editor-ui.editorinputprops.md)       |             |
 
 ## Variables
 
-|  Variable | Description |
-|  --- | --- |
-|  [EditorBottomToolbar](./editor-ui.editorbottomtoolbar.md) |  |
-|  [EditorButton](./editor-ui.editorbutton.md) |  |
-|  [EditorInlineSettings](./editor-ui.editorinlinesettings.md) |  |
-|  [EditorInput](./editor-ui.editorinput.md) |  |
-|  [EditorTextarea](./editor-ui.editortextarea.md) |  |
-
+| Variable                                                    | Description |
+| ----------------------------------------------------------- | ----------- |
+| [EditorBottomToolbar](./editor-ui.editorbottomtoolbar.md)   |             |
+| [EditorButton](./editor-ui.editorbutton.md)                 |             |
+| [EditorInlineSettings](./editor-ui.editorinlinesettings.md) |             |
+| [EditorInput](./editor-ui.editorinput.md)                   |             |
+| [EditorTextarea](./editor-ui.editortextarea.md)             |             |

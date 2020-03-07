@@ -4,9 +4,8 @@
 
 ## AnchorPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type AnchorPluginState = StringStateType;
+export declare type AnchorPluginState = StringStateType
 ```

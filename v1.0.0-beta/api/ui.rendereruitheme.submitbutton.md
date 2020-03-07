@@ -8,10 +8,10 @@
 
 ```typescript
 submitButton: {
-        backgroundColor: string;
-        hoverBackgroundColor: string;
-        color: string;
-        correctBackgroundColor: string;
-        wrongBackgroundColor: string;
-    };
+  backgroundColor: string
+  hoverBackgroundColor: string
+  color: string
+  correctBackgroundColor: string
+  wrongBackgroundColor: string
+}
 ```

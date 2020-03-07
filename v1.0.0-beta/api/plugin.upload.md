@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function upload<T>(defaultState: T): UploadStateType<T>;
+export declare function upload<T>(defaultState: T): UploadStateType<T>
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  defaultState | <code>T</code> | The default state |
+| Parameter    | Type           | Description       |
+| ------------ | -------------- | ----------------- |
+| defaultState | <code>T</code> | The default state |
 
 <b>Returns:</b>
 
 `UploadStateType<T>`
-

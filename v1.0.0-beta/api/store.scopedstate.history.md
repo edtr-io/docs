@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-history: unknown;
+history: unknown
 ```

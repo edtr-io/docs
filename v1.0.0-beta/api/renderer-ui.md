@@ -6,7 +6,6 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [ExpandableBox({ children, editable, alwaysVisible, renderTitle })](./renderer-ui.expandablebox.md) |  |
-
+| Function                                                                                            | Description |
+| --------------------------------------------------------------------------------------------------- | ----------- |
+| [ExpandableBox({ children, editable, alwaysVisible, renderTitle })](./renderer-ui.expandablebox.md) |             |

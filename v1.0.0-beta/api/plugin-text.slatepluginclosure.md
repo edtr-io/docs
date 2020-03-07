@@ -4,9 +4,8 @@
 
 ## SlatePluginClosure type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type SlatePluginClosure = React.RefObject<SlateClosure>;
+export declare type SlatePluginClosure = React.RefObject<SlateClosure>
 ```

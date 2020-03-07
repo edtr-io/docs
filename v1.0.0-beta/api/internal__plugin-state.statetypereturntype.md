@@ -9,5 +9,7 @@ Maps a \[\[StateType\]\] to the type of its public API for usage in plugin compo
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypeReturnType<D extends StateType> = D extends StateType<any, any, infer R> ? R : never;
+export declare type StateTypeReturnType<
+  D extends StateType
+> = D extends StateType<any, any, infer R> ? R : never
 ```

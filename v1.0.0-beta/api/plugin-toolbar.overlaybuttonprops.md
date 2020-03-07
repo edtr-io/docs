@@ -5,12 +5,11 @@
 ## OverlayButtonProps type
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Type alias for [OverlayButtonProps](./internal__plugin-toolbar.overlaybuttonprops.md)
 
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayButtonProps = InternalPluginToolbar.OverlayButtonProps;
+export declare type OverlayButtonProps = InternalPluginToolbar.OverlayButtonProps
 ```

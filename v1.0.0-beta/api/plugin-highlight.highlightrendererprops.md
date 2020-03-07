@@ -4,19 +4,17 @@
 
 ## HighlightRendererProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface HighlightRendererProps 
+export interface HighlightRendererProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [code](./plugin-highlight.highlightrendererprops.code.md) | <code>string</code> |  |
-|  [config](./plugin-highlight.highlightrendererprops.config.md) | <code>HighlightPluginConfig</code> |  |
-|  [language](./plugin-highlight.highlightrendererprops.language.md) | <code>string</code> |  |
-|  [showLineNumbers](./plugin-highlight.highlightrendererprops.showlinenumbers.md) | <code>boolean</code> |  |
-
+| Property                                                                        | Type                               | Description |
+| ------------------------------------------------------------------------------- | ---------------------------------- | ----------- |
+| [code](./plugin-highlight.highlightrendererprops.code.md)                       | <code>string</code>                |             |
+| [config](./plugin-highlight.highlightrendererprops.config.md)                   | <code>HighlightPluginConfig</code> |             |
+| [language](./plugin-highlight.highlightrendererprops.language.md)               | <code>string</code>                |             |
+| [showLineNumbers](./plugin-highlight.highlightrendererprops.showlinenumbers.md) | <code>boolean</code>               |             |

@@ -4,7 +4,6 @@
 
 ## change variable
 
-
 <b>Signature:</b>
 
 ```typescript

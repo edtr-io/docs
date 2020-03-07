@@ -9,5 +9,5 @@ ID of the document
 <b>Signature:</b>
 
 ```typescript
-id: string;
+id: string
 ```

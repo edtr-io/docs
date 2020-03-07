@@ -4,9 +4,8 @@
 
 ## OldNode type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type OldNode = OldText | OldElement;
+export declare type OldNode = OldText | OldElement
 ```

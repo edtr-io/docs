@@ -5,12 +5,11 @@
 ## DocumentEditorProps.focused property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 `true` if the document is focused
 
 <b>Signature:</b>
 
 ```typescript
-focused: boolean;
+focused: boolean
 ```

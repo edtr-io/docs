@@ -4,9 +4,8 @@
 
 ## PersistAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type PersistAction = ActionCreatorAction<typeof persist>;
+export declare type PersistAction = ActionCreatorAction<typeof persist>
 ```

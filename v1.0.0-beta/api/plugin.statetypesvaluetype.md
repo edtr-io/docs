@@ -4,9 +4,10 @@
 
 ## StateTypesValueType type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type StateTypesValueType<Ds extends Record<string, StateType>> = InternalPluginState.StateTypesValueType<Ds>;
+export declare type StateTypesValueType<
+  Ds extends Record<string, StateType>
+> = InternalPluginState.StateTypesValueType<Ds>
 ```

@@ -4,18 +4,16 @@
 
 ## NewLinkElement interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface NewLinkElement 
+export interface NewLinkElement
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [children](./plugin-text.newlinkelement.children.md) | <code>NewNode[]</code> |  |
-|  [href](./plugin-text.newlinkelement.href.md) | <code>string</code> |  |
-|  [type](./plugin-text.newlinkelement.type.md) | <code>'a'</code> |  |
-
+| Property                                             | Type                   | Description |
+| ---------------------------------------------------- | ---------------------- | ----------- |
+| [children](./plugin-text.newlinkelement.children.md) | <code>NewNode[]</code> |             |
+| [href](./plugin-text.newlinkelement.href.md)         | <code>string</code>    |             |
+| [type](./plugin-text.newlinkelement.type.md)         | <code>'a'</code>       |             |

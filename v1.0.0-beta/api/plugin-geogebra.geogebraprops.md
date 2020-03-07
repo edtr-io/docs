@@ -4,9 +4,11 @@
 
 ## GeogebraProps type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type GeogebraProps = EditorPluginProps<GeogebraPluginState, GeogebraPluginConfig>;
+export declare type GeogebraProps = EditorPluginProps<
+  GeogebraPluginState,
+  GeogebraPluginConfig
+>
 ```

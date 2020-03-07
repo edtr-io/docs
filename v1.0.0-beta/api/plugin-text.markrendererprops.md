@@ -4,16 +4,14 @@
 
 ## MarkRendererProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface MarkRendererProps 
+export interface MarkRendererProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [mark](./plugin-text.markrendererprops.mark.md) | <code>MarkJSON</code> |  |
-
+| Property                                        | Type                  | Description |
+| ----------------------------------------------- | --------------------- | ----------- |
+| [mark](./plugin-text.markrendererprops.mark.md) | <code>MarkJSON</code> |             |

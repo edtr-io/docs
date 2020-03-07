@@ -8,17 +8,17 @@
 
 ```typescript
 i18n: {
-        menu: {
-            searchPlaceholder: string;
-        };
-        settings: {
-            duplicateLabel: string;
-            removeLabel: string;
-            closeLabel: string;
-        };
-        toolbar: {
-            dragLabel: string;
-        };
-        addLabel: string;
-    };
+  menu: {
+    searchPlaceholder: string
+  }
+  settings: {
+    duplicateLabel: string
+    removeLabel: string
+    closeLabel: string
+  }
+  toolbar: {
+    dragLabel: string
+  }
+  addLabel: string
+}
 ```

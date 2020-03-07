@@ -4,9 +4,10 @@
 
 ## InsertChildBeforeAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InsertChildBeforeAction = ActionCreatorAction<typeof insertChildBefore>;
+export declare type InsertChildBeforeAction = ActionCreatorAction<
+  typeof insertChildBefore
+>
 ```

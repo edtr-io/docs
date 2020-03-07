@@ -6,21 +6,20 @@
 
 ## Functions
 
-|  Function | Description |
-|  --- | --- |
-|  [createAnchorPlugin(config)](./plugin-anchor.createanchorplugin.md) |  |
+| Function                                                            | Description |
+| ------------------------------------------------------------------- | ----------- |
+| [createAnchorPlugin(config)](./plugin-anchor.createanchorplugin.md) |             |
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [AnchorConfig](./plugin-anchor.anchorconfig.md) |  |
-|  [AnchorPluginConfig](./plugin-anchor.anchorpluginconfig.md) |  |
+| Interface                                                   | Description |
+| ----------------------------------------------------------- | ----------- |
+| [AnchorConfig](./plugin-anchor.anchorconfig.md)             |             |
+| [AnchorPluginConfig](./plugin-anchor.anchorpluginconfig.md) |             |
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [AnchorPluginState](./plugin-anchor.anchorpluginstate.md) |  |
-|  [AnchorProps](./plugin-anchor.anchorprops.md) |  |
-
+| Type Alias                                                | Description |
+| --------------------------------------------------------- | ----------- |
+| [AnchorPluginState](./plugin-anchor.anchorpluginstate.md) |             |
+| [AnchorProps](./plugin-anchor.anchorprops.md)             |             |

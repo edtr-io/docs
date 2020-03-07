@@ -4,9 +4,8 @@
 
 ## RedoAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type RedoAction = ActionCreatorAction<typeof redo>;
+export declare type RedoAction = ActionCreatorAction<typeof redo>
 ```

@@ -4,9 +4,8 @@
 
 ## Store type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type Store = ReduxStore<State, Action>;
+export declare type Store = ReduxStore<State, Action>
 ```

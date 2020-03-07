@@ -9,14 +9,16 @@ Provider to hydrate the context for the [Theme](./ui.theme.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function RootThemeProvider(props: StyledComponents.ThemeProviderProps<CustomTheme>): JSX.Element;
+export declare function RootThemeProvider(
+  props: StyledComponents.ThemeProviderProps<CustomTheme>
+): JSX.Element
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  props | <code>StyledComponents.ThemeProviderProps&lt;CustomTheme&gt;</code> | A [CustomTheme](./ui.customtheme.md) that will be deeply merged with the [default Theme](./ui.theme.md)<!-- -->, and children |
+| Parameter | Type                                                                | Description                                                                                                                   |
+| --------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| props     | <code>StyledComponents.ThemeProviderProps&lt;CustomTheme&gt;</code> | A [CustomTheme](./ui.customtheme.md) that will be deeply merged with the [default Theme](./ui.theme.md)<!-- -->, and children |
 
 <b>Returns:</b>
 
@@ -25,4 +27,3 @@ export declare function RootThemeProvider(props: StyledComponents.ThemeProviderP
 ## Remarks
 
 You probably don't want to use this component directly since it is already used by the core. If you want to override the theme in some plugin, you probably want to use [ThemeProvider](./ui.themeprovider.md) instead.
-

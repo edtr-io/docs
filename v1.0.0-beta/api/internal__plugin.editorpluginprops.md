@@ -9,24 +9,23 @@ Props for the component of an \[\[EditorPlugin\]\]
 <b>Signature:</b>
 
 ```typescript
-export interface EditorPluginProps<S extends StateType = StateType, Config extends {} = {}> 
+export interface EditorPluginProps<S extends StateType = StateType, Config extends {} = {}>
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [autofocusRef](./internal__plugin.editorpluginprops.autofocusref.md) | <code>React.RefObject&lt;HTMLInputElement &amp; HTMLTextAreaElement&gt;</code> | Ref to use for an input element. The element will receive focus, when the plugin is focused. |
-|  [config](./internal__plugin.editorpluginprops.config.md) | <code>Config</code> | Plugin configuration |
-|  [editable](./internal__plugin.editorpluginprops.editable.md) | <code>boolean</code> | <code>true</code> if the document is currently editable |
-|  [focused](./internal__plugin.editorpluginprops.focused.md) | <code>boolean</code> | <code>true</code> if the document is currently focused |
-|  [id](./internal__plugin.editorpluginprops.id.md) | <code>string</code> | ID of the document |
-|  [state](./internal__plugin.editorpluginprops.state.md) | <code>StateTypeReturnType&lt;S&gt;</code> | Current state of the document, see [StateTypeReturnType](./internal__plugin-state.statetypereturntype.md) |
+| Property                                                             | Type                                                                           | Description                                                                                               |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| [autofocusRef](./internal__plugin.editorpluginprops.autofocusref.md) | <code>React.RefObject&lt;HTMLInputElement &amp; HTMLTextAreaElement&gt;</code> | Ref to use for an input element. The element will receive focus, when the plugin is focused.              |
+| [config](./internal__plugin.editorpluginprops.config.md)             | <code>Config</code>                                                            | Plugin configuration                                                                                      |
+| [editable](./internal__plugin.editorpluginprops.editable.md)         | <code>boolean</code>                                                           | <code>true</code> if the document is currently editable                                                   |
+| [focused](./internal__plugin.editorpluginprops.focused.md)           | <code>boolean</code>                                                           | <code>true</code> if the document is currently focused                                                    |
+| [id](./internal__plugin.editorpluginprops.id.md)                     | <code>string</code>                                                            | ID of the document                                                                                        |
+| [state](./internal__plugin.editorpluginprops.state.md)               | <code>StateTypeReturnType&lt;S&gt;</code>                                      | Current state of the document, see [StateTypeReturnType](./internal__plugin-state.statetypereturntype.md) |
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [renderIntoSettings(children)](./internal__plugin.editorpluginprops.renderintosettings.md) | Allows the plugin to render into the plugin settings |
-|  [renderIntoToolbar(children)](./internal__plugin.editorpluginprops.renderintotoolbar.md) | Allows the plugin to render buttons into the toolbar |
-
+| Method                                                                                     | Description                                          |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| [renderIntoSettings(children)](./internal__plugin.editorpluginprops.renderintosettings.md) | Allows the plugin to render into the plugin settings |
+| [renderIntoToolbar(children)](./internal__plugin.editorpluginprops.renderintotoolbar.md)   | Allows the plugin to render buttons into the toolbar |

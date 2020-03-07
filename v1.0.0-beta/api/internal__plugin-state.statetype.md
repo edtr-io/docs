@@ -9,7 +9,7 @@ Describes the states of a \[\[Plugin\]\]. Please note that a state type will be 
 <b>Signature:</b>
 
 ```typescript
-export interface StateType<S = any, T = any, R = any> 
+export interface StateType<S = any, T = any, R = any>
 ```
 
 ## Example
@@ -18,11 +18,10 @@ the built-in \[\[boolean\]\], \[\[number\]\], \[\[string\]\], \[\[scalar\]\] and
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [createInitialState(helpers)](./internal__plugin-state.statetype.createinitialstate.md) | Creates the initial state |
-|  [deserialize(serialized, helpers)](./internal__plugin-state.statetype.deserialize.md) | Deserializes a serialized state |
-|  [getFocusableChildren(state)](./internal__plugin-state.statetype.getfocusablechildren.md) | Gives the editor information about the children of the plugin (e.g. to build the document tree) |
-|  [init(state, onChange)](./internal__plugin-state.statetype.init.md) | Initializes the public API for usage in plugin components |
-|  [serialize(deserialized, helpers)](./internal__plugin-state.statetype.serialize.md) | Serializes a state |
-
+| Method                                                                                    | Description                                                                                     |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [createInitialState(helpers)](./internal__plugin-state.statetype.createinitialstate.md)   | Creates the initial state                                                                       |
+| [deserialize(serialized, helpers)](./internal__plugin-state.statetype.deserialize.md)     | Deserializes a serialized state                                                                 |
+| [getFocusableChildren(state)](./internal__plugin-state.statetype.getfocusablechildren.md) | Gives the editor information about the children of the plugin (e.g. to build the document tree) |
+| [init(state, onChange)](./internal__plugin-state.statetype.init.md)                       | Initializes the public API for usage in plugin components                                       |
+| [serialize(deserialized, helpers)](./internal__plugin-state.statetype.serialize.md)       | Serializes a state                                                                              |

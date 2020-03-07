@@ -4,16 +4,14 @@
 
 ## InlineRendererProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface InlineRendererProps 
+export interface InlineRendererProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [node](./plugin-text.inlinerendererprops.node.md) | <code>InlineJSON</code> |  |
-
+| Property                                          | Type                    | Description |
+| ------------------------------------------------- | ----------------------- | ----------- |
+| [node](./plugin-text.inlinerendererprops.node.md) | <code>InlineJSON</code> |             |

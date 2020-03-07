@@ -6,7 +6,6 @@
 
 ## Type Aliases
 
-|  Type Alias | Description |
-|  --- | --- |
-|  [DocumentEditorProps](./document-editor.documenteditorprops.md) | <b><i>(BETA)</i></b> |
-
+| Type Alias                                                      | Description          |
+| --------------------------------------------------------------- | -------------------- |
+| [DocumentEditorProps](./document-editor.documenteditorprops.md) | <b><i>(BETA)</i></b> |

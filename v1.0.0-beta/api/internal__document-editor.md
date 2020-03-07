@@ -6,7 +6,6 @@
 
 ## Interfaces
 
-|  Interface | Description |
-|  --- | --- |
-|  [DocumentEditorProps](./internal__document-editor.documenteditorprops.md) | <b><i>(BETA)</i></b> Allows to override the default rendering behavior of the document editor |
-
+| Interface                                                                 | Description                                                                                   |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [DocumentEditorProps](./internal__document-editor.documenteditorprops.md) | <b><i>(BETA)</i></b> Allows to override the default rendering behavior of the document editor |

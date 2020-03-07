@@ -5,12 +5,11 @@
 ## OverlayCheckboxProps type
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
 
 Type alias for [OverlayCheckboxProps](./internal__plugin-toolbar.overlaycheckboxprops.md)
 
 <b>Signature:</b>
 
 ```typescript
-export declare type OverlayCheckboxProps = InternalPluginToolbar.OverlayCheckboxProps;
+export declare type OverlayCheckboxProps = InternalPluginToolbar.OverlayCheckboxProps
 ```

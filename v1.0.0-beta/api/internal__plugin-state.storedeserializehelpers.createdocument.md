@@ -18,11 +18,10 @@ createDocument(document: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  document | <code>{</code><br/><code>        id: string;</code><br/><code>        plugin: K;</code><br/><code>        state?: S;</code><br/><code>    }</code> | document to insert |
+| Parameter | Type                                                                                                                       | Description        |
+| --------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| document  | <code>{</code><br/><code> id: string;</code><br/><code> plugin: K;</code><br/><code> state?: S;</code><br/><code> }</code> | document to insert |
 
 <b>Returns:</b>
 
 `void`
-

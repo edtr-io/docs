@@ -8,11 +8,11 @@
 
 ```typescript
 i18n: {
-        src: {
-            label: string;
-        };
-        alt: {
-            label: string;
-        };
-    };
+  src: {
+    label: string
+  }
+  alt: {
+    label: string
+  }
+}
 ```

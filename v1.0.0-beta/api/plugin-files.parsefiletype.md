@@ -7,16 +7,15 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function parseFileType(name: string): FileType;
+export declare function parseFileType(name: string): FileType
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  name | <code>string</code> | File name |
+| Parameter | Type                | Description |
+| --------- | ------------------- | ----------- |
+| name      | <code>string</code> | File name   |
 
 <b>Returns:</b>
 
 `FileType`
-

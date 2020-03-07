@@ -4,7 +4,6 @@
 
 ## redo variable
 
-
 <b>Signature:</b>
 
 ```typescript

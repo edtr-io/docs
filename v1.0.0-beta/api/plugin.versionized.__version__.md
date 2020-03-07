@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-__version__: number;
+__version__: number
 ```

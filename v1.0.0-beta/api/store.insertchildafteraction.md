@@ -4,9 +4,10 @@
 
 ## InsertChildAfterAction type
 
-
 <b>Signature:</b>
 
 ```typescript
-export declare type InsertChildAfterAction = ActionCreatorAction<typeof insertChildAfter>;
+export declare type InsertChildAfterAction = ActionCreatorAction<
+  typeof insertChildAfter
+>
 ```

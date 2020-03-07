@@ -10,16 +10,13 @@ React Hook for the renderer theming
 
 ```typescript
 export declare function useRendererTheme(): {
-    renderer: RendererTheme;
-    rendererUi: DeepPartial<RendererUiTheme>;
-};
+  renderer: RendererTheme
+  rendererUi: DeepPartial<RendererUiTheme>
+}
 ```
+
 <b>Returns:</b>
 
-`{
-    renderer: RendererTheme;
-    rendererUi: DeepPartial<RendererUiTheme>;
-}`
+`{ renderer: RendererTheme; rendererUi: DeepPartial<RendererUiTheme>; }`
 
 An object containing the current [renderer theme](./ui.renderertheme.md) and [renderer UI theme](./ui.rendereruitheme.md)
-

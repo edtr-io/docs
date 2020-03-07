@@ -4,12 +4,11 @@
 
 ## VideoPluginState type
 
-
 <b>Signature:</b>
 
 ```typescript
 export declare type VideoPluginState = ObjectStateType<{
-    src: StringStateType;
-    alt: StringStateType;
-}>;
+  src: StringStateType
+  alt: StringStateType
+}>
 ```

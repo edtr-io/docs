@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-type: 'ordered-list';
+type: 'ordered-list'
 ```

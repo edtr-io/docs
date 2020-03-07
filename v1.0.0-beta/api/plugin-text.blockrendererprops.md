@@ -4,16 +4,14 @@
 
 ## BlockRendererProps interface
 
-
 <b>Signature:</b>
 
 ```typescript
-export interface BlockRendererProps 
+export interface BlockRendererProps
 ```
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [node](./plugin-text.blockrendererprops.node.md) | <code>BlockJSON</code> |  |
-
+| Property                                         | Type                   | Description |
+| ------------------------------------------------ | ---------------------- | ----------- |
+| [node](./plugin-text.blockrendererprops.node.md) | <code>BlockJSON</code> |             |
