@@ -5,12 +5,20 @@
   "author": "edtr.io Consortium",
   "repository": "edtr-io/docs",
   "scripts": {
+    "deploy": "yarn deploy:auth && yarn deploy:clean && yarn deploy:rsync",
+    "deploy:auth": "gcloud config configurations activate edtr-io",
+    "deploy:clean": "find . -name \".DS_Store\" -type f -delete",
+    "deploy:rsync": "gsutil -m rsync -d -r -x \"^(?!v).*$\" . gs://docs.edtr.io",
+    "generate-metadata": "ts-node scripts/generate-metadata",
     "format": "yarn _prettier --write",
     "lint": "yarn _prettier --check",
     "_prettier": "prettier \"{v*/**/*,*}.{js,jsx,ts,tsx,json,md,mdx,yaml,yml}\""
   },
   "devDependencies": {
-    "prettier": "^1.0.0"
+    "@types/node": "^12.0.0",
+    "prettier": "^1.0.0",
+    "ts-node": "^8.0.0",
+    "typescript": "^3.0.0"
   },
   "private": true
 }
