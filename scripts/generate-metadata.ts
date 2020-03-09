@@ -34,6 +34,7 @@ async function exec() {
 
     const items = {}
     files.forEach(f => {
+      if (f === 'metadata.json') return
       const id = f
         .replace('.mdx', '')
         .split('-')
@@ -56,6 +57,7 @@ async function exec() {
     const items = {}
     const sidebar = []
     files.forEach(f => {
+      if (f === 'metadata.json') return
       const id = f
         .replace('.md', '')
         .split('.')

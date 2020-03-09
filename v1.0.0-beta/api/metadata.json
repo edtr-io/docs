@@ -170,7 +170,6 @@
     "internal__plugin/editorpluginprops/renderintotoolbar": "internal__plugin.editorpluginprops.renderintotoolbar.md",
     "internal__plugin/editorpluginprops/state": "internal__plugin.editorpluginprops.state.md",
     "internal__plugin": "internal__plugin.md",
-    "metadata/json": "metadata.json",
     "plugin-anchor/anchorconfig/i18n": "plugin-anchor.anchorconfig.i18n.md",
     "plugin-anchor/anchorconfig": "plugin-anchor.anchorconfig.md",
     "plugin-anchor/anchorpluginconfig/i18n": "plugin-anchor.anchorpluginconfig.i18n.md",

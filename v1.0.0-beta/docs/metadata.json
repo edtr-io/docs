@@ -1,7 +1,6 @@
 {
   "items": {
-    "getting-started": "01-getting-started.mdx",
-    "": "metadata.json"
+    "getting-started": "01-getting-started.mdx"
   },
   "sidebar": []
 }
