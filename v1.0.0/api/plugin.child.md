@@ -7,18 +7,16 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function child<K extends string, S = unknown>({
-  plugin,
-  initialState,
-  config
-}: ChildStateTypeConfig): ChildStateType<K, S>
+export declare function child<K extends string, S = unknown>(
+  params: ChildStateTypeConfig
+): ChildStateType<K, S>
 ```
 
 ## Parameters
 
-| Parameter                        | Type                              | Description |
-| -------------------------------- | --------------------------------- | ----------- |
-| { plugin, initialState, config } | <code>ChildStateTypeConfig</code> |             |
+| Parameter | Type                              | Description |
+| --------- | --------------------------------- | ----------- |
+| params    | <code>ChildStateTypeConfig</code> | The params  |
 
 <b>Returns:</b>
 

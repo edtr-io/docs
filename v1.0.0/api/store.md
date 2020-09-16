@@ -6,14 +6,14 @@
 
 ## Functions
 
-| Function                                                          | Description                                            |
-| ----------------------------------------------------------------- | ------------------------------------------------------ |
-| [createStore({ scopes, createEnhancer })](./store.createstore.md) | Creates the Edtr.io store                              |
-| [findNextNode(root, from)](./store.findnextnode.md)               | Finds the next node in a focus tree in focus order     |
-| [findParent(root, id)](./store.findparent.md)                     | Finds the parent node of an id in the focus tree       |
-| [findPreviousNode(root, from)](./store.findpreviousnode.md)       | Finds the previous node in a focus tree in focus order |
-| [getScope(state, scope)](./store.getscope.md)                     | Gets the [state](./store.scopedstate.md) of a scope    |
-| [isDocumentEmpty(doc, plugin)](./store.isdocumentempty.md)        | Checks whether the given document is empty             |
+| Function                                                    | Description                                            |
+| ----------------------------------------------------------- | ------------------------------------------------------ |
+| [createStore(options)](./store.createstore.md)              | Creates the Edtr.io store                              |
+| [findNextNode(root, from)](./store.findnextnode.md)         | Finds the next node in a focus tree in focus order     |
+| [findParent(root, id)](./store.findparent.md)               | Finds the parent node of an id in the focus tree       |
+| [findPreviousNode(root, from)](./store.findpreviousnode.md) | Finds the previous node in a focus tree in focus order |
+| [getScope(state, scope)](./store.getscope.md)               | Gets the [state](./store.scopedstate.md) of a scope    |
+| [isDocumentEmpty(doc, plugin)](./store.isdocumentempty.md)  | Checks whether the given document is empty             |
 
 ## Interfaces
 
@@ -23,7 +23,7 @@
 | [ActionCreatorWithPayload](./store.actioncreatorwithpayload.md)       |             |
 | [CopyAction](./store.copyaction.md)                                   |             |
 | [DocumentState](./store.documentstate.md)                             |             |
-| [Node](./store.node.md)                                               |             |
+| [Node_2](./store.node_2.md)                                           |             |
 | [ScopedState](./store.scopedstate.md)                                 |             |
 | [StoreOptions](./store.storeoptions.md)                               |             |
 
@@ -31,10 +31,10 @@
 
 | Variable                                                  | Description                                                                                                                                                                                                                                                  |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [blur](./store.blur.md)                                   |                                                                                                                                                                                                                                                              |
+| [blur_2](./store.blur_2.md)                               |                                                                                                                                                                                                                                                              |
 | [change](./store.change.md)                               |                                                                                                                                                                                                                                                              |
 | [copy](./store.copy.md)                                   | <b><i>(BETA)</i></b>                                                                                                                                                                                                                                         |
-| [focus](./store.focus.md)                                 |                                                                                                                                                                                                                                                              |
+| [focus_2](./store.focus_2.md)                             |                                                                                                                                                                                                                                                              |
 | [focusNext](./store.focusnext.md)                         |                                                                                                                                                                                                                                                              |
 | [focusPrevious](./store.focusprevious.md)                 |                                                                                                                                                                                                                                                              |
 | [getClipboard](./store.getclipboard.md)                   | <b><i>(BETA)</i></b>                                                                                                                                                                                                                                         |

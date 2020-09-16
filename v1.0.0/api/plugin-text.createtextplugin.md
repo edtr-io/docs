@@ -21,3 +21,5 @@ export declare function createTextPlugin(
 <b>Returns:</b>
 
 `EditorPlugin<TextPluginState, TextPluginConfig>`
+
+The text plugin

@@ -11,10 +11,16 @@ Creates the default [document editor](./document-editor.documenteditorprops.md)
 <b>Signature:</b>
 
 ```typescript
-export declare function createDefaultDocumentEditor(): React.ComponentType<
-  DocumentEditorProps
->
+export declare function createDefaultDocumentEditor(
+  config?: DefaultDocumentEditorConfig
+): React.ComponentType<DocumentEditorProps>
 ```
+
+## Parameters
+
+| Parameter | Type                                     | Description   |
+| --------- | ---------------------------------------- | ------------- |
+| config    | <code>DefaultDocumentEditorConfig</code> | Configuration |
 
 <b>Returns:</b>
 

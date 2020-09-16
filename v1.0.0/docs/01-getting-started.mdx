@@ -45,11 +45,11 @@ import * as React from 'react'
 
 const textPlugin = createTextPlugin({
   placeholder: 'Hello world',
-  registry: []
+  registry: [],
 })
 
 const plugins = {
-  text: textPlugin
+  text: textPlugin,
 }
 
 const initialState = { plugin: 'text' }
@@ -111,23 +111,23 @@ const registry = [
   {
     name: 'text',
     title: 'Text',
-    description: 'A rich-text editor'
-  }
+    description: 'A rich-text editor',
+  },
 ]
 
 const rowsPlugin = createRowsPlugin({
   content: { plugin: 'text' },
-  plugins: registry
+  plugins: registry,
 })
 
 const textPlugin = createTextPlugin({
   placeholder: 'Hello world',
-  registry: []
+  registry: [],
 })
 
 const plugins = {
   rows: rowsPlugin,
-  text: textPlugin
+  text: textPlugin,
 }
 
 const initialState = { plugin: 'rows' }
@@ -169,23 +169,23 @@ const registry = [
   {
     name: 'text',
     title: 'Text',
-    description: 'A rich-text editor'
-  }
+    description: 'A rich-text editor',
+  },
 ]
 
 const rowsPlugin = createRowsPlugin({
   content: { plugin: 'text' },
-  plugins: registry
+  plugins: registry,
 })
 
 const textPlugin = createTextPlugin({
   placeholder: 'Hello world',
-  registry: []
+  registry: [],
 })
 
 const plugins = {
   rows: rowsPlugin,
-  text: textPlugin
+  text: textPlugin,
 }
 
 const initialState = { plugin: 'rows' }
@@ -279,7 +279,7 @@ function CounterEditor({ editable, focused, state }) {
       {editable ? (
         <button
           onClick={() => {
-            state.set(value => value - 1)
+            state.set((value) => value - 1)
           }}
         >
           -
@@ -289,7 +289,7 @@ function CounterEditor({ editable, focused, state }) {
       {editable ? (
         <button
           onClick={() => {
-            state.set(value => value + 1)
+            state.set((value) => value + 1)
           }}
         >
           +
@@ -330,7 +330,7 @@ import { child, string, object } from '@edtr-io/plugin'
 
 const cardState = object({
   title: string(''),
-  content: child({ plugin: 'rows' })
+  content: child({ plugin: 'rows' }),
 })
 ```
 
@@ -359,7 +359,7 @@ function CardEditor({ editable, state }) {
         {editable ? (
           <input
             type="text"
-            onChange={e => {
+            onChange={(e) => {
               state.title.set(e.target.value)
             }}
             value={state.title.value}

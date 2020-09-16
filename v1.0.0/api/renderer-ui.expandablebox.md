@@ -7,24 +7,14 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function ExpandableBox({
-  children,
-  editable,
-  alwaysVisible,
-  renderTitle
-}: {
-  children?: React.ReactNode
-  editable?: boolean
-  alwaysVisible?: boolean
-  renderTitle: (collapsed: boolean) => React.ReactNode
-}): JSX.Element
+export declare function ExpandableBox(props: ExpandableBoxProps): JSX.Element
 ```
 
 ## Parameters
 
-| Parameter                                          | Type                                                                                                                                                                                                                                        | Description |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| { children, editable, alwaysVisible, renderTitle } | <code>{</code><br/><code> children?: React.ReactNode;</code><br/><code> editable?: boolean;</code><br/><code> alwaysVisible?: boolean;</code><br/><code> renderTitle: (collapsed: boolean) =&gt; React.ReactNode;</code><br/><code>}</code> |             |
+| Parameter | Type                            | Description |
+| --------- | ------------------------------- | ----------- |
+| props     | <code>ExpandableBoxProps</code> | The props   |
 
 <b>Returns:</b>
 

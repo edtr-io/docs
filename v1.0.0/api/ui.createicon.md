@@ -9,7 +9,7 @@ Creates an icon component
 <b>Signature:</b>
 
 ```typescript
-export declare function createIcon(i: IconDefinition): React.ComponentType<{}>
+export declare function createIcon(i: IconDefinition): React.ComponentType
 ```
 
 ## Parameters
@@ -20,6 +20,6 @@ export declare function createIcon(i: IconDefinition): React.ComponentType<{}>
 
 <b>Returns:</b>
 
-`React.ComponentType<{}>`
+`React.ComponentType`
 
 A component for the specified icon

@@ -6,9 +6,9 @@
 
 ## Functions
 
-| Function                                                                      | Description |
-| ----------------------------------------------------------------------------- | ----------- |
-| [EditorCheckbox({ checked, onChange, label })](./editor-ui.editorcheckbox.md) |             |
+| Function                                               | Description |
+| ------------------------------------------------------ | ----------- |
+| [EditorCheckbox(props)](./editor-ui.editorcheckbox.md) |             |
 
 ## Interfaces
 

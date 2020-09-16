@@ -19,7 +19,7 @@ export declare type ChildStateType<
   {
     get(): string
     id: string
-    render: (props?: PluginProps) => React.ReactNode
+    render: (props?: PluginProps) => React.ReactElement
     replace: (plugin: K, state?: S) => void
   }
 >

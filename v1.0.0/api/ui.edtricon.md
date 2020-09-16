@@ -9,17 +9,14 @@ Edtr.io icon component
 <b>Signature:</b>
 
 ```typescript
-export declare function EdtrIcon(props: {
-  icon: string
-  className?: string
-}): JSX.Element
+export declare function EdtrIcon(props: EdtrIconProps): JSX.Element
 ```
 
 ## Parameters
 
-| Parameter | Type                                                                                                    | Description                                          |
-| --------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| props     | <code>{</code><br/><code> icon: string;</code><br/><code> className?: string;</code><br/><code>}</code> | An Edtr.io icon definition and an optional className |
+| Parameter | Type                       | Description                                          |
+| --------- | -------------------------- | ---------------------------------------------------- |
+| props     | <code>EdtrIconProps</code> | An Edtr.io icon definition and an optional className |
 
 <b>Returns:</b>
 

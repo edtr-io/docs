@@ -4,6 +4,8 @@
 
 ## DeepPartial type
 
+Transforms a type by making all its properties optional, recursively.
+
 <b>Signature:</b>
 
 ```typescript

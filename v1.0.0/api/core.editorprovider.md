@@ -11,22 +11,14 @@ Hydrates the required contexts
 <b>Signature:</b>
 
 ```typescript
-export declare function EditorProvider({
-  createStoreEnhancer,
-  omitDragDropContext,
-  children
-}: {
-  omitDragDropContext?: boolean
-  createStoreEnhancer?: StoreEnhancerFactory
-  children: React.ReactNode
-}): JSX.Element
+export declare function EditorProvider(props: EditorProviderProps): JSX.Element
 ```
 
 ## Parameters
 
-| Parameter                                              | Type                                                                                                                                                                                          | Description |
-| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| { createStoreEnhancer, omitDragDropContext, children } | <code>{</code><br/><code> omitDragDropContext?: boolean;</code><br/><code> createStoreEnhancer?: StoreEnhancerFactory;</code><br/><code> children: React.ReactNode;</code><br/><code>}</code> |             |
+| Parameter | Type                             | Description |
+| --------- | -------------------------------- | ----------- |
+| props     | <code>EditorProviderProps</code> | The props   |
 
 <b>Returns:</b>
 

@@ -9,5 +9,5 @@
 ```typescript
 export declare type StoreEnhancerFactory = (
   defaultEnhancer: StoreEnhancer
-) => StoreEnhancer<{}, {}>
+) => StoreEnhancer
 ```

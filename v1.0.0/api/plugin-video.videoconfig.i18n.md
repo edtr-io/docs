@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-i18n?: DeepPartial<VideoPluginConfig>;
+i18n?: DeepPartial<VideoPluginConfig['i18n']>;
 ```

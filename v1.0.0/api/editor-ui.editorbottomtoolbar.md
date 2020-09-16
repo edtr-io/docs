@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-EditorBottomToolbar: import("styled-components").StyledComponent<"div", any, EditorThemeProps, never>
+EditorBottomToolbar: StyledComponent<'div', never, EditorThemeProps>
 ```

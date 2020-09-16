@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-getPlugins: Selector<Record<string, EditorPlugin>>
+getPlugins: Selector<Record<string, EditorPlugin<StateType>>>
 ```

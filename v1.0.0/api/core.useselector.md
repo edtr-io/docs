@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-useSelector: <T>(selector: (state: Record<string, ScopedState>) => T) => T
+useSelector: <T>(selector: (state: State) => T) => T
 ```

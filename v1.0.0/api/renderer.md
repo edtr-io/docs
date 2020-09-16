@@ -6,9 +6,9 @@
 
 ## Functions
 
-| Function                                                | Description |
-| ------------------------------------------------------- | ----------- |
-| [Renderer({ theme, ...props })](./renderer.renderer.md) |             |
+| Function                                  | Description |
+| ----------------------------------------- | ----------- |
+| [Renderer(props)](./renderer.renderer.md) |             |
 
 ## Interfaces
 

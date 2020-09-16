@@ -6,6 +6,13 @@
 
 ## Functions
 
-| Function                                                                                  | Description                                                                                          |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [createDefaultDocumentEditor()](./default-document-editor.createdefaultdocumenteditor.md) | <b><i>(BETA)</i></b> Creates the default [document editor](./document-editor.documenteditorprops.md) |
+| Function                                                                                        | Description                                                                                          |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [createDefaultDocumentEditor(config)](./default-document-editor.createdefaultdocumenteditor.md) | <b><i>(BETA)</i></b> Creates the default [document editor](./document-editor.documenteditorprops.md) |
+
+## Interfaces
+
+| Interface                                                                               | Description          |
+| --------------------------------------------------------------------------------------- | -------------------- |
+| [DefaultDocumentEditorConfig](./default-document-editor.defaultdocumenteditorconfig.md) | <b><i>(BETA)</i></b> |
+| [DefaultDocumentEditorI18n](./default-document-editor.defaultdocumenteditori18n.md)     | <b><i>(BETA)</i></b> |

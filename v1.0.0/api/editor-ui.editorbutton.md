@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-EditorButton: import("styled-components").StyledComponent<"button", any, {}, never>
+EditorButton: StyledComponent<'button', never>
 ```

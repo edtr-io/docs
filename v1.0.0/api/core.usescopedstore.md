@@ -14,7 +14,7 @@ export declare function useScopedStore(
 ): {
   dispatch: (scopedAction: (scope: string) => Action) => void
   getState: () => ScopedState
-  subscribe: (listener: () => void) => import('redux').Unsubscribe
+  subscribe: (listener: () => void) => Unsubscribe
 }
 ```
 
@@ -26,6 +26,6 @@ export declare function useScopedStore(
 
 <b>Returns:</b>
 
-`{ dispatch: (scopedAction: (scope: string) => Action) => void; getState: () => ScopedState; subscribe: (listener: () => void) => import("redux").Unsubscribe; }`
+`{ dispatch: (scopedAction: (scope: string) => Action) => void; getState: () => ScopedState; subscribe: (listener: () => void) => Unsubscribe; }`
 
 The scoped store

@@ -7,17 +7,16 @@
 <b>Signature:</b>
 
 ```typescript
-export declare function Renderer<K extends string = string>({
-  theme,
-  ...props
-}: RendererProps<K>): JSX.Element
+export declare function Renderer<K extends string = string>(
+  props: RendererProps<K>
+): JSX.Element
 ```
 
 ## Parameters
 
-| Parameter           | Type                                | Description |
-| ------------------- | ----------------------------------- | ----------- |
-| { theme, ...props } | <code>RendererProps&lt;K&gt;</code> |             |
+| Parameter | Type                                | Description |
+| --------- | ----------------------------------- | ----------- |
+| props     | <code>RendererProps&lt;K&gt;</code> | The props   |
 
 <b>Returns:</b>
 

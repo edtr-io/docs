@@ -10,7 +10,7 @@
 | ------------------------------------------------------------------------------------ | ----------- |
 | [asyncScalar(initial, isTemporaryValue)](./plugin.asyncscalar.md)                    |             |
 | [boolean(initialValue)](./plugin.boolean.md)                                         |             |
-| [child({ plugin, initialState, config })](./plugin.child.md)                         |             |
+| [child(params)](./plugin.child.md)                                                   |             |
 | [isTempFile(state)](./plugin.istempfile.md)                                          |             |
 | [list(type, initialCount)](./plugin.list.md)                                         |             |
 | [migratable(type)](./plugin.migratable.md)                                           |             |

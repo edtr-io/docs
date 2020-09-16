@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-EditorInlineSettings: import("styled-components").StyledComponent<"div", any, {}, never>
+EditorInlineSettings: StyledComponent<'div', never>
 ```

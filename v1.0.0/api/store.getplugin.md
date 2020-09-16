@@ -7,5 +7,5 @@
 <b>Signature:</b>
 
 ```typescript
-getPlugin: Selector<EditorPlugin<import("@edtr-io/internal__plugin-state").StateType<any, any, any>, {}> | null, [string]>
+getPlugin: Selector<EditorPlugin<StateType<any, any, any>, {}> | null, [string]>
 ```
