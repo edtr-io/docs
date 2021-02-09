@@ -1,0 +1,58 @@
+# Software Architecture and Philosophy
+
+Edtr.io is designed along several guiding principles:
+
+## <a name="principle1" /> Edtr.io should work with nearly every technology stack.
+
+The only assumption we make regarding your technology stack: the part of your app that integrates
+the Edtr.io editor needs to be able to render React components and users editing the content need to
+have JavaScript activated.
+
+For rendering the content, you can work around those assumptions if they do not fit your use case (see also [The overhead cost of rendering Edtr.io documents should be minimal compared to a barebone approach.](#principle2)).
+
+Apart from that, you should be able to integrate Edtr.io into any app. We make no assumptions about
+how and where you persist your data. (ggf. link to document format)
+
+## <a name="principle2" /> The overhead cost of rendering Edtr.io documents should
+
+be minimal compared to a barebone approach.
+
+We provide a lightweight React component that renders Edtr.io documents using the plugins you provide. This already enables
+you to adapt the integration to your specific use case, e.g.:
+
+- You can use a [rendering approach](https://developers.google.com/web/updates/2019/02/rendering-on-the-web) that suits your use case the best (utilizing the existing React ecosystem).
+- You can optimize the bundle size for your end users (that view the content) by removing the parts that are only needed in the editor (e.g. toolbars).
+
+If you need more customization, you can also write your own custom renderer for pretty much any output format. Since the Edtr.io document format is easy to traverse, you would only need to
+define how your plugins are rendered in that specific output format (see also [The document format should be easy to work with](#principle5)).
+
+## <a name="principle3" /> It should be easy to develop Edtr.io plugins for existing React components.
+
+An Edtr.io plugin is a React component that receives some props via Edtr.io:
+
+- A `state` prop that allows you to save data to the Edtr.io document.
+- Some props containing runtime information, e.g. `focused`.
+- Some props that allow you to work with Edtr.io's UI, e.g. `renderIntoToolbar`.
+
+Apart from that, your React component can do whatever it likes and utilize the existing React ecosystem.
+And as long as you tell Edtr.io when your state changes (via the `state` prop), it will behave as any
+other Edtr.io plugin (e.g. provide global undo/redo history).
+
+## <a name="principle4" /> Most of the Edtr.io's UI and behavior should be customizable.
+
+You can customize nearly every aspect of Edtr.io if necessary, e.g.
+
+-`@edtr-io/plugin-rows` is an Edtr.io plugin that provides the Drag'n'Drop behavior. You can replace that with your own Edtr.io plugin if you want a different behavior.
+
+- The Edtr.io Editor component allows you to pass your own custom `DocumentEditor`. With this, you can replace
+  the default UI we provide (e.g. by moving the toolbar somewhere else).
+
+## <a name="principle5" /> The document format should be easy to work with.
+
+The serialized format of documents created by Edtr.io is a light-weight tree structure in JSON. It is also
+intended to be used/created outside of Edtr.io if necessary. This enables various use cases, for example:
+
+- You can convert your existing content that was not created with Edtr.io to Edtr.io's document format.
+- You can convert your content created by Edtr.io to some other format.
+- You can dynamically create a single Edtr.io document from multiple entities in your persistence layer.
+- …

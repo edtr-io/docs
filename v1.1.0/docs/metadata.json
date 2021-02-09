@@ -1,6 +1,21 @@
 {
   "items": {
-    "getting-started": "01-getting-started.mdx"
+    "why": "01-why.mdx",
+    "getting-started": "02-getting-started.mdx",
+    "architecture": "03-architecture.mdx"
   },
-  "sidebar": []
+  "sidebar": [
+    {
+      "id": "why",
+      "name": "Why"
+    },
+    {
+      "id": "getting-started",
+      "name": "Getting Started"
+    },
+    {
+      "id": "architecture",
+      "name": "Software Architecture and Philosophy"
+    }
+  ]
 }

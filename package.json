@@ -5,10 +5,6 @@
   "author": "edtr.io Consortium",
   "repository": "edtr-io/docs",
   "scripts": {
-    "deploy": "yarn deploy:auth && yarn deploy:clean && yarn generate-metadata && yarn deploy:rsync",
-    "deploy:auth": "gcloud config configurations activate edtr-io",
-    "deploy:clean": "find . -name \".DS_Store\" -type f -delete",
-    "deploy:rsync": "gsutil -m rsync -d -r -x \"^(?!v).*$\" . gs://docs.edtr.io",
     "generate-metadata": "ts-node scripts/generate-metadata && yarn format",
     "format": "yarn _prettier --write",
     "lint": "yarn _prettier --check",
