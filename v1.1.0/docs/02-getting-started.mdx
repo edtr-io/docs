@@ -1,6 +1,7 @@
 # Getting Started
 
-We create our own Edtr.io-powered WYSIWYG editor during this tutorial. It is divided into several sections:
+We create our own Edtr.io-powered WYSIWYG editor during this tutorial. It is
+divided into several sections:
 
 - [Setup](#setup)
 - [Creating the editor](#creating-the-editor)
@@ -10,7 +11,8 @@ We create our own Edtr.io-powered WYSIWYG editor during this tutorial. It is div
 
 ## Prerequisites
 
-We'll assume that you are familiar with React and the npm ecosystem. If you need to review your knowledge, we recommend the
+We'll assume that you are familiar with React and the npm ecosystem. If you need
+to review your knowledge, we recommend the
 [official React Tutorial](https://reactjs.org/tutorial/tutorial.html).
 
 ## <a name="setup" /> Setup
@@ -24,8 +26,9 @@ yarn add @edtr-io/core@^1.0.0 react@^16.8.0 react-dom@^16.8.0 react-is@^16.8.0 r
 npm i --save @edtr-io/core@^1.0.0 react@^16.8.0 react-dom@^16.8.0 react-is@^16.8.0 react-dnd@^11.0.0 react-dnd-html5-backend@^11.0.0 redux@^4.0.0 styled-components@^5.0.0
 ```
 
-Furthermore, we need at least one plugin. There are some "official" plugins provided by Edtr.io (though none of these are required). Let's start
-with the text plugin:
+Furthermore, we need at least one plugin. There are some "official" plugins
+provided by Edtr.io (though none of these are required). Let's start with the
+text plugin:
 
 ```bash
 # Using yarn
@@ -65,30 +68,38 @@ export default function App() {
   line <code>import 'regenerator-runtime/runtime'</code> to the top of the file.
 </Note>
 
-At this point, we should have a glorified rich-text editor. Let's go over the things we did in detail:
+At this point, we should have a glorified rich-text editor. Let's go over the
+things we did in detail:
 
-Firstly, we initialized an Edtr.io plugin using the `createTextPlugin` factory provided by `@edtr-io/plugin-text`.
-Like every "official" Edtr.io plugin, this factory accepts a config specific to the plugin. Some options are required
-(e.g. `registry`), while others are optional (e.g. `placeholder`).
+Firstly, we initialized an Edtr.io plugin using the `createTextPlugin` factory
+provided by `@edtr-io/plugin-text`. Like every "official" Edtr.io plugin, this
+factory accepts a config specific to the plugin. Some options are required (e.g.
+`registry`), while others are optional (e.g. `placeholder`).
 
 <Note>
   The factory pattern used by the "official" Edtr.io plugins is only a
   convention. Feel free to write your own plugins the way you like.
 </Note>
 
-After that, we specified the plugins that our editor should know about. This is a mapping of (arbitrary) keys to Edtr.io plugins.
-You can name the plugins how you prefer (e.g. `rich-text` instead of `text`), and they will appear in the serialized Edtr.io state.
+After that, we specified the plugins that our editor should know about. This is
+a mapping of (arbitrary) keys to Edtr.io plugins. You can name the plugins how
+you prefer (e.g. `rich-text` instead of `text`), and they will appear in the
+serialized Edtr.io state.
 
-The last thing we need is the state our editor should start with. The state describes an Edtr.io document and will be used to initialize
-the store. A document consists of the plugin used (i.e. with the same name as declared in `plugins`) and an optional state. If no
-state is provided (like in our example), the plugin creates its own initial state (e.g. empty text in our case).
+The last thing we need is the state our editor should start with. The state
+describes an Edtr.io document and will be used to initialize the store. A
+document consists of the plugin used (i.e. with the same name as declared in
+`plugins`) and an optional state. If no state is provided (like in our example),
+the plugin creates its own initial state (e.g. empty text in our case).
 
-Lastly, we render the `Editor` component provided by `@edtr-io/core` with the allowed plugins and the initial state.
+Lastly, we render the `Editor` component provided by `@edtr-io/core` with the
+allowed plugins and the initial state.
 
 ## <a name="nesting-documents" /> Nesting Documents
 
-The whole thing becomes much more interesting when we nest documents: Plugins may contain other Edtr.io documents and therefore create a tree
-of documents. The rows plugin provided by Edtr.io, for example, renders a list of documents.
+The whole thing becomes much more interesting when we nest documents: Plugins
+may contain other Edtr.io documents and therefore create a tree of documents.
+The rows plugin provided by Edtr.io, for example, renders a list of documents.
 
 First, we install the rows plugin
 
@@ -137,9 +148,12 @@ export default function App() {
 }
 ```
 
-We created the rows plugin via `createRowsPlugin` similarly to our text plugin. The rows plugin requires `content` which specifies which plugin
-should be used by default, and `plugins` which defines the plugins that may be added, including some metadata (e.g. a human-readable `title`).
-After that, we added the rows plugin to our known `plugins`, and replaced the initial state to start with the rows plugin.
+We created the rows plugin via `createRowsPlugin` similarly to our text plugin.
+The rows plugin requires `content` which specifies which plugin should be used
+by default, and `plugins` which defines the plugins that may be added, including
+some metadata (e.g. a human-readable `title`). After that, we added the rows
+plugin to our known `plugins`, and replaced the initial state to start with the
+rows plugin.
 
 <Note>
   The <code>plugins</code> passed to the <code>Editor</code> component are not
@@ -155,9 +169,10 @@ After that, we added the rows plugin to our known `plugins`, and replaced the in
 
 ## <a name="persisting-documents" /> Persisting Documents
 
-So far, we haven't talked about how you'd persist the documents created by the editor. The editor keeps track of its own state
-(and additional things like what document is currently focused, etc.), but does not actually persist the state. One way to tie
-the editor to your actual backend is to add a change listener:
+So far, we haven't talked about how you'd persist the documents created by the
+editor. The editor keeps track of its own state (and additional things like what
+document is currently focused, etc.), but does not actually persist the state.
+One way to tie the editor to your actual backend is to add a change listener:
 
 ```tsx
 import { Editor } from '@edtr-io/core'
@@ -208,11 +223,14 @@ export default function App() {
 
 The change listener receives an object containing `changed` and `getDocument`:
 
-- `changed` is a boolean that tells you whether there are any pending changes (compared to the initial state you provided).
-  You may use this to disable a save button, for example.
-- `getDocument` is a function that returns the serialized document (e.g. to persist in a database, file, local storage, etc.). Since this operation
-  gets more expensive the longer the document is, you should decide yourself when you really need the serialized document (e.g. when the user actually
-  presses a save button or by some time-based autosave).
+- `changed` is a boolean that tells you whether there are any pending changes
+  (compared to the initial state you provided). You may use this to disable a
+  save button, for example.
+- `getDocument` is a function that returns the serialized document (e.g. to
+  persist in a database, file, local storage, etc.). Since this operation gets
+  more expensive the longer the document is, you should decide yourself when you
+  really need the serialized document (e.g. when the user actually presses a
+  save button or by some time-based autosave).
 
 <Note>
   If your backend is only able to handle strings, you still need to stringify
@@ -227,19 +245,24 @@ The change listener receives an object containing `changed` and `getDocument`:
 
 ## <a name="writing-plugins" /> Writing Plugins
 
-Until now, we only used "official" Edtr.io plugins. While these plugins are often heavily customizable, it is often helpful to create domain-specific
+Until now, we only used "official" Edtr.io plugins. While these plugins are
+often heavily customizable, it is often helpful to create domain-specific
 plugins that are tied to your own use case.
 
 An Edtr.io plugin consists of the following parts:
 
 - A React Component that defines how the plugin is rendered in the editor
-- A description of the state (including how the state should be serialized if needed)
-- A plugin configuration that allows to change the behavior of the plugin in different contexts
-- Optionally, some overrides of the Edtr.io default behavior (e.g. disabling default Edtr.io hotkey bindings)
+- A description of the state (including how the state should be serialized if
+  needed)
+- A plugin configuration that allows to change the behavior of the plugin in
+  different contexts
+- Optionally, some overrides of the Edtr.io default behavior (e.g. disabling
+  default Edtr.io hotkey bindings)
 
 ### Example: a Counter Plugin
 
-For educational purposes, let's define a simple plugin that represents a counter.
+For educational purposes, let's define a simple plugin that represents a
+counter.
 
 Firstly, we need to install another package intended for plugin developers:
 
@@ -263,11 +286,14 @@ Edtr.io has the concept of a so-called "state type". A state type encapsulates:
 - The structure of the state used at runtime
 - How the state is going to be serialized
 - What the initial state should look like
-- State type specific helpers intended to make development easier (e.g. handling file uploads)
+- State type specific helpers intended to make development easier (e.g. handling
+  file uploads)
 
-The goals are similar to React hooks. And similarly to React hooks, Edtr.io already provides state types for the most typical use cases.
+The goals are similar to React hooks. And similarly to React hooks, Edtr.io
+already provides state types for the most typical use cases.
 
-In our counter plugin, we can just use the `number` state type that represents - surprise - a number, and accepts the initial value (0 in our case).
+In our counter plugin, we can just use the `number` state type that represents -
+surprise - a number, and accepts the initial value (0 in our case).
 
 Next, we define how the counter plugin is rendered:
 
@@ -300,15 +326,24 @@ function CounterEditor({ editable, focused, state }) {
 }
 ```
 
-The component of an Edtr.io plugin receives - among other things - the following props:
+The component of an Edtr.io plugin receives - among other things - the following
+props:
 
-- `editable` is a boolean that tells you whether your plugin is editable. You can use this to hide editor-only elements when the document is not editable.
-- `focused` is a boolean that tells you whether your plugin is currently focused. You may use this to hide some elements when the user is editing a different document
-  at the moment (to get a better WYSIWYG feeling). There are also ways to check whether any of your child documents are focused (that isn't in the scope of this tutorial, though).
-- `state` contains the helpers defined by the state type used by your plugin. In our example, `state.value` contains the current counter value and `state.set` can be used
-  to update the state (similarly to React's `setState`, you may also provide an update callback to make sure that you actually use the current state).
+- `editable` is a boolean that tells you whether your plugin is editable. You
+  can use this to hide editor-only elements when the document is not editable.
+- `focused` is a boolean that tells you whether your plugin is currently
+  focused. You may use this to hide some elements when the user is editing a
+  different document at the moment (to get a better WYSIWYG feeling). There are
+  also ways to check whether any of your child documents are focused (that isn't
+  in the scope of this tutorial, though).
+- `state` contains the helpers defined by the state type used by your plugin. In
+  our example, `state.value` contains the current counter value and `state.set`
+  can be used to update the state (similarly to React's `setState`, you may also
+  provide an update callback to make sure that you actually use the current
+  state).
 
-In our counter example, we render the current value (surrounded by two buttons to decrement or increment the state respectively, if the document is editable).
+In our counter example, we render the current value (surrounded by two buttons
+to decrement or increment the state respectively, if the document is editable).
 
 Tying these things together, we have an Edtr.io plugin definition:
 
@@ -322,8 +357,10 @@ const counterPlugin = {
 
 ### Example: a Card Plugin
 
-Let's explore a more complicated example: a card. A card consists of a `title` and its `content` (which should be just some nested Edtr.io document).
-When you want to combine multiple values in your state, you can use the `object` state type. To render child documents, there is the `child` state type:
+Let's explore a more complicated example: a card. A card consists of a `title`
+and its `content` (which should be just some nested Edtr.io document). When you
+want to combine multiple values in your state, you can use the `object` state
+type. To render child documents, there is the `child` state type:
 
 ```tsx
 import { child, string, object } from '@edtr-io/plugin'
@@ -334,14 +371,17 @@ const cardState = object({
 })
 ```
 
-State types are composable by design. For example, the `object` state type expects a mapping of arbitrary keys to state types (and exposes those
-as an object to the plugin developer). The `string` state type pretty much works the same as the `number` state type. The `child` state type expects
-an object with
+State types are composable by design. For example, the `object` state type
+expects a mapping of arbitrary keys to state types (and exposes those as an
+object to the plugin developer). The `string` state type pretty much works the
+same as the `number` state type. The `child` state type expects an object with
 
-- `plugin` that describes the plugin that should be used by the child (as defined in `plugins`),
+- `plugin` that describes the plugin that should be used by the child (as
+  defined in `plugins`),
 - optional `initialState` to override the initial state used by the plugin,
-- optional `config` to (deeply) override the plugin configuration. For example, we could override the `plugins` of the rows plugin or override
-  the `placeholder` used by the text plugin.
+- optional `config` to (deeply) override the plugin configuration. For example,
+  we could override the `plugins` of the rows plugin or override the
+  `placeholder` used by the text plugin.
 
 We can use the state type as follows:
 
@@ -376,6 +416,8 @@ function CardEditor({ editable, state }) {
 
 ## Where to go from here
 
-- Look at the [official core plugins](https://github.com/edtr-io/edtr-io/tree/master/packages/plugins). You can check their source code to see how things work.
+- Look at the [official core
+  plugins](https://github.com/edtr-io/edtr-io/tree/master/packages/plugins). You
+  can check their source code to see how things work.
 - Check the [available state types](/api/plugin).
 - Explore the [API Reference](/api).
