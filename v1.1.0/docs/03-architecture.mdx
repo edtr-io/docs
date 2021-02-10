@@ -11,14 +11,12 @@ have JavaScript activated.
 For rendering the content, you can work around those assumptions if they do not fit your use case (see also [The overhead cost of rendering Edtr.io documents should be minimal compared to a barebone approach.](#principle2)).
 
 Apart from that, you should be able to integrate Edtr.io into any app. We make no assumptions about
-how and where you persist your data. (ggf. link to document format)
+how and where you persist your data.
 
-## <a name="principle2" /> The overhead cost of rendering Edtr.io documents should
+## <a name="principle2" /> The overhead cost of rendering Edtr.io documents should be minimal compared to a barebone approach.
 
-be minimal compared to a barebone approach.
-
-We provide a lightweight React component that renders Edtr.io documents using the plugins you provide. This already enables
-you to adapt the integration to your specific use case, e.g.:
+We provide a lightweight React component that renders Edtr.io documents using the plugins you provide.
+This already enables you to adapt the integration to your specific use case, e.g.:
 
 - You can use a [rendering approach](https://developers.google.com/web/updates/2019/02/rendering-on-the-web) that suits your use case the best (utilizing the existing React ecosystem).
 - You can optimize the bundle size for your end users (that view the content) by removing the parts that are only needed in the editor (e.g. toolbars).
