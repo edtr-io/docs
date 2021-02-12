@@ -1,21 +1,31 @@
 # Why?
 
-Edtr.io was born from the needs of the learning platform [serlo.org](https://serlo.org/)
-and with all the experience we gathered from creating educational resources by a diverse group of authors.
+Edtr.io was born from the needs of the learning platform
+[serlo.org](https://serlo.org/) and with all the experience we gathered from
+creating educational resources by a diverse group of authors.
 
-We tried out a lot of other editing libraries before we settled on creating our own.
-Existing rich text libraries (e.g. [Slate](https://www.slatejs.org/), [Draft.js](https://draftjs.org/))
-came closest to what we needed: a way to build intuitive WYSIWYG rich text editors.
+We tried out a lot of other editing libraries before we settled on creating our
+own (like [Slate](https://www.slatejs.org/) or
+[Draft.js](https://draftjs.org/)). However we noticed that the rich text part is
+only a small (albeit very important) foundation of what we need.
 
-After using them for a while, we noticed that the rich text part is only a small (albeit very important) foundation of what we needed, though.
-When creating interactive learning resources, we often need much more than that. Think for example
-about multiple choice exercises and more interactive learning games. Providing an editing experience
-for such use cases often requires us to have a tight control over the user experience. Trying to achieve that with something like Slate was hard, though:
+When creating interactive learning resources, we need a better abstraction for
+developing editing experiences that are not primarily dealing with rich text.
+It's similar to comparing Assembly with a high-level programming language: With
+Edtr.io you will have increased productivity since you do not have to deal with
+low-level details in most cases.
 
-- Since Slate plugins are build around rich text editing, you often have to deal with rather low-level
-  details like text selection.
-- For Slate to do its magic, you also have to adhere to a couple of assumptions. Depending on what
-  you want to render, you might break something of Slate's behavior (e.g. your plugin losing focus).
+Take for example multiple choice exercises and interactive learning games:
+Providing a great editing experience for such use cases often requires us to
+have a tight control over the user experience. Trying to achieve that with a
+rich text library like Slate is hard, because:
 
-These reasons lead us to build an abstraction layer on top of that: A composable plugin system representing
-a tree of content elements where rich text is only contained in the leaf nodes.
+- Since Slate plugins are build around rich text editing, you often have to deal
+  with rather low-level details like text selection.
+- For Slate to do its magic, you also have to adhere to a couple of assumptions.
+  Depending on what you want to render, you might break something (e.g. your
+  plugin loses its focus).
+
+These reasons lead us to build Edtr.io as an abstraction layer on top of that: A
+composable plugin system representing a tree of content elements where rich text
+is only contained in the leaf nodes.

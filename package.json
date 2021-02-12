@@ -8,7 +8,7 @@
     "generate-metadata": "ts-node scripts/generate-metadata && yarn format",
     "format": "yarn _prettier --write",
     "lint": "yarn _prettier --check",
-    "_prettier": "prettier \"{v*/**/*,*}.{js,jsx,ts,tsx,json,md,mdx,yaml,yml}\""
+    "_prettier": "prettier \"{v*/docs/*,*}.{js,jsx,ts,tsx,json,md,mdx,yaml,yml}\""
   },
   "devDependencies": {
     "@types/node": "^12.0.0",
