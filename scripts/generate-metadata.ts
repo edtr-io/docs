@@ -6,14 +6,14 @@ const readDir = util.promisify(fs.readdir)
 const stat = util.promisify(fs.stat)
 const writeFile = util.promisify(fs.writeFile)
 
-exec().catch(e => {
+exec().catch((e) => {
   process.exit(1)
 })
 
 async function exec() {
   const root = path.join(__dirname, '..')
   const items = await readDir(root)
-  await Promise.all(items.map(item => handleItem(item)))
+  await Promise.all(items.map((item) => handleItem(item)))
 
   async function handleItem(item: string) {
     const p = path.join(root, item)
@@ -33,13 +33,9 @@ async function exec() {
     const files = await readDir(docsDir)
 
     const items = {}
-    files.forEach(f => {
+    files.forEach((f) => {
       if (f === 'metadata.json') return
-      const id = f
-        .replace('.mdx', '')
-        .split('-')
-        .slice(1)
-        .join('-')
+      const id = f.replace('.mdx', '').split('-').slice(1).join('-')
       items[id] = f
     })
 
@@ -56,18 +52,15 @@ async function exec() {
 
     const items = {}
     const sidebar = []
-    files.forEach(f => {
+    files.forEach((f) => {
       if (f === 'metadata.json') return
-      const id = f
-        .replace('.md', '')
-        .split('.')
-        .join('/')
+      const id = f.replace('.md', '').split('.').join('/')
       items[id] = f
 
       if (!id.includes('/') && !id.startsWith('internal__') && id) {
         sidebar.push({
           id,
-          name: id === 'index' ? 'API Reference' : `@edtr-io/${id}`
+          name: id === 'index' ? 'API Reference' : `@edtr-io/${id}`,
         })
       }
     })
@@ -79,13 +72,13 @@ async function exec() {
     )
 
     function getSidebar() {
-      const top = sidebar.filter(item => item.id === 'index')
-      const others = sidebar.filter(item => item.id !== 'index')
+      const top = sidebar.filter((item) => item.id === 'index')
+      const others = sidebar.filter((item) => item.id !== 'index')
       const corePackages = others
-        .filter(item => !item.id.startsWith('plugin-'))
+        .filter((item) => !item.id.startsWith('plugin-'))
         .sort()
       const plugins = others
-        .filter(item => item.id.startsWith('plugin-'))
+        .filter((item) => item.id.startsWith('plugin-'))
         .sort()
       return [...top, ...corePackages, ...plugins]
     }

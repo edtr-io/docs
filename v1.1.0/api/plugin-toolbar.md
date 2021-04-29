@@ -8,7 +8,11 @@ Defines the Interface for the Edtr.io plugin toolbar
 
 ## Remarks
 
-The `@edtr-io/plugin-toolbar` defines the [PluginToolbar](./plugin-toolbar.plugintoolbar.md) interface that needs to be implemented to provide a custom plugin toolbar. See [\`@edtr-io/default-plugin-toolbar\`](./default-plugin-toolbar.md) for the default plugin toolbar used by Edtr.io
+The `@edtr-io/plugin-toolbar` defines the
+[PluginToolbar](./plugin-toolbar.plugintoolbar.md) interface that needs to be
+implemented to provide a custom plugin toolbar. See
+[\`@edtr-io/default-plugin-toolbar\`](./default-plugin-toolbar.md) for the
+default plugin toolbar used by Edtr.io
 
 ## Type Aliases
 

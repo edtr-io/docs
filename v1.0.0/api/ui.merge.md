@@ -4,7 +4,10 @@
 
 ## merge() function
 
-Creates a new object with the own properties of `values` merged with the own properties of `fallback`<!-- -->. If a key exists in both objects: and both values are objects, the two values will be recursively merged otherwise the value from the `values` object will be used.
+Creates a new object with the own properties of `values` merged with the own
+properties of `fallback`<!-- -->. If a key exists in both objects: and both
+values are objects, the two values will be recursively merged otherwise the
+value from the `values` object will be used.
 
 <b>Signature:</b>
 
