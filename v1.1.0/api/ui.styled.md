@@ -4,7 +4,8 @@
 
 ## styled variable
 
-Re-export of [\`styled\` in \`styled-components\`](https://styled-components.com/docs/api#primary)
+Re-export of
+[\`styled\` in \`styled-components\`](https://styled-components.com/docs/api#primary)
 
 <b>Signature:</b>
 
