@@ -1,9 +1,6 @@
 name: JavaScript
 on:
-  push:
-    branches:
-      - master
-  pull_request:
+  - push
 jobs:
   lint:
     runs-on: ubuntu-latest
